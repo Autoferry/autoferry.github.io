@@ -13,12 +13,18 @@ The topic of robotic localization using such active sensors has been thoroughly 
 However, most of the research has addressed indoor robots, land vehicles, underwater vehicles and aerial vehicles (more or less in that order). 
 There is a surprising lack of results on localization for maritime surface vehicles. 
 
+Localization is typically performed as a part of more general methods for simultaneous localization and mapping (SLAM). 
+Since a SLAM method builds its own map, it is possible to use SLAM in an environment never seen before. 
+However, for a ferry operating in a confined environment this may be overkill. An alternative could be to let the ferry infer its position and attitude (together known as pose) 
+from observing specific landmarks or from correlating the shoreline against known maps from e.g. Kartverket. 
+
+
 ## Scope
-Bla bla
+The goal of this combined specalization and Master's project is to make an informed judgement regarding the benefits of SLAM versus localization without mapping for Milliampere's navigation system. The work will involve both experimental and theoretical components. 
 
 ## Proposed Tasks for the 5th year project
 
-1. x
+1. 
 2. x
 3. x
 4. x
