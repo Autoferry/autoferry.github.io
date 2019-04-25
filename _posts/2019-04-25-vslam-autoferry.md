@@ -4,26 +4,28 @@ title: Visual SLAM and localization for autonomous ferry
 category: SF
 ---
 ## Background
-Bla bla
+The navigation of the autonomous ferry Milliampere is currently based on GNSS. For improved robustness, especially in docking scenarios,
+this system should be complemented by navigation done purely by means of onboard sensors. 
+The ferry is currently equipped with lidar, radar, optical cameras and infrared cameras. 
 
-## Scope
-Bla bla
+The sensors can be used as a data source for localization relative to known landmarks or an established map, or as a data source for simultaneous localization and mapping (SLAM). 
+Visual SLAM is currently a very hot research topic, but there are very few demonstrations of SLAM in maritime harbor environments in the research literature. 
+A much less explored topic is SLAM and localization by means of infrared cameras. 
 
-## Proposed Tasks for the 5th year project
 
-1. x
-2. x
-3. x
-4. x
-5. x
 
-## Proposed Tasks for the master thesis
+## Scope for the 5th year project
 
-The project work aims to be extended into a master thesis for the spring of 2018. Depending on the interest of the students, several important challenges may be addressed:
+The autonomous ferry Milliampere is equipped with 360 degree coverage of both optical and infrared cameras. The scope of the 5th year project is to explore the possibilities for using these cameras for localization purposes. Based on a literature survey on state-of-the art in Visual SLAM and localization, and somel recent MSc theses on SLAM at ITK, the candidate should early in the semester make plans for an interesting comparison of different techniques. Possibilities include:
+- Optical SLAM (e.g., ORB-SLAM) versus optical localization. 
+- Optical SLAM versus infrared SLAM. 
+- Infrared SLAM versus infrared localization. 
+- Different degrees of fusion with the inertial navigation system and other exteroceptive sensors such as lidar.
+The 5th year project should also include data collection experiments early in the semester. These data are likely to be the main data set during most of the work with the MSc project as well. 
 
-- x
-- x
-- x
+## Scope for the master thesis
+
+Given a successful 5th year project, the main goal for the MSc project will be to make the methods sufficiently robust and fast to be used as part of closed-loop docking experiments. 
 
 ## Contact
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)
