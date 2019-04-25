@@ -12,7 +12,7 @@ The sensors can be used as a data source for localization relative to known land
 Visual SLAM is currently a very hot research topic, but there are very few demonstrations of SLAM in maritime harbor environments in the research literature. 
 A much less explored topic is SLAM and localization by means of infrared cameras. 
 
-![Brattøra]({{site.url}}/assets/eskilfergecropped.jpg width="570")
+<img src="{{site.url}}/assets/eskilfergecropped.jpg" width="570">
 
 ## Scope for the 5th year project
 
