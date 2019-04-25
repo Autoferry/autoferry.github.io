@@ -12,7 +12,8 @@ The sensors can be used as a data source for localization relative to known land
 Visual SLAM is currently a very hot research topic, but there are very few demonstrations of SLAM in maritime harbor environments in the research literature. 
 A much less explored topic is SLAM and localization by means of infrared cameras. 
 
-<img src="{{site.url}}/assets/eskilfergecropped.jpg" width="570">
+|<img src="{{site.url}}/assets/eskilfergecropped.jpg" width="570"> | 
+| The Munkholmen tourist ferry as seen by a lidar (different colors are data from different time steps). | 
 
 ## Scope for the 5th year project
 
