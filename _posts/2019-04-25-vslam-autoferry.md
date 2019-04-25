@@ -13,7 +13,7 @@ Visual SLAM is currently a very hot research topic, but there are very few demon
 A much less explored topic is SLAM and localization by means of infrared cameras. 
 
 |<img src="{{site.url}}/assets/eskilfergecropped.jpg" width="570"> | 
-| The Munkholmen tourist ferry as seen by a lidar (different colors are data from different time steps). | 
+| Eskil Hatling Hølland has just had a breakthrough with the infrared layer of the Milliampere sensor rig. | 
 
 ## Scope for the 5th year project
 
