@@ -9,6 +9,10 @@ this system should be complemented by navigation done purely by means of onboard
 The ferry is currently equipped with lidar, radar, optical cameras and infrafred cameras. 
 The lidar is an interesting candidate as navigation aid since it is an active sensor (provides range measurements) and because of its high resolution. 
 
+The topic of robotic localization using such active sensors has been thoroughly studied during the last couple of decades. 
+However, most of the research has addressed indoor robots, land vehicles, underwater vehicles and aerial vehicles (more or less in that order). 
+There is a surprising lack of results on localization for maritime surface vehicles. 
+
 ## Scope
 Bla bla
 
