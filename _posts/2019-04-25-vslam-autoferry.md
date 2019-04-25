@@ -29,3 +29,7 @@ Given a successful 5th year project, the main goal for the MSc project will be t
 
 ## Contact
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)
+
+## References
+
+* Shin, Y.-S. and Kim, A. (2019): “[Sparse Depth Enhanced Direct Thermal-infrared SLAM Beyond the Visible Spectrum](https://arxiv.org/pdf/1902.10892.pdf)”, arXiv e-print
