@@ -16,27 +16,24 @@ There is a surprising lack of results on localization for maritime surface vehic
 Localization is typically performed as a part of more general methods for simultaneous localization and mapping (SLAM). 
 Since a SLAM method builds its own map, it is possible to use SLAM in an environment never seen before. 
 However, for a ferry operating in a confined environment this may be overkill. An alternative could be to let the ferry infer its position and attitude (together known as pose) 
-from observing specific landmarks or from correlating the shoreline against known maps from e.g. Kartverket. 
-
+from observing specific landmarks or from correlating the observed shoreline against known maps from e.g. Kartverket. 
 
 ## Scope
-The goal of this combined specalization and Master's project is to make an informed judgement regarding the benefits of SLAM versus localization without mapping for Milliampere's navigation system. The work will involve both experimental and theoretical components. 
+The goal of this combined specalization and Master's project is to make an informed judgement regarding the benefits of SLAM versus localization without mapping for Milliampere's navigation system. The work will involve both experimental and theoretical components. An interesting set of lidar data from Milliampere maneuvering in the Brattøra pool already exists, but it may be worthwile to record another data set early in the semester, to exploit improved placement of the lidar as well as fusion with sensors that recently were added to Milliampere. 
+Implementations of both SLAM and localization have been tested on the previously recorded data, and can be used as a starting point. 
+The project may possibly involve close collaboration with another student working on visual SLAM for Milliampere.
 
 ## Proposed Tasks for the 5th year project
 
-1. 
-2. x
-3. x
-4. x
-5. x
+1. Conduct a literature survey on the state-of-the-art in SLAM using lidars and other range finders.
+2. Conduct a literature survey on methods for localization relative to known landmarks and maps. 
+3. Implement a chosen SLAM method on data recorded using the lidar onboard Milliampere. 
+4. Implement a chosen localization method on data recorded using the lidar onboard Milliampere. 
+5. Compare the performance of the two approaches in the project report. 
 
 ## Proposed Tasks for the master thesis
 
-The project work aims to be extended into a master thesis for the spring of 2018. Depending on the interest of the students, several important challenges may be addressed:
-
-- x
-- x
-- x
+The project work aims to be extended into a master thesis for the spring of 2018. Key challenges that should be addressed are expected to be data association, integration with inertial navigation system and real-time implementation. 
 
 ## Contact
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)
