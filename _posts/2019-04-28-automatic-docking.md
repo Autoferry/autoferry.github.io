@@ -19,11 +19,11 @@ These criteria are the safety margins that allow for manual takeover in cause of
 
 We propose a project and master's thesis that consider developing an energy-optimized trajectory planner for automatic docking.
 This trajectory planner must account for any safety criterion related to the docking procedure, and must try to obtain an energy-optimized trajectory.
-The candidate will perform a literature study which path and trajectory planning, optimization theory and solutions, ship modeling and control.
+The candidate will perform a literature study which includes path and trajectory planning, optimization theory and solutions, ship modeling and control.
 The candidate should be familiar and comfortable with both ship modeling and optimization.
 It is advantageous that the candidate has completed [TTK4135] and [TTK4190].
 
-![milliAmpere]
+![milliAmpere]{:width="450px"}
 
 We propose the following tasks:
 * Perform background research and a literature study of ship modeling, optimization, path planning and trajectory planning
@@ -38,8 +38,12 @@ We propose the following tasks:
 
 There is a possibility that the candidate will cooperate closely with KM.
 
+Supervisors: [Morten Breivik] and [Glenn Bitar]
+
 [Docking illustration]: {{site.url}}/assets/horten-docking.png
 [milliAmpere]: {{site.url}}/assets/milliampere.jpg
 [TTK4135]: https://www.ntnu.edu/studies/courses/TTK4135
 [TTK4190]: https://www.ntnu.no/studier/emner/TTK4190
 [Bitar2017]: http://hdl.handle.net/11250/2465617
+[Morten Breivik]: https://www.ntnu.no/ansatte/morten.breivik
+[Glenn Bitar]: https://www.ntnu.no/ansatte/glenn.bitar
