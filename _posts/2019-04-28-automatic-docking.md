@@ -46,6 +46,5 @@ Supervisors: [Morten Breivik] and [Glenn Bitar]
 [milliAmpere]: {{site.url}}/assets/milliampere.jpg
 [TTK4135]: https://www.ntnu.edu/studies/courses/TTK4135
 [TTK4190]: https://www.ntnu.no/studier/emner/TTK4190
-[Bitar2017]: http://hdl.handle.net/11250/2465617
 [Morten Breivik]: https://www.ntnu.no/ansatte/morten.breivik
 [Glenn Bitar]: https://www.ntnu.no/ansatte/glenn.bitar
