@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Energy-optimized automatic docking for autonomous ferries
+title: Energy-optimized automatic docking for ferries
 category: COLAV
 ---
 
