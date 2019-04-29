@@ -16,6 +16,7 @@ Kongsberg Maritime (KM) have developed a solution for automatic docking of _Bast
 The main benefit of performing automatic docking is to have a repeatable docking procedure which is consistent in both duration and energy consumption.
 KM's solution implements several criteria posed by _Bastø Fosen_, including speed limits at certain distances from the berthing point.
 These criteria are the safety margins that allow for manual takeover in cause of failure.
+Another important aspect to automatic docking is graphical representation of intent and status for the ship's operators.
 
 We propose a project and master's thesis that consider developing an energy-optimized trajectory planner for automatic docking.
 This trajectory planner must account for any safety criterion related to the docking procedure, and must try to obtain an energy-optimized trajectory.
@@ -30,6 +31,7 @@ We propose the following tasks:
 * Study and evaluate safety criteria for docking procedures
 * Implement a simulation framework for testing ship controllers, trajectory planners and docking scenarios
 * Implement (and develop) controllers for low-speed trajectory tracking
+* Develop and implement graphical tools that show the ship's intent and deviations from the planned trajectory.
 * Develop and implement one or more methods for energy-optimized trajectory planning for automatic docking
 * Test the trajectory methods in simulation
 * Perform experiments on a model ship (e.g. milliAmpere, depicted above)
