@@ -1,7 +1,8 @@
+
 ---
 layout: post
 title: Comparison of path-planning methods for autonomous ships
-category: COLAV
+category: TEST
 ---
 ![Path illustration]{:width="450px"}
 
