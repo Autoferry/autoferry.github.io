@@ -10,7 +10,7 @@ Today ship routes are manually planned by a navigator.
 This is a time consuming task is desirable to automate.
 In addition to saving time spent on planning, an automatic planner may optimize the route with respect to different criteria, such as energy usage, time, weather conditions and distance from land.
 However, there are several constraints placed on sailing routes.
-Such a route has to be ECDIS compatible, it has to be possible to sail the route by optical navigation with help from e.g. lighthouses, and it must comply with trafic separation schemes.
+Such a route has to be ECDIS compatible, it has to be possible to sail the route by optical navigation with help from e.g. lighthouses, and it must comply with traffic separation schemes.
 
 A groundwork has already been carried out that interprets digital sea charts and weather data into a representation that is possible to use in route planning methods.
 Some methods for automatic route planning have also been developed.
