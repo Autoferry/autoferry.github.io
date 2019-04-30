@@ -22,9 +22,9 @@ Du bør være glad i både teoretisk og eksperimentelt arbeid og ha bakgrunn inn
 
 Se også mediaomtale på:
 
-* https://gemini.no/2018/06/forerlose-ferger-kan-erstatte-gangbruer/
-* http://tv.nrk.no/serie/distriktsnyheter-rogaland/DKRO97092618/26-09-2018#t=2m43s
-* https://www.yumpu.com/no/document/read/62288431/navigare-nummer-4-2018
+* <https://gemini.no/2018/06/forerlose-ferger-kan-erstatte-gangbruer/>
+* <http://tv.nrk.no/serie/distriktsnyheter-rogaland/DKRO97092618/26-09-2018#t=2m43s>
+* <https://www.yumpu.com/no/document/read/62288431/navigare-nummer-4-2018>
 
 Kontakt: [Morten Breivik]
 
