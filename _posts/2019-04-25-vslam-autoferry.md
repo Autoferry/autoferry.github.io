@@ -25,6 +25,9 @@ The autonomous ferry Milliampere is equipped with 360 degree coverage of both op
 
 The 5th year project should also include data collection experiments early in the semester. These data are likely to be the main data set during most of the work with the MSc project as well. 
 
+|<img src="{{site.url}}/assets/ir-eskil.jpg" width="570"> | 
+| Based on preliminary data it seems likely that IR-based SLAM should be possible in Trondheim's harbor areas. | 
+
 ## Scope for the master thesis
 
 Given a successful 5th year project, the main goal for the MSc project will be to make the methods sufficiently robust and fast to be used as part of closed-loop docking experiments. Key elements in this work are expected to be:
