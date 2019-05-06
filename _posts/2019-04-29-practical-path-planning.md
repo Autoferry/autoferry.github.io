@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Automatic practical path planning for autonomous ships
+title: Automatic practical path planning for ships
 category: COLAV
 ---
 
