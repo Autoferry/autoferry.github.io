@@ -42,3 +42,4 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 * Shin, Y.-S. and Kim, A. (2019): “[Sparse Depth Enhanced Direct Thermal-infrared SLAM Beyond the Visible Spectrum](https://arxiv.org/pdf/1902.10892.pdf)”, arXiv e-print
 * Ødven, M. (2019): “[Lidar-based SLAM for Autonomous Ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/MasterFinalReducedMarius.pdf)”, MSc thesis, NTNU
+* Fan, Z. (2016): "[Brief Review on Visual SLAM: A Historical Perspective](https://fzheng.me/2016/05/30/slam-review/)".
