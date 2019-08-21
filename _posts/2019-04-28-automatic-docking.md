@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Energy-optimized automatic docking for ferries
-category: COLAV
+category: TEST
 ---
 
 ![Docking illustration]{:width="450px"}

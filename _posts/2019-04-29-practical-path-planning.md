@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automatic practical path planning for ships
-category: COLAV
+category: TEST
 ---
 
 ![map]{:width="450px"}
