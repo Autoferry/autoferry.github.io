@@ -11,20 +11,27 @@ Shore-based sensors can serve three purposes. First, they can be used for contin
 
 
 ## Scope
-The goal of this combined specalization and Master's project is to make progress towards the realization of such a joint tracking and localization system. 
+The goal of this combined specalization and Master's project is to make progress towards the realization of a joint tracking and localization system for MilliAmpere and its successor MilliAmpere2.
 
 
 ## Proposed Tasks for the 5th year project
 
-1. Conduct a literature survey on the state-of-the-art in SLAM using lidars and other range finders.
-2. Conduct a literature survey on methods for localization relative to known landmarks and maps. 
-3. Implement a chosen SLAM method on data recorded using the lidar onboard Milliampere. 
-4. Implement a chosen localization method on data recorded using the lidar onboard Milliampere. 
-5. Compare the performance of the two approaches in the project report. 
+1. Choice of sensor architecture. Make a judgement of strengths and weaknesses of different configurations.
+2. Installation of sensors. 
+3. Synchronization and calibration. 
+4. Experiment. Record data with MillliAmpere in the canal, and with/without other vessels in the vicinity. 
+5. Detection and object recognition. Convolutional neural networks may be combined with standard thresholding and segmentation techniques. 
+6. Multi-target tracking of MilliAmpere and other vessels. Fusion with GNSS data with and without RTK.
+
+If experiments should be too challenging to conduct, it is also possible to solve the entire project using the MilliAmpere digital twin. 
 
 ## Proposed Tasks for the master thesis
 
-The project work aims to be extended into a master thesis for the spring of 2018. Key challenges that should be addressed are expected to be data association, integration with inertial navigation system and real-time implementation. 
+The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the interest of the student. 
+
+*  Fusion with ongoing work on simultaneous localization and mapping (SLAM). 
+* Solving the merged measurement problem: When other boats come very close to the ferry, the radar is likely to return a single merged measurements, and this can confuse the tracking system. 
+* Dealing with navigation uncertainty in multi-target tracking. 
 
 ## Contact
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)
