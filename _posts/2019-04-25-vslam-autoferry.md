@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Visual SLAM and localization for autonomous ferry
-category: SF
+category: NO
 ---
 ## Background
 The navigation of the autonomous ferry Milliampere is currently based on GNSS. For improved robustness, especially in docking scenarios,
