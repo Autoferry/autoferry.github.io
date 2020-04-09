@@ -42,6 +42,12 @@ The project work aims to be extended into a master thesis for the spring of 2018
 ## Contact
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).
 
+
+|<img src="{{site.url}}/assets/descriptortrajectories" width="690"> | 
+| Laser-based odometry of (Skjellaug 2019) with different feature descriptors. The value of a good feature descriptor can clearly be seen. | 
+
+
+
 ## References
 
 * Kaess et al. (2011): “[ISAM2: Incremental smoothing and mapping using the Bayes tree](https://journals.sagepub.com/doi/10.1177/0278364911430419)”, International Journal of Robotics Research.
