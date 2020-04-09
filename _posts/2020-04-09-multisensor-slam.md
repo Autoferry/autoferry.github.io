@@ -4,9 +4,16 @@ title: Multisensor SLAM for autonomous ferry
 category: SF
 ---
 ## Background
-The navigation of the autonomous ferry Milliampere is currently based on GNSS. For improved robustness, especially in docking scenarios,
+The navigation of the autonomous ferry MilliAmpere is currently based on GNSS. For improved robustness, especially in docking scenarios,
 this system should be complemented by navigation done purely by means of onboard sensors. 
 The ferry is currently equipped with lidar, radar, optical cameras and infrafred cameras. 
+An intriguing possibility is therefore to use fusion of these sensors to do simultaneous localization and mappping (SLAM) for the ferry. 
+
+Previous specialization and MSc projects have investigated the possibility of lidar-based or visual SLAM and localization for MilliAmpere. Marius Ødven conducted data recording experiments with the Velodyne Puck lidar mounted onboard MilliAmpere in Brattørabassenget and investigated several open-source methods for lidar-SLAM. Nicholas Dalhaug investigated localization by means of particle filters using the same data set. Even Skjellaug evaluated several feature extractors and descriptors on this data set, and demonstrated that accuracy similar to standard GNSS accuracy could be maintained for several minutes by means of laser odometry. In his MSc project he is currently working on factor graph SLAM using the ISAM2 framework on this data set. In parallell with this, Hallvard Laupsa Fosso 
+ 
+
+
+
 The lidar is an interesting candidate as navigation aid since it is an active sensor (provides range measurements) and because of its high resolution. 
 
 |<img src="{{site.url}}/assets/occupancybratt.png" width="690"> | 
