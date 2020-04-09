@@ -38,5 +38,6 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 ## References
 
+* Skjellaug, E. (2019): “[Feature-based laser odometry for autonomous ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/Skjellaug-laser-odo.pdf)”, Specialization project, NTNU. 
 * Ødven, M. (2018): “[Lidar-based SLAM for Autonomous Ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/MasterFinalReducedMarius.pdf)”, MSc thesis, NTNU
-* Skjellaug, N. (2019): “[Feature-based laser odometry for autonomous ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/Skjellaug-laser-odo.pdf)”, Specialization project, NTNU. 
+* Pedersen, J. (2018): “[Harbor Surveillance with a K-best, Track Terminating, Hypothesis-Oriented MHT](http://folk.ntnu.no/edmundfo/msc2019-2020/masteroppgaveJesperPedersenReduced.pdf)”, MSc thesis, NTNU
