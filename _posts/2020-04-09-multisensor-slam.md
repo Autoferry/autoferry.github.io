@@ -26,11 +26,11 @@ The goal of this combined specalization and Master's project is to develop a mul
 
 ## Proposed Tasks for the 5th year project
 
-1. Conduct a literature survey on the state-of-the-art in SLAM using lidars and other range finders.
-2. Conduct a literature survey on methods for localization relative to known landmarks and maps. 
-3. Implement a chosen SLAM method on data recorded using the lidar onboard Milliampere. 
-4. Implement a chosen localization method on data recorded using the lidar onboard Milliampere. 
-5. Compare the performance of the two approaches in the project report. 
+1. Data consolidation: Choose a suitable data set among existing data set, or record a new and tailor made data set.
+2. Conduct a study on the most relevant SLAM methods and factor graph libraries for this work.
+3. The role of features: Should a feature-based or feature-less parametrization be used? If features are used, can you match the features used for the different sensors? Should feature detectors and descriptors be trained?
+4. Choose a factor graph library and identify or implement the factors needed for the multi-sensor SLAM method.
+5. Implement pose graph optimization on the resulting factor graph. 
 
 ## Proposed Tasks for the master thesis
 
