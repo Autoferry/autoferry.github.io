@@ -33,6 +33,7 @@ The project work aims to be extended into a master thesis for the spring of 2021
 * Identify and put in place additional infrastructure needed for real-time implementation. Make real-time implementation. 
 * Solving the merged measurement problem: When other boats come very close to the ferry, the radar is likely to return a single merged measurements, and this can confuse the tracking system. 
 * Dealing with navigation uncertainty in multi-target tracking. 
+* Include a shore-mounted event camera in the sensor configuration. 
 
 ## Contact
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)
