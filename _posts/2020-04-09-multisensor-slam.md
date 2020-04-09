@@ -43,8 +43,6 @@ The project work aims to be extended into a master thesis for the spring of 2018
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).
 
 
-|<img src="{{site.url}}/assets/descriptortrajectories.png" width="590"> | 
-| Laser-based odometry of (Skjellaug 2019) with different feature descriptors. The value of a good feature descriptor can clearly be seen. | 
 
 
 
@@ -55,3 +53,7 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 * Skjellaug, E. (2019): “[Feature-based laser odometry for autonomous ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/Skjellaug-laser-odo.pdf)”, Specialization project, NTNU. 
 * Ødven, M. (2019): “[Lidar-based SLAM for Autonomous Ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/MasterFinalReducedMarius.pdf)”, MSc thesis, NTNU
 * Dalhaug, N. (2019): “[Lidar-based Localization for Autonomous Ferry](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625739)”, MSc thesis, NTNU
+
+|<img src="{{site.url}}/assets/descriptortrajectories.png" width="590"> | 
+| Laser-based odometry of (Skjellaug 2019) with different feature descriptors. The value of a good feature descriptor can clearly be seen. | 
+
