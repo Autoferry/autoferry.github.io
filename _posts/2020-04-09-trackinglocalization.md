@@ -30,6 +30,7 @@ This is intended to be a project with a strong hands-on flavour, but for a more 
 The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the interest of the student. 
 
 *  Fusion with ongoing work on simultaneous localization and mapping (SLAM). 
+* Identify and put in place additional infrastructure needed for real-time implementation. Make real-time implementation. 
 * Solving the merged measurement problem: When other boats come very close to the ferry, the radar is likely to return a single merged measurements, and this can confuse the tracking system. 
 * Dealing with navigation uncertainty in multi-target tracking. 
 
@@ -38,6 +39,7 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 ## References
 
+* Helgesen, Ø., et al. (2019): “[Sensor Combinations in Heterogeneous Multi-sensor Fusion for Maritime Target Tracking](https://ieeexplore.ieee.org/document/9011297)”, Proceedings of FUSION, Ottawa, Canada.
 * Skjellaug, E. (2019): “[Feature-based laser odometry for autonomous ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/Skjellaug-laser-odo.pdf)”, Specialization project, NTNU. 
 * Ødven, M. (2018): “[Lidar-based SLAM for Autonomous Ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/MasterFinalReducedMarius.pdf)”, MSc thesis, NTNU
 * Pedersen, J. (2018): “[Harbor Surveillance with a K-best, Track Terminating, Hypothesis-Oriented MHT](http://folk.ntnu.no/edmundfo/msc2019-2020/masteroppgaveJesperPedersenReduced.pdf)”, MSc thesis, NTNU
