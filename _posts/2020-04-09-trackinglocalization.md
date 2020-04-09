@@ -23,7 +23,7 @@ The goal of this combined specalization and Master's project is to make progress
 5. Detection and object recognition. Convolutional neural networks may be combined with standard thresholding and segmentation techniques. 
 6. Multi-target tracking of MilliAmpere and other vessels. Fusion with GNSS data with and without RTK.
 
-If experiments should be too challenging to conduct, it is also possible to solve the entire project using the MilliAmpere digital twin. 
+This is intended to be a project with a strong hands-on flavour, but for a more theoretically inclined student it is also possible to solve the entire project using the MilliAmpere digital twin. 
 
 ## Proposed Tasks for the master thesis
 
@@ -38,5 +38,5 @@ For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu
 
 ## References
 
-* Ødven, M. (2019): “[Lidar-based SLAM for Autonomous Ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/MasterFinalReducedMarius.pdf)”, MSc thesis, NTNU
-* Dalhaug, N. (2019): “Lidar-based localization for autonomous ferry”, MSc thesis, NTNU, in writing. 
+* Ødven, M. (2018): “[Lidar-based SLAM for Autonomous Ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/MasterFinalReducedMarius.pdf)”, MSc thesis, NTNU
+* Skjellaug, N. (2019): “[Feature-based laser odometry for autonomous ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/Skjellaug-laser-odo.pdf)”, Specialization project, NTNU. 
