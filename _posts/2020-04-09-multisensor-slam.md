@@ -22,7 +22,7 @@ The research literature is surprisingly devoid of results on SLAM for maritime s
 
 
 ## Scope
-The goal of this combined specalization and Master's project is to develop a multi-sensor SLAM method for MilliAmpere that can be used for real-time localization in the case of poor or missing GNSS data. 
+The goal of this combined specalization and Master's project is to develop a multi-sensor SLAM method for MilliAmpere that can be used for real-time localization in the case of poor or missing GNSS data. The main focus will be on fusion of lidar and infrared cameras, but it may also be possible to include optical cameras and radar. The scope should be restricted to variations of factor-graph SLAM. 
 
 ## Proposed Tasks for the 5th year project
 
@@ -37,9 +37,12 @@ The goal of this combined specalization and Master's project is to develop a mul
 The project work aims to be extended into a master thesis for the spring of 2018. Key challenges that should be addressed are expected to be data association, integration with inertial navigation system and real-time implementation. 
 
 ## Contact
-For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)
+For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).
 
 ## References
 
+* Kaess et al. (2011): “[ISAM2: Incremental smoothing and mapping using the Bayes tree](https://journals.sagepub.com/doi/10.1177/0278364911430419)”, International Journal of Robotics Research.
+* Mur-Artal al. (2015): “[ORB-SLAM: a Versatile and Accurate Monocular SLAM System](https://ieeexplore.ieee.org/document/7219438)”, IEEE Transactions on Robotics.
+* Skjellaug, E. (2019): “[Feature-based laser odometry for autonomous ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/Skjellaug-laser-odo.pdf)”, Specialization project, NTNU. 
 * Ødven, M. (2019): “[Lidar-based SLAM for Autonomous Ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/MasterFinalReducedMarius.pdf)”, MSc thesis, NTNU
-* Dalhaug, N. (2019): “Lidar-based localization for autonomous ferry”, MSc thesis, NTNU, in writing. 
+* Dalhaug, N. (2019): “[Lidar-based Localization for Autonomous Ferry](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625739)”, MSc thesis, NTNU

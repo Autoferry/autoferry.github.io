@@ -36,12 +36,13 @@ The project work aims to be extended into a master thesis for the spring of 2021
 * Include a shore-mounted event camera in the sensor configuration. 
 
 ## Contact
-For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo)
+For more information, contact supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and 
+[Egil Eide](https://www.ntnu.no/ansatte/egil.eide).
 
 ## References
 
 * Helgesen, Ø., et al. (2020): “[Low Altitude Georeferencing for Imaging Sensors in Maritime Tracking](http://folk.ntnu.no/edmundfo/msc2019-2020/Georeferencing_paper)”, Accepted for publication at the IFAC World Congress, Berlin, Germany,
 * Helgesen, Ø., et al. (2019): “[Sensor Combinations in Heterogeneous Multi-sensor Fusion for Maritime Target Tracking](https://ieeexplore.ieee.org/document/9011297)”, Proceedings of FUSION, Ottawa, Canada.
 * Skjellaug, E. (2019): “[Feature-based laser odometry for autonomous ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/Skjellaug-laser-odo.pdf)”, Specialization project, NTNU. 
-* Ødven, M. (2018): “[Lidar-based SLAM for Autonomous Ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/MasterFinalReducedMarius.pdf)”, MSc thesis, NTNU
+* Ødven, M. (2019): “[Lidar-based SLAM for Autonomous Ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/MasterFinalReducedMarius.pdf)”, MSc thesis, NTNU
 * Pedersen, J. (2018): “[Harbor Surveillance with a K-best, Track Terminating, Hypothesis-Oriented MHT](http://folk.ntnu.no/edmundfo/msc2019-2020/masteroppgaveJesperPedersenReduced.pdf)”, MSc thesis, NTNU
