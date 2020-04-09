@@ -43,7 +43,7 @@ The project work aims to be extended into a master thesis for the spring of 2018
 For more information, contact main supervisor [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).
 
 
-|<img src="{{site.url}}/assets/descriptortrajectories" width="690"> | 
+|<img src="{{site.url}}/assets/descriptortrajectories.png" width="690"> | 
 | Laser-based odometry of (Skjellaug 2019) with different feature descriptors. The value of a good feature descriptor can clearly be seen. | 
 
 
