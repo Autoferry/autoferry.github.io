@@ -47,8 +47,9 @@ The project work aims to be extended into a master thesis for the spring of 2021
 * Combining factor graph solutions to tracking and SLAM.
 
 ## Contact
-For more information, contact supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) or
-[Lars-Christian Tokle](https://www.ntnu.edu/employees/lars-christian.n.tokle) 
+Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), 
+[Lars-Christian Tokle](https://www.ntnu.edu/employees/lars-christian.n.tokle) and
+[Martin Vonheim Larsen (FFI)](https://www.mn.uio.no/its/english/people/aca/martinvl/) 
 
 ## References
 
