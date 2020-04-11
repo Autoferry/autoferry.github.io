@@ -19,7 +19,8 @@ Filtering remains the prevailing paradigm in target tracking. However, based on 
 Bearing-only tracking has traditionally been mainly of interest in military applications such as anti-submarine warfare. However, the increased popularity of passive sensors (optical and infrared cameras) in autonomous vehicle systems lead to an increased need for reliable bearing-only tracking also in the civilian domain. In particular, the autonomous ferry prototype MillAmpere relies on several top mounted cameras for its situational awareness. These cameras can estimate the range of other boats if they are close enough by triangulation relative to the sea surface, but for boats further away the tracking problem gradually turns into a bona-fide bearing-only problem. 
 
 
-
+|<img src="{{site.url}}/assets/bofig2.png" width="690"> | 
+| Figure: Estimation of the posterior density for bearing-only tracking using a particle filter. While it is clearly non-Gaussian, it is nevertheless unimodal, and most likely will approximated by a Gaussian close to its peak. | 
 
 
 
