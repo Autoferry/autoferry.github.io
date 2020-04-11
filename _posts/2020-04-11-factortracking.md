@@ -14,13 +14,16 @@ In the context of multi-target tracking, probabilistic graphical models have bee
 The goal in data association is typically to evaluate the probability that a given measurement comes from a given target. 
 To calculate such probabilities efficiently, with or without approximations, the structure of the graphical model can be exploited. 
 
+|<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
+| Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem. | 
+
 Filtering remains the prevailing paradigm in target tracking. However, based on the shift from filtering to smoothing that happened in the field of SLAM,  one may ask whether graphical smoothing techniques also can be worthwhile to consider in target tracking. This may be particularly promising for highly nonlinear problems such as bearing-only tracking, where no filtering-based solution has shown acceptable performance, despite the apparent simplicity of the problem and intense research efforts over 5 decades. 
 
 Bearing-only tracking has traditionally been mainly of interest in military applications such as anti-submarine warfare. However, the increased popularity of passive sensors (optical and infrared cameras) in autonomous vehicle systems lead to an increased need for reliable bearing-only tracking also in the civilian domain. In particular, the autonomous ferry prototype MillAmpere relies on several top mounted cameras for its situational awareness. These cameras can estimate the range of other boats if they are close enough by triangulation relative to the sea surface, but for boats further away the tracking problem gradually turns into a bona-fide bearing-only problem. 
 
 
 |<img src="{{site.url}}/assets/bofig2.png" width="690"> | 
-| Figure: Estimation of the posterior density for bearing-only tracking using a particle filter. While it is clearly non-Gaussian, it is nevertheless unimodal, and most likely will approximated by a Gaussian close to its peak. | 
+| Figure: Estimation of the posterior density for bearing-only tracking using a particle filter. While the posterior is clearly non-Gaussian, it is nevertheless unimodal, and most likely it can be approximated fairly well by a Gaussian close to its peak. | 
 
 
 
