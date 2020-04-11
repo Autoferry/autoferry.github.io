@@ -6,7 +6,7 @@ category: SF
 ## Background
 The first step in the situational awareness pipeline of any autonomous vehicle is to detect other vehicles and obstacles. This can be done by means of transponder systems (e.g. AIS), active exteroceptive sensors (radar, lidar) or passive exteroceptive sensors (optical and infrared cameras). Typically, a detection procedure processes every scan or image from the sensors independently, and feeds the extracted blobs to a tracking method, which declares a threat if it is able to establish a track on consecutive detections. 
 
-For active sensors, relatively straightforward thresholding and segmentation techniques are typically used for detection. For passive sensors, 
+For active sensors, relatively straightforward thresholding and segmentation techniques are typically used for detection. For passive sensors, especially for optical cameras, more advanced object recognition techniques are generally preferred. Convolutional neural networks (CNNs) have emerged as the undisputed benchmark leader in recent years. A handful of MSc students have worked on CNNs for ship detection in optical and infrared images in connection with the [Autosea project], see for example (Grini 2019).  
 
 
 
@@ -47,7 +47,7 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo),
 
 ## References
 
-* Tokle, L.-C. (2018): “[Multi target tracking using random finite sets with a hybrid state space and approximations](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2575375/18666_FULLTEXT.pdf?sequence=1)”, MSc thesis, NTNU. 
-* Kummerle et al. (2011): “[g2o: A General Framework for Graph Optimization](https://www.cct.lsu.edu/~kzhang/papers/g2o.pdf)”, Proceedings of ICRA 2011, Shanghai, China.
-* Dellaert, F. (2012): “[Factor Graphs and GTSAM: A Hands-on Introduction](https://borg.cc.gatech.edu/sites/edu.borg/files/downloads/gtsam.pdf)”, Technical report, The Borg Lab, GeorgiaTech.
+* Grini, S. (2019): “[Object Detection in Maritime Environments: Systematic Training and Testing of Deep Learning-based Detection Methods for Vessels in Camera Images](http://folk.ntnu.no/edmundfo/msc2019-2020/grini_simen_msc_reduced.pdf)”, MSc thesis, NTNU. 
 * Horridge, P. and Maskell, S. (2006): “[Real-Time Tracking Of Hundreds Of Targets With Efficient Exact JPDAF Implementation](https://ieeexplore.ieee.org/document/4085847)”, Proceedings of FUSION, Florence, Italy
+
+[Autosea project](https://www.ntnu.edu/autosea)
