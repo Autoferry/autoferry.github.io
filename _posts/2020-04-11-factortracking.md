@@ -40,12 +40,11 @@ As a primary objective, this project aims to say something about the suitability
 
 The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the interest of the student. 
 
-* Development of an LMIPDA method tailored to be used in a drone-based tracking system. 
-* Can strategies such as those used in an LMIPDA also be used in a more complex JIPDA or PMBM filter? One project that possibly could be addressed in this manner is clustering and cluster-splitting of nearby tracks. 
-* Integration of multiple models using the IMM framework.
-* Integration of wake models. 
-* Integration of visibility probabilities. 
-* Benchmarking on several real world data sets. 
+* It has been claimed that the exact EHM technique for marginal association probabilities is an improved version of the junction tree method, which is the general brute force technique for exact inference in graphical models. Investigate this claim. 
+* Can factor graph libraries and graphical models in general be used to solve data association in multi-scan tracking problems? 
+* Implementation on real data. 
+* Combining factor graph solutions to both smoothing and data association. 
+* Combining factor graph solutions to tracking and SLAM.
 
 ## Contact
 For more information, contact supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) or
