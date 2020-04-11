@@ -28,6 +28,8 @@ Bearing-only tracking has traditionally been mainly of interest in military appl
 ## Scope
 As a primary objective, this project aims to say something about the suitability of different factor graph libraries for applications in target tracking. At an early stage in the autumn semester, a more concrete application, such as one of the two examples mentioned above, should be chosen for a more in-depth study. 
 
+This can be a project for one student or for two students working together. 
+
 ## Proposed Tasks for the 5th year project
 
 1. Make yourself familiar with basic theory for probabilistic graphical models. Summarize the main types of models and key results in your report.  
