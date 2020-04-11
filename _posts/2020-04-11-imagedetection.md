@@ -50,4 +50,4 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo),
 * Grini, S. (2019): “[Object Detection in Maritime Environments: Systematic Training and Testing of Deep Learning-based Detection Methods for Vessels in Camera Images](http://folk.ntnu.no/edmundfo/msc2019-2020/grini_simen_msc_reduced.pdf)”, MSc thesis, NTNU. 
 * Horridge, P. and Maskell, S. (2006): “[Real-Time Tracking Of Hundreds Of Targets With Efficient Exact JPDAF Implementation](https://ieeexplore.ieee.org/document/4085847)”, Proceedings of FUSION, Florence, Italy
 
-[Autosea project](https://www.ntnu.edu/autosea)
+[Autosea project]: https://www.ntnu.edu/autosea
