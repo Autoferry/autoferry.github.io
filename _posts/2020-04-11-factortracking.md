@@ -26,14 +26,14 @@ Bearing-only tracking has traditionally been mainly of interest in military appl
 
 
 ## Scope
-As a primary objective, this project aims to say something about the suitability of different factor graph libraries for applications in target tracking. 
+As a primary objective, this project aims to say something about the suitability of different factor graph libraries for applications in target tracking. At an early stage in the autumn semester, a more concrete application, such as one of the two examples mentioned above, should be chosen for a more in-depth study. 
 
 ## Proposed Tasks for the 5th year project
 
-1. Make yourself familiar with the standard model of multi-target tracking and popular methods such as JIPDA, PHD filter, CPHD filter and PMBM filter.
-2. Study the PMBM-based derivation of the JIPDA, and do the required derivations to replace the JIPDA with LMIPDA.
-3. Design simulation scenarios and benchmark measures to compare tracking methods. 
-4. Compare basic LMIPDA, PMBM-based LMIPDA, PHD filter, basic JIPDA, PMBM-based JIPDA and CPHD filter. 
+1. Make yourself familiar with basic theory for probabilistic graphical models. Summarize the main types of models and key results in your report.  
+2. Make yourself familiar g2o, GTSAM and possibly other available factor graph libraries. Summarize main similarities and differences. 
+3. Choose a tracking problem for in-depth study. Develop a solution by means of factor graph techniques. 
+4. Compare the performance of your solution with standard techniques.  
 5. Write report.
 
 ## Proposed Tasks for the master thesis
