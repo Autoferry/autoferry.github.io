@@ -8,9 +8,17 @@ During the last decade, so-called pose graph optimization has become the undispu
 
 The key construction underlying this is the concept of a factor graph, or more generally probabilistic graphical models. 
 Popular SLAM methods such as ISAM2 and ORB-SLAM make use of advanced factor graph libraries such as GTSAM and g2o, which can enable the user to work efficiently with graph-based representations of knowledge. 
-While these libraries have had their breakthrough as frameworks for SLAM, their potential applications may also include a wealth of other sensor fusion problems such as target tracking. 
+While these libraries have had their breakthrough as frameworks for SLAM, their potential applications may also include a wealth of other sensor fusion problems such as target tracking. Below, we sketch two reasons why factor graphs can be of interest in target tracking. 
 
 In the context of multi-target tracking, probabilistic graphical models have been studied as a framework for data association. The compatibility between a given track and a given measurement can be represented as an edge in a graphical model. 
+The goal in data association is typically to evaluate the probability that a given measurement comes from a given target. 
+To calculate such probabilities efficiently, with or without approximations, the structure of the graphical model can be exploited. 
+
+Filtering remains the prevailing paradigm in target tracking. However, based on the shift from filtering to smoothing that happened in the field of SLAM,  one may ask whether graphical smoothing techniques also can be worthwhile to consider in target tracking. This may be particularly promising for highly nonlinear problems such as bearing-only tracking, where no filtering-based solution has shown acceptable performance, despite the apparent simplicity of the problem and intense research efforts over 5 decades. 
+
+Bearing-only tracking has traditionally been mainly of interest in military applications such as anti-submarine warfare. However, the increased popularity of passive sensors (optical and infrared cameras) in autonomous vehicle systems lead to an increased need for reliable bearing-only tracking also in the civilian domain. In particular, the autonomous ferry prototype MillAmpere relies on several top mounted cameras for its situational awareness. While these cameras 
+
+
 
 
 
@@ -18,11 +26,7 @@ In the context of multi-target tracking, probabilistic graphical models have bee
 
 
 ## Scope
-In this project you will investigate the potential of LMIPDA as a lightweight alternative to JIPDA. 
-The aim is both to understand the relationship between LMIPDA and the methods mentioned above, and to quantify the gains and losses
-that one could expect by replacing a PHD filter or a JIPDA with an LMIPDA. 
-The work is intended to mainly rely on simulations, but real data can also be used. 
-
+As a primary objective, this project aims to say something about the suitability of different factor graph libraries for applications in target tracking. 
 
 ## Proposed Tasks for the 5th year project
 
