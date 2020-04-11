@@ -16,7 +16,7 @@ To calculate such probabilities efficiently, with or without approximations, the
 
 Filtering remains the prevailing paradigm in target tracking. However, based on the shift from filtering to smoothing that happened in the field of SLAM,  one may ask whether graphical smoothing techniques also can be worthwhile to consider in target tracking. This may be particularly promising for highly nonlinear problems such as bearing-only tracking, where no filtering-based solution has shown acceptable performance, despite the apparent simplicity of the problem and intense research efforts over 5 decades. 
 
-Bearing-only tracking has traditionally been mainly of interest in military applications such as anti-submarine warfare. However, the increased popularity of passive sensors (optical and infrared cameras) in autonomous vehicle systems lead to an increased need for reliable bearing-only tracking also in the civilian domain. In particular, the autonomous ferry prototype MillAmpere relies on several top mounted cameras for its situational awareness. While these cameras 
+Bearing-only tracking has traditionally been mainly of interest in military applications such as anti-submarine warfare. However, the increased popularity of passive sensors (optical and infrared cameras) in autonomous vehicle systems lead to an increased need for reliable bearing-only tracking also in the civilian domain. In particular, the autonomous ferry prototype MillAmpere relies on several top mounted cameras for its situational awareness. These cameras can estimate the range of other boats if they are close enough by triangulation relative to the sea surface, but for boats further away the tracking problem gradually turns into a bona-fide bearing-only problem. 
 
 
 
