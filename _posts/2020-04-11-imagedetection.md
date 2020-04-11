@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improved detection in camera images
+title: Improved detection in camera video
 category: SF
 ---
 ## Background
@@ -41,13 +41,11 @@ The project work aims to be extended into a master thesis for the spring of 2021
 * Multi-hypothesis data association in SLAM.
 
 ## Contact
-Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), 
-[Lars-Christian Tokle](https://www.ntnu.edu/employees/lars-christian.n.tokle) and
-[Martin Vonheim Larsen (FFI)](https://www.mn.uio.no/its/english/people/aca/martinvl/) 
+Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
+[Øystein Kaarstad Helgesen](https://www.ntnu.edu/employees/oystein.k.helgesen) 
 
 ## References
 
 * Grini, S. (2019): “[Object Detection in Maritime Environments: Systematic Training and Testing of Deep Learning-based Detection Methods for Vessels in Camera Images](http://folk.ntnu.no/edmundfo/msc2019-2020/grini_simen_msc_reduced.pdf)”, MSc thesis, NTNU. 
-* Horridge, P. and Maskell, S. (2006): “[Real-Time Tracking Of Hundreds Of Targets With Efficient Exact JPDAF Implementation](https://ieeexplore.ieee.org/document/4085847)”, Proceedings of FUSION, Florence, Italy
 
 [Autosea project]: https://www.ntnu.edu/autosea
