@@ -12,21 +12,20 @@ No detector is perfect. CNNs come with their own strengths and weaknesses. They 
 
 Several approaches may be taken in the pursuit of more reliable detectors. Some of these are outline below. 
 
-Multi-sensor
-Multi-scan (TBD)
-Combined deep learning detection and segmentation: Mask R-CNN
+First, it is possible to design detectors that work on the video stream, instead of individual images. Even if the object in question, e.g., a kayak, is clearly visible in any individual images, spatio-temporal processing of several images simultaneously can reveal the presence of the object. In the tracking community, this is known as track-before-detect (TBD). 
 
+Second, a better basis for detection decisions can be obtained by fusion of different sensors before detection. For example, the data from a camera and a lidar may be combined into an extrapolated point cloud that is more dense than the original lidar point cloud, and which also maintains the color information from the camera data. 
 
-
-
+Third, standard CNN methods (Faster-RCNN, YOLO, SSD) only provide bounding boxes, and do not perform any segmentation. Better performance can perhaps be achieved by integrating the segmentation process into the detection procedure. This can be done in a variety of ways (Autoencoders, Mask RCNN). 
 
 
 
 
 ## Scope
-As a primary objective, this project aims to say something about the suitability of different factor graph libraries for applications in target tracking. At an early stage in the autumn semester, a more concrete application, such as one of the two examples mentioned above, should be chosen for a more in-depth study. 
+The main goal of this project is to investigate the potential of alternatives to bounding-box CNN approaches for detection in optical and infrared images. 
 
-This can be a project for one student or for two students working together. 
+
+This can be a project for a single student or a group of students. 
 
 ## Proposed Tasks for the 5th year project
 
