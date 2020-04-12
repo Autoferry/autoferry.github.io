@@ -11,7 +11,7 @@ For active sensors, relatively straightforward thresholding and segmentation tec
 No detector is perfect. CNNs come with their own strengths and weaknesses. They can be trained to detect objects that would be very difficult to describe in more explicit terms, but are ill equipped to detect objects that differ too much from the training data. Their black-box nature make it difficult to analyze or predict their behaviour. Standard CNNs are, in common with other methods that work on single images, unable to exploit dynamic information that only can extracted from a sequence of images. More specifically, we have observed false alarms caused by buildings mistaken for ships, and misdetections because a boat was difficult to distinguish from the background. The latter is especially a problem in infrared images. 
 
 |<img src="{{site.url}}/assets/revolt-sequence.png" width="700"> | 
-| Can you spot the small boat ReVolt in the third image? | 
+| Can you spot the small boat ReVolt in the third IR image? | 
 
 Several approaches may be taken in the pursuit of more reliable detectors. Some of these are outline below. 
 
@@ -53,6 +53,7 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
 ## References
 
 * Grini, S. (2019): “[Object Detection in Maritime Environments: Systematic Training and Testing of Deep Learning-based Detection Methods for Vessels in Camera Images](http://folk.ntnu.no/edmundfo/msc2019-2020/grini_simen_msc_reduced.pdf)”, MSc thesis, NTNU. 
+* Olsen, R. (2019): “[Sensor fusion of radar data with deep learning based detection and tracking of ships in camera images](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625695)”, MSc thesis, NTNU. 
 * He et al. (2017): “[Mask R-CNN](https://ieeexplore.ieee.org/document/8237584)”, Proceedings of ICCV, Venice, Italy. 
 
 
