@@ -6,7 +6,7 @@ category: SF
 ## Background
 The first step in the situational awareness pipeline of any autonomous vehicle is to detect other vehicles and obstacles. This can be done by means of transponder systems (e.g. AIS), active exteroceptive sensors (radar, lidar) or passive exteroceptive sensors (optical and infrared cameras). Typically, a detection procedure processes every scan or image from the sensors independently, and feeds the extracted blobs to a tracking method, which declares a threat if it is able to establish a track on consecutive detections. 
 
-For active sensors, relatively straightforward thresholding and segmentation techniques are typically used for detection. For passive sensors, especially for optical cameras, more advanced object recognition techniques are generally preferred. Convolutional neural networks (CNNs) have emerged as the undisputed benchmark leader in recent years. A handful of MSc students have worked on CNNs for ship detection in optical and infrared images in connection with the [Autosea project], see for example (Grini 2019).  
+For active sensors, relatively straightforward thresholding and segmentation techniques are typically used for detection. For passive sensors, especially for optical cameras, more advanced object recognition techniques are generally preferred. Convolutional neural networks (CNNs) have emerged as the undisputed benchmark leader in recent years. A handful of MSc students have worked on CNNs for ship detection in optical and infrared images in connection with the [Autosea project], see for example ([Grini 2019]).  
 
 No detector is perfect. CNNs come with their own strengths and weaknesses. They can be trained to detect objects that would be very difficult to describe in more explicit terms, but are ill equipped to detect objects that differ too much from the training data. Their black-box nature make it difficult to analyze or predict their behaviour. Standard CNNs are, in common with other methods that work on single images, unable to exploit dynamic information that only can extracted from a sequence of images. More specifically, we have observed false alarms caused by buildings mistaken for ships, and misdetections because a boat was difficult to distinguish from the background. The latter is especially a problem in infrared images. 
 
@@ -16,7 +16,7 @@ First, it is possible to design detectors that work on the video stream, instead
 
 Second, a better basis for detection decisions can be obtained by fusion of different sensors before detection. For example, the data from a camera and a lidar may be combined into an extrapolated point cloud that is more dense than the original lidar point cloud, and which also maintains the color information from the camera data. 
 
-Third, standard CNN methods (Faster-RCNN, YOLO, SSD) only provide bounding boxes, and do not perform any segmentation. Better performance can perhaps be achieved by integrating the segmentation process into the detection procedure. This can be done in a variety of ways (Autoencoders, Mask RCNN). 
+Third, standard CNN methods (Faster-RCNN, YOLO, SSD) only provide bounding boxes, and do not perform any segmentation. Better performance can perhaps be achieved by integrating the segmentation process into the detection procedure. This can be done in a variety of ways (Autoencoders, [Mask RCNN]). 
 
 
 
@@ -50,5 +50,9 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
 ## References
 
 * Grini, S. (2019): “[Object Detection in Maritime Environments: Systematic Training and Testing of Deep Learning-based Detection Methods for Vessels in Camera Images](http://folk.ntnu.no/edmundfo/msc2019-2020/grini_simen_msc_reduced.pdf)”, MSc thesis, NTNU. 
+* He et al. (2017): “[Mask R-CNN](https://ieeexplore.ieee.org/document/8237584)”, Proceedings of ICCV, Venice, Italy. 
+
 
 [Autosea project]: https://www.ntnu.edu/autosea
+[Grini 2019]: http://folk.ntnu.no/edmundfo/msc2019-2020/grini_simen_msc_reduced.pdf
+ [Mask RCNN]: https://ieeexplore.ieee.org/document/8237584
