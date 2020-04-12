@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Improved detection in camera video
+title: Improved ship detection in camera video
 category: SF
 ---
 ## Background
