@@ -29,14 +29,13 @@ The main goal of this project is to investigate the potential of alternatives to
 The details of the specialization project will depend on the interest of the student, but the following elements should in any case be part of it. 
 
 1. Fundamental theory and algorithm description of the chosen detection method. 
-2. bla bla 
-3. bla bla
-4. bla bla
-
+2. Data consolidation: What are the available data sets, and which data sets do you use for training, validation and testing?
+3. Implementation.
+4. Performance evaluation. Precision and recall, or equivalent measures, must be part of this analysis. 
 
 ## Proposed Tasks for the master thesis
 
-The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the interest of the student. 
+In the master thesis, the goal will be to make the developments from the 5th year project ready for integration in the sensor fusion systems of MilliAmpere and MilliAmpere2. 
 
 * bla bla
 * bla bla 
