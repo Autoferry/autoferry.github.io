@@ -39,6 +39,7 @@ In the master thesis, the goal will be to make the developments from the 5th yea
 
 * Evaluation of detector performance on data recorded using the onboard sensors of the autonomous ferry. 
 * Algorithms for segmentation and measurement extraction if this has not already been solved as part of the 5th year project. 
+* Evaluation of mean square error statistics (i.e., measurement covariance) for the extraction algorithms. 
 * 
 
 ## Contact
