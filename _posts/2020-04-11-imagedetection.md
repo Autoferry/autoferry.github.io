@@ -40,7 +40,8 @@ In the master thesis, the goal will be to make the developments from the 5th yea
 * Evaluation of detector performance on data recorded using the onboard sensors of the autonomous ferry. 
 * Algorithms for segmentation and measurement extraction if this has not already been solved as part of the 5th year project. 
 * Evaluation of mean square error statistics (i.e., measurement covariance) for the extraction algorithms. 
-* 
+* Identification of any other weaknesses that could make the proposed detector unreliable. This may include poor performance under certain environmental conditions, erroneous performance when water drops rest on the lens, or significant violations of Markov property. Suggest and implement mitigation measures. 
+* Real-time implementation. GPU implementation is likely to be necessary. 
 
 ## Contact
 Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
