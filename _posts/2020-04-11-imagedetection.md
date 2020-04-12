@@ -22,29 +22,24 @@ Third, standard CNN methods (Faster-RCNN, YOLO, SSD) only provide bounding boxes
 
 
 ## Scope
-The main goal of this project is to investigate the potential of alternatives to bounding-box CNN approaches for detection in optical and infrared images. 
-
-
-This can be a project for a single student or a group of students. 
+The main goal of this project is to investigate the potential of alternatives to bounding-box CNN approaches for detection in optical and infrared images. This can be a project for a single student or a group of students. Several data sets are available, both include infrared images, optical images, infrared video, and joint infrared, lidar and radar video. While all these data sets can be used for testing, there may be a need for recording additional data sets depending on the amount of training data that is needed.  
 
 ## Proposed Tasks for the 5th year project
 
-1. Make yourself familiar with basic theory for probabilistic graphical models. Summarize the main types of models and key results in your report.  
-2. Make yourself familiar g2o, GTSAM and possibly other available factor graph libraries. Summarize main similarities and differences. 
-3. Choose a tracking problem for in-depth study. Develop a solution by means of factor graph techniques. 
-4. Compare the performance of your solution with standard techniques.  
-5. Write report.
+The details of the specialization project will depend on the interest of the student, but the following elements should in any case be part of it. 
+
+1. Fundamental theory and algorithm description of the chosen detection method. 
+2. bla bla 
+3. bla bla
+4. bla bla
+
 
 ## Proposed Tasks for the master thesis
 
 The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the interest of the student. 
 
-* It has been claimed that the exact EHM technique for marginal association probabilities is an improved version of the junction tree method, which is the general brute force technique for exact inference in graphical models. Investigate this claim. 
-* Can factor graph libraries and graphical models in general be used to solve data association in multi-scan tracking problems? 
-* Implementation on real data. 
-* Combining factor graph solutions to both smoothing and data association. 
-* Combining factor graph solutions to tracking and SLAM.
-* Multi-hypothesis data association in SLAM.
+* bla bla
+* bla bla 
 
 ## Contact
 Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
