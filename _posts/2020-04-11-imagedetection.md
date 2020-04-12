@@ -15,7 +15,7 @@ No detector is perfect. CNNs come with their own strengths and weaknesses. They 
 
 Several approaches may be taken in the pursuit of more reliable detectors. Some of these are outline below. 
 
-First, it is possible to design detectors that work on the video stream, instead of individual images. Even if the object in question, e.g., a kayak, is clearly visible in any individual images, spatio-temporal processing of several images simultaneously can reveal the presence of the object. In the tracking community, this is known as track-before-detect (TBD). 
+First, it is possible to design detectors that work on the video stream, instead of individual images. Even if the object in question, e.g., a kayak, is clearly visible in any individual images, spatio-temporal processing of several images simultaneously can reveal the presence of the object. In the tracking community, this is known as track-before-detect (TBD). Work in this direction may follow along the lines of TBD, it may employ neural networks working directly on the video stream, or it may analyze the spatio-temporal variability of the data using multivariate regression techniques. 
 
 Second, a better basis for detection decisions can be obtained by fusion of different sensors before detection. For example, the data from a camera and a lidar may be combined into an extrapolated point cloud that is more dense than the original lidar point cloud, and which also maintains the color information from the camera data. 
 
