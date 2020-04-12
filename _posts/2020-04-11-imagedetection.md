@@ -10,6 +10,9 @@ For active sensors, relatively straightforward thresholding and segmentation tec
 
 No detector is perfect. CNNs come with their own strengths and weaknesses. They can be trained to detect objects that would be very difficult to describe in more explicit terms, but are ill equipped to detect objects that differ too much from the training data. Their black-box nature make it difficult to analyze or predict their behaviour. Standard CNNs are, in common with other methods that work on single images, unable to exploit dynamic information that only can extracted from a sequence of images. More specifically, we have observed false alarms caused by buildings mistaken for ships, and misdetections because a boat was difficult to distinguish from the background. The latter is especially a problem in infrared images. 
 
+|<img src="{{site.url}}/assets/revolt-sequence.png" width="700"> | 
+| Can you spot the small boat ReVolt in the third image? | 
+
 Several approaches may be taken in the pursuit of more reliable detectors. Some of these are outline below. 
 
 First, it is possible to design detectors that work on the video stream, instead of individual images. Even if the object in question, e.g., a kayak, is clearly visible in any individual images, spatio-temporal processing of several images simultaneously can reveal the presence of the object. In the tracking community, this is known as track-before-detect (TBD). 
