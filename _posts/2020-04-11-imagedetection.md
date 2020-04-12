@@ -56,6 +56,9 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
 * Olsen, R. (2019): “[Sensor fusion of radar data with deep learning based detection and tracking of ships in camera images](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625695)”, MSc thesis, NTNU. 
 * He et al. (2017): “[Mask R-CNN](https://ieeexplore.ieee.org/document/8237584)”, Proceedings of ICCV, Venice, Italy. 
 
+|<img src="{{site.url}}/assets/eskilfergecropped.jpg" width="650" > | 
+| MilliAmpere with its radar-infrared-optical sensor rig. | 
+
 
 [Autosea project]: https://www.ntnu.edu/autosea
 [Grini 2019]: http://folk.ntnu.no/edmundfo/msc2019-2020/grini_simen_msc_reduced.pdf
