@@ -35,10 +35,11 @@ The details of the specialization project will depend on the interest of the stu
 
 ## Proposed Tasks for the master thesis
 
-In the master thesis, the goal will be to make the developments from the 5th year project ready for integration in the sensor fusion systems of MilliAmpere and MilliAmpere2. 
+In the master thesis, the goal will be to make the developments from the 5th year project ready for integration in the sensor fusion systems of MilliAmpere and MilliAmpere2. This will include tasks such as the following. 
 
-* bla bla
-* bla bla 
+* Evaluation of detector performance on data recorded using the onboard sensors of the autonomous ferry. 
+* Algorithms for segmentation and measurement extraction if this has not already been solved as part of the 5th year project. 
+* 
 
 ## Contact
 Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
