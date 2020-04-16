@@ -13,7 +13,7 @@ In (Thyri 2019, 2020), a COLAV method for passenger ferries operating in urban e
 * A visibility-graph is constructed to connect the start of the path to the end of the path in a way that does not intersect the collision-regions of the transformed obstacle representation, see right picture below. 
 * The graph is traversed with a graph search algorithm to find the minimum cost path, and a velocity-profile can be calculated from that path. 
 
-|<img src="{{site.url}}/assets/laying_object_representation.eps" width="310"> ||<img src="{{site.url}}/assets/path_time_obstacle_representation.eps" width="310"> ||<img src="{{site.url}}/assets/vgraph_with_regions_of_collision.eps" width="310"> |
+|<img src="{{site.url}}/assets/laying_object_representation.png" width="310"> ||<img src="{{site.url}}/assets/path_time_obstacle_representation.png" width="310"> ||<img src="{{site.url}}/assets/vgraph_with_regions_of_collision.png" width="310"> |
 |Simplified obstacle representation.||Transformation of four obstacle representations to path-time space.||Vgraph constructed in path time space. Red polygons indicate regions of collision. Graph is traversed to find a velocity profile.|
 
 This method is simple, intuitive and predictable. It is tested trough simulations and full-scale experiments, and prove to work well in the situations it was designed for, which is confined waters and high traffic environments such as harbor and canal-areas.
@@ -31,7 +31,7 @@ This work will be part of the autoferry project, with several people working in 
 ## Prerequisites
 This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels is advantageous, but not a requirement.
 
-|<img src="{{site.url}}/assets/milliAmpere_sea_trials.eps" width="450"> |
+|<img src="{{site.url}}/assets/milliAmpere_sea_trials.png" width="450"> |
 |The experimental platform milliAmpere during testing in Trondheim harbor.|
 
 ## Proposed Tasks for the 5th year project
