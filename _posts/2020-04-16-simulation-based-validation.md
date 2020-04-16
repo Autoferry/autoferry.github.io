@@ -17,6 +17,7 @@ This tasks concerns setting up representative simulation environments for testin
 * Trondheim with the ravnkloa-Brattøra transit,
 * Tønsberg with an urban city ferry and 
 * the Horten-Moss car-ferry transit. 
+
 Once the use-cases are defined, the candidate should gather enough relevant information about the areas to be able to recreate the relevant activities  in the simulator. This might include; analyzing AIS data, nautical maps, commercial traffic and "rutetabeller", calling up local harbour authorities, field-trips for data gathering etc. The simulator should be made to represent nominal conditions in addition to extreme cases with some randomness. 
 
 The simulator can also be augmented to emulate a situational awareness system. This includes looking into different sensor packages and configurations in terms of field-of-view, range and fidelity, and making the interface where the COLAV system receives tracking data on other vessels in the environment as realistic as possible.
@@ -27,9 +28,10 @@ Both under development and when the simulator is complete, the candidate should 
 
 
 ## Prerequisites
-This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels is advantageous, but not a requirement.
+This work is a combination of both theory and practice. The task is open to creative solutions and the candidate should therefore be motivated to do work both independently and discuss problems/solutions with the supervisors. Subjects within guidance and control of marine vessels is advantageous, but not a requirement.
 
-|<img src="{{site.url}}/assets/milliAmpere_sea_trials.pdf" width="310"> |
+
+|<img src="{{site.url}}/assets/milliAmpere_sea_trials.pdf" width="450"> |
 |The experimental platform milliAmpere during testing in Trondheim harbor.|
 
 ## Proposed Tasks for the 5th year project

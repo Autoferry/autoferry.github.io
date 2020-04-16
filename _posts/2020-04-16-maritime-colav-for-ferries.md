@@ -31,7 +31,7 @@ This work will be part of the autoferry project, with several people working in 
 ## Prerequisites
 This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels is advantageous, but not a requirement.
 
-|<img src="{{site.url}}/assets/milliAmpere_sea_trials.eps" width="310"> |
+|<img src="{{site.url}}/assets/milliAmpere_sea_trials.eps" width="450"> |
 |The experimental platform milliAmpere during testing in Trondheim harbor.|
 
 ## Proposed Tasks for the 5th year project
