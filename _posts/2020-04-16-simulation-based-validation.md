@@ -8,7 +8,7 @@ Mission-planing, collision avoidance, navigation and control systems for autonom
 
 For such simulation based validation to be effective, the simulator needs to provide a representative representation of the real-world environment that the autonomous system is to operate in. For autonomous systems designed to work anywhere, this can be impossible, but for autonomous systems operating in a confined location, this is an achievable task. Examples of this is autonomous passenger- and car-ferries, that operate between two or more fixed locations within a small area. For such operations, it is possible to gather sufficient information about the operational area to recreate a representative model in a simulator, and thereby evaluate and validate an autonomous guidance system for operation in that specific environment. 
 
-|<img src="{{site.url}}/assets/kristiansund_with_example_transits.pdf" width="310"> |
+|<img src="{{site.url}}/assets/kristiansund_with_example_transits.eps" width="310"> |
 |Kristiansund is an interesting use-case since it has the "Sundbåten" connecting the four parts of the city along the transits in green. The city has some big ships like the "Hurtigrute" that travel along the red lines, and a lot of leisure vessels, with blue lines as examples transit lanes.|
 
 ## Problem Formulation
