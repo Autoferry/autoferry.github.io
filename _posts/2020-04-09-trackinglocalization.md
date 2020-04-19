@@ -4,14 +4,14 @@ title: Joint tracking and localization
 category: SF
 ---
 ## Background
-The autonomous ferry prototype MilliAmpere is equipped with GNSS localization and several exteroceptive sensors (radar, lidar, optical cameras and infrared cameras). In addition, there are plans to furnish its environment with additional shore-based sensors to enable monitoring from other angles. In fact, a surveillance station consisting of a radar and an optical camera has already been installed at Brattøra. Data from this station have been analyzed in a couple of previous MSc projects. 
+The autonomous ferry prototype milliAmpere is equipped with GNSS localization and several exteroceptive sensors (radar, lidar, optical cameras and infrared cameras). In addition, there are plans to furnish its environment with additional shore-based sensors to enable monitoring from other angles. In fact, a surveillance station consisting of a radar and an optical camera has already been installed at Brattøra. Data from this station have been analyzed in a couple of previous MSc projects. 
 
 Shore-based sensors can serve three purposes. First, they can be used for continuous monitoring of the environment to learn typical behaviour patterns of traffic in the area. Second, they can be used to discover and monitor threats in areas that the ferry itself cannot see, because of occlusions or blind zones. Third, they can be used to keep track of the location of the ferry itself, in case its GNSS localization should fail. 
 
 
 
 ## Scope
-The goal of this combined specalization and Master's project is to make progress towards the realization of a joint tracking and localization system for MilliAmpere and its successor MilliAmpere2.
+The goal of this combined specalization and Master's project is to make progress towards the realization of a joint tracking and localization system for MilliAmpere and its successor MilliAmpere2. The project is intended for one student, but can also be expanded to a teamwork for two students. It can also be arranged as a collaboration with [Multisensor SLAM for autonomous ferry] or [Digital Twin of the Trondheim City Canal]. 
 
 
 ## Proposed Tasks for the 5th year project
@@ -23,7 +23,7 @@ The goal of this combined specalization and Master's project is to make progress
 5. Detection and object recognition. Convolutional neural networks may be combined with standard thresholding and segmentation techniques. 
 6. Multi-target tracking of MilliAmpere and other vessels. Fusion with GNSS data with and without RTK.
 
-This is intended to be a project with a strong hands-on flavour, but for a more theoretically inclined student it is also possible to solve the entire project using the MilliAmpere digital twin. 
+This is intended to be a project with a strong hands-on flavour, but for a more theoretically inclined student it is also possible to solve the entire project using the milliAmpere digital twin. 
 
 ## Proposed Tasks for the master thesis
 
@@ -46,3 +46,6 @@ For more information, contact supervisors [Edmund F. Brekke](http://www.ntnu.no/
 * Skjellaug, E. (2019): “[Feature-based laser odometry for autonomous ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/Skjellaug-laser-odo.pdf)”, Specialization project, NTNU. 
 * Ødven, M. (2019): “[Lidar-based SLAM for Autonomous Ferry](http://folk.ntnu.no/edmundfo/msc2019-2020/MasterFinalReducedMarius.pdf)”, MSc thesis, NTNU
 * Pedersen, J. (2018): “[Harbor Surveillance with a K-best, Track Terminating, Hypothesis-Oriented MHT](http://folk.ntnu.no/edmundfo/msc2019-2020/masteroppgaveJesperPedersenReduced.pdf)”, MSc thesis, NTNU
+
+[Digital Twin of the Trondheim City Canal]: https://autosit.github.io/ltp/2020/04/19/ltp_canal/
+[Multisensor SLAM for autonomous ferry]: https://autoferry.github.io/sf/2020/04/09/multisensor-slam/
