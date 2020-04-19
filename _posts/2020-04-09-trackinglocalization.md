@@ -39,6 +39,9 @@ The project work aims to be extended into a master thesis for the spring of 2021
 For more information, contact supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and 
 [Egil Eide](https://www.ntnu.no/ansatte/egil.eide).
 
+|<img src="{{site.url}}/assets/brattora.jpg" width="710"> | 
+| Where can we place stationary sensors in this environment to improve the situational awareness of the autonomous ferry? |
+
 ## References
 
 * Helgesen, Ø., et al. (2020): “[Low Altitude Georeferencing for Imaging Sensors in Maritime Tracking](http://folk.ntnu.no/edmundfo/msc2019-2020/Georeferencing_paper)”, Accepted for publication at the IFAC World Congress, Berlin, Germany,
