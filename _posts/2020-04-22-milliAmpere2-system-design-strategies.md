@@ -12,11 +12,11 @@ Deler av oppgaven vil være naturlig å videreføre i en masteroppgave.
 
 ## Referanser
 
-* Om milliAmpere-1: https://www.ntnu.edu/autoferry
+* Om milliAmpere-1: [https://www.ntnu.edu/autoferry]
 * STPA-metodebeskrivelse:
-  *  https://psas.scripts.mit.edu/home/get_file.php?name=STPA_handbook.pdf
-  * http://sunnyday.mit.edu/conceptual-architecture-final.pdf
-  * Eksempel på anvendelse: https://doi.org/10.1016/j.ress.2017.07.015
+  * [https://psas.scripts.mit.edu/home/get_file.php?name=STPA_handbook.pdf]
+  * [http://sunnyday.mit.edu/conceptual-architecture-final.pdf]
+  * Eksempel på anvendelse: [https://doi.org/10.1016/j.ress.2017.07.015]
 
 Kontakt: [Mary Ann Lundteigen] and [Bjørn-Olav H. Eriksen]
 
