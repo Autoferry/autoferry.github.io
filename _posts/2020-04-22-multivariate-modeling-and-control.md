@@ -8,7 +8,8 @@ The concept of small autonomous passenger ferries in urban areas is a more flexi
 
 As part of this, NTNU has developed the ferry prototype "milliAmpere", which is a 5 meter long prototype for testing technology enabling small passenger ferries for urban environments. Extensive research has been done on milliAmpere the recent years, and a new full-scale version is currently under construction, which will be used for a ferry crossing between Ravnkloa and Fosenkaia.
 
-![milliAmpere]{:width="450px"}
+|<img src="{{site.url}}/assets/milliampere.jpg" width="450"> |
+|The experimental platform milliAmpere during testing in Trondheim harbor.|
 
 The milliAmpere ferry is equipped with batteries, two azimuth thrusters, navigation sensors and a control system. In addition, the ferry can be equipped with a lidar, cameras and a radar in order to detect obstacles such that an autonomy system can avoid obstacles when crossing the canal. In addition to algorithms interpreting sensor data and planning collision-free paths, a control system which can steer the ferry on a given path is required. When developing such a control system, it is beneficial to have an accurate model of the ferry. Previously, a 3DOF model of the ferry has been identified, but this model neither captures all the dynamics of the vessel or has perfect parameter values.
 
