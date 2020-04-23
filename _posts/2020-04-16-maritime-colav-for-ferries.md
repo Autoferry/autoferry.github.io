@@ -26,15 +26,12 @@ This task concerns developing a COLAV system that is based on or inspired by the
 A suggested approach is to augment the method from (Thyri 2019, 2020) to input a transit area in stead of a path, where the transit area contains the start and end-position of the transit and is free of any static obstacles. The moving obstacles can then be transformed onto a volumed spanned by the transit area and time. The moving obstacles will become cylinders in this volume. This volume can then be traversed by e.g. constructing a directed visibility graph in 3D and searching it with Dijkstra.
 This will allow for changes in both heading and velocity, and facilitates more COLREGs compliant maneuvering, in addition to increased safety and passenger comfort. 
 
-This work will be part of the autoferry project, with several people working in fields related to urban autonomous passenger ferries. The Autoferry project includes the vessel milliAmpere, depicted below, which serves as an experimental platform for development of systems related to maritime autonomy, and can therefore facilitates full-scale experiments and testing of the COLAV system this assignment might produce. The milliAmpere platform runs an on-board computer with Ubuntu and robot operating system (ROS) which makes it simple to interface new algorithms with the existing systems on the ferry.
+This work will be part of the autoferry project, with several people working in fields related to urban autonomous passenger ferries. The Autoferry project includes the vessel milliAmpere, that can be seen in the video below, which serves as an experimental platform for development of systems related to maritime autonomy, and can therefore facilitates full-scale experiments and testing of the COLAV system this assignment might produce. The milliAmpere platform runs an on-board computer with Ubuntu and robot operating system (ROS) which makes it simple to interface new algorithms with the existing systems on the ferry.
 
 ## Prerequisites
 This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels is advantageous, but not a requirement.
 
-
-
 [![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
-
 
 
 ## Proposed Tasks for the 5th year project
