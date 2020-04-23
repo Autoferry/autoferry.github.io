@@ -19,7 +19,7 @@ In (Thyri 2019, 2020), a COLAV method for passenger ferries operating in urban e
 This method is simple, intuitive and predictable. It is tested trough simulations and full-scale experiments, and prove to work well in the situations it was designed for, which is confined waters and high traffic environments such as harbor and canal-areas.
 Yet, it comes with some limitations. The method limits the maneuvering options, since the path is predefined and therefore only adapting the velocity is possible. This makes the method perform poorly in open waters, where changes in heading are preferable, since they are more visible.  This restriction also limits the ability to consider the International Regulations for Preventing Collisions at Sea (COLREGs), which are the "traffic rules" on water.
 
-## Problem Formulation
+## Problem formulation
 
 This task concerns developing a COLAV system that is based on or inspired by the concepts of the mentioned method, with the intention of improving on some of the limitations of the method. The author of (Thyri 2019, 2020) will be co-supervisor.
 
@@ -34,14 +34,14 @@ This work is a combination of both theory and practice.  The candidate should th
 [![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
 
 
-## Proposed Tasks for the 5th year project
+## Proposed tasks for the 5th year project
 * Get familiar with the concepts of the velocity-planner that is described in (Thyri 2019, 2020). 
 * Formulate and an approach to expanding the path-time method to an area-time method. This will be done with support from the supervisors.
 * Implement the method. Start of with the simplest implementation and build from there. 
 * Evaluate and show proof of concept of the method through simulations.
 * Write report.
 
-## Proposed Tasks for the Masters Thesis
+## Proposed tasks for the Masters thesis
 * Continue unfinished project work.
 * Improve method by introducing passenger comfort and COLREGs considerations.
 * Make preparations for and conduct full-scale experiments.

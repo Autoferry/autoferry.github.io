@@ -11,7 +11,7 @@ For such simulation based validation to be effective, the simulator needs to pro
 |<img src="{{site.url}}/assets/kristiansund_with_example_transits.png" width="310"> |
 |Kristiansund is an interesting use-case since it has the "Sundbåten" connecting the four parts of the city along the transits in green. The city has some big ships like the "Hurtigrute" that travel along the red lines, and a lot of leisure vessels, with blue lines as examples transit lanes.|
 
-## Problem Formulation
+## Problem formulation
 This tasks concerns setting up representative simulation environments for testing autonomous ferry operations, both in urban and rural locations. This includes defining some (3-4) use-cases to consider. Suggestions are
 * Kristiansund with the "Sundbåt"
 * Trondheim with the ravnkloa-Brattøra transit,
@@ -36,14 +36,14 @@ This work is a combination of both theory and practice. The task is open to crea
 |<img src="{{site.url}}/assets/milliAmpere_sea_trials.png" width="450"> |
 |The experimental platform milliAmpere during testing in Trondheim harbor.|
 
-## Proposed Tasks for the 5th year project
+## Proposed tasks for the 5th year project
 * Define 3-4 use-cases to consider
 * Gather information about the use-case environment e.g. map-data, traffic patterns, etc. 
 * Implement a simulator with logical interfaces for testing an autonomous guidance system.
 * Use the simulator to evaluate one or more autonomous guidance systems with COLAV functionality in the defined use-cases.
 * Write report.
 
-## Proposed Tasks for the Masters Thesis
+## Proposed tasks for the Masters thesis
 * Continue unfinished work from project thesis.
 * Evaluate the performance of the simulator, by doing a manual evaluation of situations and compare it to the implemented metrics. Suggest and implement improvements to the metrics if needed. 
 * Include situational awareness emulation.
