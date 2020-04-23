@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simulation-based evaluation of autonomous guidance systems with collision avoidance functionality.
+title: Simulation-based evaluation of collision avoidance methods for autonomous ferry scenarios.
 category: COLAV
 ---
 ## Background
@@ -20,11 +20,13 @@ This tasks concerns setting up representative simulation environments for testin
 
 Once the use-cases are defined, the candidate should gather enough relevant information about the areas to be able to recreate the relevant activities  in the simulator. This might include; analyzing AIS data, nautical maps, commercial traffic and "rutetabeller", calling up local harbour authorities, field-trips for data gathering etc. The simulator should be made to represent nominal conditions in addition to extreme cases with some randomness. 
 
-The simulator can also be augmented to emulate a situational awareness system. This includes looking into different sensor packages and configurations in terms of field-of-view, range and fidelity, and making the interface where the COLAV system receives tracking data on other vessels in the environment as realistic as possible.
+The simulator should be augmented to emulate a model of a situational awareness system. This includes looking into different sensor packages and configurations in terms of field-of-view, range and fidelity, to make a model with an interface that provides detection and tracking data of the same quality as can be expected by a a variety of state of the art situational awareness system. This is essential for determining a guidance and COLAV systems requirements to the situational awareness system. 
 
-To aid the evaluation, the candidate should implement evaluation metrics of the type described in cite[metrics paper] and cite[the other metrics paper]. These are metrics designed to evaluate COLREGs compliance. Metrics for evaluating passenger comfort, i.e. based on acceleration and yaw rate,  should also be implemented.
+The simulator should also include vessel-to-vessel interactions in a accordance with COLREGs. This can be 
 
-Both under development and when the simulator is complete, the candidate should use it to test one or more COLAV algorithms in both single-situation and long-duration operation The objective of the task is to either validate (or at-least provide some assurance) or find the shortcoming of a COLAV system for operation in a specific environment.
+To aid the evaluation, the candidate should implement evaluation metrics of the type described in (Woerner 2016) and (Nakamura & Okada 2019). These are metrics designed to evaluate COLREGs compliance. Metrics for evaluating passenger comfort, i.e. based on acceleration and yaw rate,  should also be implemented.
+
+Both under development and when the simulator is complete, the candidate should use it to test one or more COLAV algorithms in both single-situation and long-duration operation The objective of the task is to either validate (or at-least provide some assurance) or find the shortcoming of a guidance and COLAV system for autonomous operation in a specific environment.
 
 
 ## Prerequisites
@@ -56,3 +58,5 @@ Kontakt: [Morten Breivik] and [Emil Thyri]
 [Emil Thyri]: https://www.ntnu.no/ansatte/emil.h.thyri
 ## References
 
+* Woerner, K. (2016): “[Multi-contact protocol-constrained collision : avoidance for autonomous marine vehicles]”, PhD Thesis, Massachusetts Institute of Technology.
+*Nakamura, S., & Okada, N. (2019, March): “[Development of AUtomatic Collision Avoidance System and  Quantitative  Evaluation  of  the  Maneuvering  Results.]”, in International  Journal  on  Marine Navigation and Safety of Sea Transportation, 13(1), 133-141.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Trajectory planning and collision avoidance for ASVs in urban environments
+title: Trajectory planning and collision avoidance for autonomous passenger ferries
 category: COLAV
 ---
 ## Background
@@ -31,8 +31,11 @@ This work will be part of the autoferry project, with several people working in 
 ## Prerequisites
 This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels is advantageous, but not a requirement.
 
-|<img src="{{site.url}}/assets/milliAmpere_sea_trials.png" width="450"> |
-|The experimental platform milliAmpere during testing in Trondheim harbor.|
+
+
+[|<img src="{{site.url}}/assets/telia_video_snip.png" width="450"> |](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
+
+
 
 ## Proposed Tasks for the 5th year project
 * Get familiar with the concepts of the velocity-planner that is described in (Thyri 2019, 2020). 
@@ -49,10 +52,11 @@ This work is a combination of both theory and practice.  The candidate should th
 
 ## Contact
 
-Kontakt: [Morten Breivik] and [Emil Thyri]
+Kontakt: [Morten Breivik],[Emil Thyri] and [Bjørn-Olav Holtung Eriksen]
 
 [Morten Breivik]: https://www.ntnu.no/ansatte/morten.breivik
 [Emil Thyri]: https://www.ntnu.no/ansatte/emil.h.thyri
+[Bjørn-Olav Holtung Eriksen]: https://www.ntnu.edu/employees/bjorn-olav.holtung.eriksen
 
 ## References
 
