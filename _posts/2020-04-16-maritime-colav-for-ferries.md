@@ -33,7 +33,7 @@ This work is a combination of both theory and practice.  The candidate should th
 
 
 
-[|<img src="{{site.url}}/assets/telia_video_snip.png" width="450"> |](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
+[![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
 
 
 
@@ -52,13 +52,15 @@ This work is a combination of both theory and practice.  The candidate should th
 
 ## Contact
 
-Kontakt: [Morten Breivik],[Emil Thyri] and [Bjørn-Olav Holtung Eriksen]
-
-[Morten Breivik]: https://www.ntnu.no/ansatte/morten.breivik
-[Emil Thyri]: https://www.ntnu.no/ansatte/emil.h.thyri
-[Bjørn-Olav Holtung Eriksen]: https://www.ntnu.edu/employees/bjorn-olav.holtung.eriksen
+Kontakt: [Morten Breivik], [Emil Thyri] and [Bjørn-Olav Holtung Eriksen]
 
 ## References
 
 * Thyri, E.H. (2019): “[A Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625711)”, MSc thesis, NTNU. 
 * Thyri, E.H. (2020): “[SA Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries in Confined Waters] in 2020, 21th IFAC World Congress, Berlin Germany, in press.  
+
+
+[Morten Breivik]: https://www.ntnu.no/ansatte/morten.breivik
+[Emil Thyri]: https://www.ntnu.no/ansatte/emil.h.thyri
+[Bjørn-Olav Holtung Eriksen]: https://www.ntnu.edu/employees/bjorn-olav.holtung.eriksen
+[telia video]: {{site.url}}/assets/telia_video_snip.png
