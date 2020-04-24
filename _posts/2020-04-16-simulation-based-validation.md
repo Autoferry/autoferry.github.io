@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simulation-based evaluation of autonomous guidance systems with collision avoidance functionality.
+title: Simulation-based evaluation of collision avoidance methods for autonomous ferry scenarios.
 category: COLAV
 ---
 ## Background
@@ -11,7 +11,7 @@ For such simulation based validation to be effective, the simulator needs to pro
 |<img src="{{site.url}}/assets/kristiansund_with_example_transits.png" width="310"> |
 |Kristiansund is an interesting use-case since it has the "Sundbåten" connecting the four parts of the city along the transits in green. The city has some big ships like the "Hurtigrute" that travel along the red lines, and a lot of leisure vessels, with blue lines as examples transit lanes.|
 
-## Problem Formulation
+## Problem formulation
 This tasks concerns setting up representative simulation environments for testing autonomous ferry operations, both in urban and rural locations. This includes defining some (3-4) use-cases to consider. Suggestions are
 * Kristiansund with the "Sundbåt"
 * Trondheim with the ravnkloa-Brattøra transit,
@@ -20,11 +20,13 @@ This tasks concerns setting up representative simulation environments for testin
 
 Once the use-cases are defined, the candidate should gather enough relevant information about the areas to be able to recreate the relevant activities  in the simulator. This might include; analyzing AIS data, nautical maps, commercial traffic and "rutetabeller", calling up local harbour authorities, field-trips for data gathering etc. The simulator should be made to represent nominal conditions in addition to extreme cases with some randomness. 
 
-The simulator can also be augmented to emulate a situational awareness system. This includes looking into different sensor packages and configurations in terms of field-of-view, range and fidelity, and making the interface where the COLAV system receives tracking data on other vessels in the environment as realistic as possible.
+The simulator should be augmented to emulate a model of a situational awareness system. This includes looking into different sensor packages and configurations in terms of field-of-view, range and fidelity, to make a model with an interface that provides detection and tracking data of the same quality as can be expected by a a variety of state of the art situational awareness system. This is essential for determining a guidance and COLAV systems requirements to the situational awareness system. 
 
-To aid the evaluation, the candidate should implement evaluation metrics of the type described in cite[metrics paper] and cite[the other metrics paper]. These are metrics designed to evaluate COLREGs compliance. Metrics for evaluating passenger comfort, i.e. based on acceleration and yaw rate,  should also be implemented.
+The simulator should also include vessel-to-vessel interactions in a accordance with COLREGs. This can be 
 
-Both under development and when the simulator is complete, the candidate should use it to test one or more COLAV algorithms in both single-situation and long-duration operation The objective of the task is to either validate (or at-least provide some assurance) or find the shortcoming of a COLAV system for operation in a specific environment.
+To aid the evaluation, the candidate should implement evaluation metrics of the type described in (Woerner 2016) and (Nakamura & Okada 2019). These are metrics designed to evaluate COLREGs compliance. Metrics for evaluating passenger comfort, i.e. based on acceleration and yaw rate,  should also be implemented.
+
+Both under development and when the simulator is complete, the candidate should use it to test one or more COLAV algorithms in both single-situation and long-duration operation The objective of the task is to either validate (or at-least provide some assurance) or find the shortcoming of a guidance and COLAV system for autonomous operation in a specific environment.
 
 
 ## Prerequisites
@@ -34,14 +36,14 @@ This work is a combination of both theory and practice. The task is open to crea
 |<img src="{{site.url}}/assets/milliAmpere_sea_trials.png" width="450"> |
 |The experimental platform milliAmpere during testing in Trondheim harbor.|
 
-## Proposed Tasks for the 5th year project
+## Proposed tasks for the 5th year project
 * Define 3-4 use-cases to consider
 * Gather information about the use-case environment e.g. map-data, traffic patterns, etc. 
 * Implement a simulator with logical interfaces for testing an autonomous guidance system.
 * Use the simulator to evaluate one or more autonomous guidance systems with COLAV functionality in the defined use-cases.
 * Write report.
 
-## Proposed Tasks for the Masters Thesis
+## Proposed tasks for the Masters thesis
 * Continue unfinished work from project thesis.
 * Evaluate the performance of the simulator, by doing a manual evaluation of situations and compare it to the implemented metrics. Suggest and implement improvements to the metrics if needed. 
 * Include situational awareness emulation.
@@ -56,3 +58,5 @@ Kontakt: [Morten Breivik] and [Emil Thyri]
 [Emil Thyri]: https://www.ntnu.no/ansatte/emil.h.thyri
 ## References
 
+* Woerner, K. (2016): “[Multi-contact protocol-constrained collision : avoidance for autonomous marine vehicles]”, PhD Thesis, Massachusetts Institute of Technology.
+*Nakamura, S., & Okada, N. (2019, March): “[Development of AUtomatic Collision Avoidance System and  Quantitative  Evaluation  of  the  Maneuvering  Results.]”, in International  Journal  on  Marine Navigation and Safety of Sea Transportation, 13(1), 133-141.
