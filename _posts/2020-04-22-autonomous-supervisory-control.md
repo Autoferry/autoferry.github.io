@@ -20,7 +20,7 @@ The milliAmpere ferry is equipped with batteries, two azimuth thrusters, navigat
 
 ## Problem formulation
 
-The project is related to the full-scale version of milliAmpere, where a DP system will be used to perform low-level control on the ferry which the autonomy system interfaces.
+The project is related to the full-scale version of milliAmpere, where a DP system interfaced by the autonomy system will be used to perform low-level control on the ferry.
 
 A high-level supervisory controller is necessary as part of the autonomy system. The controller should automatically make the necessary reconfiguration and fault mitigation in the event of equipment failure or other hazards. This includes selection of equipment such as thrusters and sensors where there is redundancy, in order to provide fault tolerance. It also includes the identification of hazardous conditions where emergency shutdown or emergency responses are needed, and execution of the necessary functions. The system should also monitor the performance of dynamic positioning, maneuvering, docking and anti-collision systems.
 
