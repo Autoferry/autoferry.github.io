@@ -8,7 +8,8 @@ The autonomous ferry prototype milliAmpere is equipped with GNSS localization an
 
 Shore-based sensors can serve three purposes. First, they can be used for continuous monitoring of the environment to learn typical behaviour patterns of traffic in the area. Second, they can be used to discover and monitor threats in areas that the ferry itself cannot see, because of occlusions or blind zones. Third, they can be used to keep track of the location of the ferry itself, in case its GNSS localization should fail. 
 
-
+|[<img src="https://img.youtube.com/vi/FuWedx0oLX4/0.jpg" width="450">](https://www.youtube.com/watch?v=FuWedx0oLX4) |
+|milliAmpere is fitted with 5G technology from Telia. The above imange links to a promo video from Telia.|
 
 ## Scope
 The goal of this combined specalization and Master's project is to make progress towards the realization of a joint tracking and localization system for MilliAmpere and its successor MilliAmpere2. The project is intended for one student, but can also be expanded to a teamwork for two students. It can also be arranged as a collaboration with [Multisensor SLAM for autonomous ferry] or [Digital Twin of the Trondheim City Canal]. 
