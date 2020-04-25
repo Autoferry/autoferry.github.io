@@ -19,7 +19,7 @@ To calculate such probabilities efficiently, with or without approximations, the
 
 Filtering remains the prevailing paradigm in target tracking. However, based on the shift from filtering to smoothing that happened in the field of SLAM,  one may ask whether graphical smoothing techniques also can be worthwhile to consider in target tracking. This may be particularly promising for highly nonlinear problems such as bearing-only tracking, where no filtering-based solution has shown acceptable performance, despite the apparent simplicity of the problem and intense research efforts over 5 decades. 
 
-Bearing-only tracking has traditionally been mainly of interest in military applications such as anti-submarine warfare. However, the increased popularity of passive sensors (optical and infrared cameras) in autonomous vehicle systems lead to an increased need for reliable bearing-only tracking also in the civilian domain. In particular, the autonomous ferry prototype MillAmpere relies on several top mounted cameras for its situational awareness. These cameras can estimate the range of other boats if they are close enough by triangulation relative to the sea surface, but for boats further away the tracking problem gradually turns into a bona-fide bearing-only problem. 
+Bearing-only tracking has traditionally been mainly of interest in military applications such as anti-submarine warfare. However, the increased popularity of passive sensors (optical and infrared cameras) in autonomous vehicle systems lead to an increased need for reliable bearing-only tracking also in the civilian domain. In particular, the autonomous ferry prototype millAmpere relies on several top mounted cameras for its situational awareness. These cameras can estimate the range of other boats if they are close enough by triangulation relative to the sea surface, but for boats further away the tracking problem gradually turns into a bona-fide bearing-only problem. 
 
 
 |<img src="{{site.url}}/assets/bofig2.png" width="690"> | 
@@ -46,7 +46,7 @@ This can be a project for one student or for two students working together.
 
 The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the interest of the student. 
 
-* It has been claimed that the exact EHM technique for marginal association probabilities is an improved version of the junction tree method, which is the general brute force technique for exact inference in graphical models. Investigate this claim. 
+* It has been claimed that the exact EHM technique (Horridge and Maskell 2006) for marginal association probabilities is an improved version of the junction tree method, which is the general brute force technique for exact inference in graphical models. Investigate this claim. 
 * Can factor graph libraries and graphical models in general be used to solve data association in multi-scan tracking problems? 
 * Implementation on real data. 
 * Combining factor graph solutions to both smoothing and data association. 
