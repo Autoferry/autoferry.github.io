@@ -60,7 +60,7 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
 
 
 |[<img src="https://img.youtube.com/vi/FuWedx0oLX4/0.jpg" width="450">](https://www.youtube.com/watch?v=FuWedx0oLX4) |
-|milliAmpere is fitted with 5G technology from Telia. The above imange links to a promo video from Telia.|
+|milliAmpere is fitted with 5G technology from Telia. The above image links to a promo video from Telia.|
 
 
 [Autosea project]: https://www.ntnu.edu/autosea
