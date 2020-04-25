@@ -10,12 +10,13 @@ The key construction underlying this is the concept of a factor graph, or more g
 Popular SLAM methods such as ISAM2 and ORB-SLAM make use of advanced factor graph libraries such as GTSAM and g2o, which can enable the user to work efficiently with graph-based representations of knowledge. 
 While these libraries have had their breakthrough as frameworks for SLAM, their potential applications may also include a wealth of other sensor fusion problems such as target tracking. Below, we sketch two reasons why factor graphs can be of interest in target tracking. 
 
+|<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
+| Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem. | 
+
 In the context of multi-target tracking, probabilistic graphical models have been studied as a framework for data association. The compatibility between a given track and a given measurement can be represented as an edge in a graphical model. 
 The goal in data association is typically to evaluate the probability that a given measurement comes from a given target. 
 To calculate such probabilities efficiently, with or without approximations, the structure of the graphical model can be exploited. 
 
-|<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
-| Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem. | 
 
 Filtering remains the prevailing paradigm in target tracking. However, based on the shift from filtering to smoothing that happened in the field of SLAM,  one may ask whether graphical smoothing techniques also can be worthwhile to consider in target tracking. This may be particularly promising for highly nonlinear problems such as bearing-only tracking, where no filtering-based solution has shown acceptable performance, despite the apparent simplicity of the problem and intense research efforts over 5 decades. 
 
