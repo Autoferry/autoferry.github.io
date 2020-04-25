@@ -24,10 +24,10 @@ Third, standard CNN methods (Faster-RCNN, YOLO, SSD) only provide bounding boxes
 
 
 |<img src="{{site.url}}/assets/eskilfergecropped.jpg" width="650" > | 
-| MilliAmpere with its radar-infrared-optical sensor rig. | 
+| milliAmpere with its radar-infrared-optical sensor rig. | 
 
 ## Scope
-The main goal of this project is to investigate the potential of alternatives to bounding-box CNN approaches for detection in optical and infrared images. This can be a project for a single student or a group of students. Several data sets are available, both include infrared images, optical images, infrared video, and joint infrared, lidar and radar video. While all these data sets can be used for testing, there may be a need for recording additional data sets depending on the amount of training data that is needed.  
+The main goal of this project is to investigate the potential of alternatives to bounding-box CNN approaches for detection in optical and infrared images, to be used in situational awareness for the autonomous ferry prototype milliAmpere. This can be a project for a single student or a group of students. Several data sets are available, both include infrared images, optical images, infrared video, and joint infrared, lidar and radar video. While all these data sets can be used for testing, there may be a need for recording additional data sets depending on the amount of training data that is needed.  
 
 ## Proposed Tasks for the 5th year project
 
@@ -40,7 +40,7 @@ The details of the specialization project will depend on the interest of the stu
 
 ## Proposed Tasks for the master thesis
 
-In the master thesis, the goal will be to make the developments from the 5th year project ready for integration in the sensor fusion systems of MilliAmpere and MilliAmpere2. This will include tasks such as the following. 
+In the master thesis, the goal will be to make the developments from the 5th year project ready for integration in the sensor fusion systems of milliAmpere and milliAmpere2. This will include tasks such as the following. 
 
 * Evaluation of detector performance on data recorded using the onboard sensors of the autonomous ferry. 
 * Algorithms for segmentation and measurement extraction if this has not already been solved as part of the 5th year project. 
