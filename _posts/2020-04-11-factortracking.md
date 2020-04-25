@@ -11,7 +11,7 @@ Popular SLAM methods such as ISAM2 and ORB-SLAM make use of advanced factor grap
 While these libraries have had their breakthrough as frameworks for SLAM, their potential applications may also include a wealth of other sensor fusion problems such as target tracking. Below, we sketch two reasons why factor graphs can be of interest in target tracking. 
 
 |<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
-| <span style="color:blue">Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem.</span> | 
+| <span style="color:#959595">Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem.</span> | 
 
 In the context of multi-target tracking, probabilistic graphical models have been studied as a framework for data association. The compatibility between a given track and a given measurement can be represented as an edge in a graphical model. 
 The goal in data association is typically to evaluate the probability that a given measurement comes from a given target. 
