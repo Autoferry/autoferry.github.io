@@ -13,6 +13,8 @@ While these libraries have had their breakthrough as frameworks for SLAM, their 
 |<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
 | Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem. | 
 
+<span style="color:blue">some *This is Blue italic.* text</span>
+
 In the context of multi-target tracking, probabilistic graphical models have been studied as a framework for data association. The compatibility between a given track and a given measurement can be represented as an edge in a graphical model. 
 The goal in data association is typically to evaluate the probability that a given measurement comes from a given target. 
 To calculate such probabilities efficiently, with or without approximations, the structure of the graphical model can be exploited. 
