@@ -24,7 +24,7 @@ Bearing-only tracking has traditionally been mainly of interest in military appl
 
 
 |<img src="{{site.url}}/assets/bofig2.png" width="690"> | 
-| Figure: Estimation of the posterior density for bearing-only tracking using a particle filter. While the posterior is clearly non-Gaussian, it is nevertheless unimodal, and most likely it can be approximated fairly well by a Gaussian close to its peak. | 
+| <span style="color:#959595">Figure: Estimation of the posterior density for bearing-only tracking using a particle filter. While the posterior is clearly non-Gaussian, it is nevertheless unimodal, and most likely it can be approximated fairly well by a Gaussian close to its peak. </span> | 
 
 
 
@@ -70,4 +70,4 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo),
 
 
 |[<img src="https://img.youtube.com/vi/FuWedx0oLX4/0.jpg" width="450">](https://www.youtube.com/watch?v=FuWedx0oLX4) |
-|milliAmpere is fitted with 5G technology from Telia. The above image links to a promo video from Telia.|
+|<span style="color:#959595">milliAmpere is fitted with 5G technology from Telia. The above image links to a promo video from Telia. </span> |
