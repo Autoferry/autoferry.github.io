@@ -27,7 +27,7 @@ Third, standard CNN methods (Faster-RCNN, YOLO, SSD) only provide bounding boxes
 | milliAmpere with its radar-infrared-optical sensor rig. | 
 
 ## Scope
-The main goal of this project is to investigate the potential of alternatives to bounding-box CNN approaches for detection in optical and infrared images, to be used in situational awareness for the autonomous ferry prototype milliAmpere. This can be a project for a single student or a group of students. Several data sets are available, both include infrared images, optical images, infrared video, and joint infrared, lidar and radar video. While all these data sets can be used for testing, there may be a need for recording additional data sets depending on the amount of training data that is needed.  
+The main goal of this project is to investigate the potential of alternatives to bounding-box CNN approaches for detection in optical and infrared images, to be used in situational awareness for the autonomous ferry prototype milliAmpere. This can be a project for a single student or a group of students. Several data sets are available, including infrared images, optical images, infrared video, and joint infrared, lidar and radar video. While all these data sets can be used for testing, there may be a need for recording additional data sets depending on the amount of training data that is needed.  
 
 ## Proposed Tasks for the 5th year project
 
