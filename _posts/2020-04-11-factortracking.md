@@ -60,6 +60,9 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo),
 [Lars-Christian Tokle](https://www.ntnu.edu/employees/lars-christian.n.tokle) and
 [Martin Vonheim Larsen (FFI)](https://www.mn.uio.no/its/english/people/aca/martinvl/) 
 
+## Prerequisites
+
+Useful courses include [TTK4250 Sensor fusion], TTK21 VSLAM, TTK25 Computer Vision for Control  and TTK4255 Robotic Vision. The candidate should have taken some of these already, and take some of the remaining courses in parallell with the specialization project. 
 
 
 ## References
