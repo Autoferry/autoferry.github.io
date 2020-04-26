@@ -47,8 +47,9 @@ This can be a project for one student or for two students working together.
 
 The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the interest of the student. 
 
-* It has been claimed that the exact EHM technique (Horridge and Maskell 2006) for marginal association probabilities is an improved version of the junction tree method, which is the general brute force technique for exact inference in graphical models. Investigate this claim. 
 * Can factor graph libraries and graphical models in general be used to solve data association in multi-scan tracking problems? 
+* Can tools for automatic differentiation (e.g. CASADI) be used to generate and evaluate association hypotheses in multi-target tracking?
+* It has been claimed that the exact EHM technique (Horridge and Maskell 2006) for marginal association probabilities is an improved version of the junction tree method, which is the general brute force technique for exact inference in graphical models. Investigate this claim. 
 * Implementation on real data. 
 * Combining factor graph solutions to both smoothing and data association. 
 * Combining factor graph solutions to tracking and SLAM.
