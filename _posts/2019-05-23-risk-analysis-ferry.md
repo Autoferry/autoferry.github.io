@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Risk analysis of the autonomous passenger ferry in Trondheim
-category: RISK
+category: NO
 ---
 
 In recent years, research and industry initiatives have both put efforts in developing autonomous vessels. The NTNU autonomous shuttle ferry is one the few projects developed to carry passengers. The autonomous ferry will be able to carry 12 persons, and will have electrical propulsion and anti-collision system. It will connect Ravnkloa to Vestre Kanalkai through Trondheim Fjord providing a low environmental footprint and with an operation that will be cheaper than building a bridge.
