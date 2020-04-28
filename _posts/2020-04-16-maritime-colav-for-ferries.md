@@ -29,7 +29,7 @@ This will allow for changes in both heading and velocity, and facilitates more C
 This work will be part of the autoferry project, with several people working in fields related to urban autonomous passenger ferries. The Autoferry project includes the vessel milliAmpere, that can be seen in the video below, which serves as an experimental platform for development of systems related to maritime autonomy, and can therefore facilitates full-scale experiments and testing of the COLAV system this assignment might produce. The milliAmpere platform runs an on-board computer with Ubuntu and robot operating system (ROS) which makes it simple to interface new algorithms with the existing systems on the ferry.
 
 ## Prerequisites
-This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels is advantageous, but not a requirement.
+This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels such as [TTK4190] is advantageous, but not a requirement.
 
 [![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
 
@@ -48,11 +48,10 @@ This work is a combination of both theory and practice.  The candidate should th
 * Write report.
 
 ## Contact
-
-Kontakt: [Morten Breivik], [Emil Thyri] and [Bjørn-Olav Holtung Eriksen]
+Write an email where you say something about your motivation for this work and prerequisites.
+Send the email to [Morten Breivik], [Emil Thyri] and [Bjørn-Olav Holtung Eriksen]. We will get back to you and arrange a skype meeting where we can answer any questions you might have. 
 
 ## References
-
 * Thyri, E.H. (2019): “[A Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625711)”, MSc thesis, NTNU. 
 * Thyri, E.H. (2020): “[SA Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries in Confined Waters] in 2020, 21th IFAC World Congress, Berlin Germany, in press.  
 
@@ -61,3 +60,4 @@ Kontakt: [Morten Breivik], [Emil Thyri] and [Bjørn-Olav Holtung Eriksen]
 [Emil Thyri]: https://www.ntnu.no/ansatte/emil.h.thyri
 [Bjørn-Olav Holtung Eriksen]: https://www.ntnu.edu/employees/bjorn-olav.holtung.eriksen
 [telia video]: {{site.url}}/assets/telia_video_snip.png
+[TTK4109]: https://www.ntnu.edu/studies/courses/TTK4190#tab=omEmnet
