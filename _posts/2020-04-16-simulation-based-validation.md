@@ -30,7 +30,7 @@ Both under development and when the simulator is complete, the candidate should 
 
 
 ## Prerequisites
-This work is a combination of both theory and practice. The task is open to creative solutions and the candidate should therefore be motivated to do work both independently and discuss problems/solutions with the supervisors. Subjects within guidance and control of marine vessels such as [TTK4190] is advantageous, but not a requirement.
+This work is a combination of both theory and practice. The task is open to creative solutions and the candidate should therefore be motivated to do work both independently and discuss problems/solutions with the supervisors. Subjects within guidance and control of marine vessels such as [TTK4190 Fartøysstyring] is advantageous, but not a requirement.
 
 
 |<img src="{{site.url}}/assets/milliAmpere_sea_trials.png" width="450"> |
@@ -56,7 +56,7 @@ Send the email to [Morten Breivik] and [Emil Thyri]. We will get back to you and
 
 [Morten Breivik]: https://www.ntnu.no/ansatte/morten.breivik
 [Emil Thyri]: https://www.ntnu.no/ansatte/emil.h.thyri
-[TTK4109]: https://www.ntnu.edu/studies/courses/TTK4190#tab=omEmnet
+[TTK4190 Fartøysstyring]: https://www.ntnu.edu/studies/courses/TTK4190#tab=omEmnet
 ## References
 * Woerner, K. (2016): “[Multi-contact protocol-constrained collision : avoidance for autonomous marine vehicles]”, PhD Thesis, Massachusetts Institute of Technology.
 *Nakamura, S., & Okada, N. (2019, March): “[Development of AUtomatic Collision Avoidance System and  Quantitative  Evaluation  of  the  Maneuvering  Results.]”, in International  Journal  on  Marine Navigation and Safety of Sea Transportation, 13(1), 133-141.
