@@ -29,7 +29,7 @@ This will allow for changes in both heading and velocity, and facilitates more C
 This work will be part of the autoferry project, with several people working in fields related to urban autonomous passenger ferries. The Autoferry project includes the vessel milliAmpere, that can be seen in the video below, which serves as an experimental platform for development of systems related to maritime autonomy, and can therefore facilitates full-scale experiments and testing of the COLAV system this assignment might produce. The milliAmpere platform runs an on-board computer with Ubuntu and robot operating system (ROS) which makes it simple to interface new algorithms with the existing systems on the ferry.
 
 ## Prerequisites
-This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels such as [TTK4190] is advantageous, but not a requirement.
+This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels such as [TTK4190 Fartøysstyring] is advantageous, but not a requirement.
 
 [![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
 
@@ -60,4 +60,4 @@ Send the email to [Morten Breivik], [Emil Thyri] and [Bjørn-Olav Holtung Erikse
 [Emil Thyri]: https://www.ntnu.no/ansatte/emil.h.thyri
 [Bjørn-Olav Holtung Eriksen]: https://www.ntnu.edu/employees/bjorn-olav.holtung.eriksen
 [telia video]: {{site.url}}/assets/telia_video_snip.png
-[TTK4109]: https://www.ntnu.edu/studies/courses/TTK4190#tab=omEmnet
+[TTK4190 Fartøysstyring]: https://www.ntnu.edu/studies/courses/TTK4190#tab=omEmnet
