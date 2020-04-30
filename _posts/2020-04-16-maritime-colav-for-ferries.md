@@ -25,7 +25,6 @@ This method is simple, intuitive and predictable. It is tested trough simulation
 Yet, it comes with some limitations. The method limits the maneuvering options, since the path is predefined and therefore only adapting the velocity is possible. This makes the method perform poorly in open waters, where changes in heading are preferable, since they are more visible.  This restriction also limits the ability to consider the International Regulations for Preventing Collisions at Sea (COLREGs), which are the "traffic rules" on water.
 
 ## Problem formulation
-
 This task concerns developing a COLAV system that is based on or inspired by the concepts of the mentioned method, with the intention of improving on some of the limitations of the method. The author of (Thyri 2019, 2020) will be co-supervisor.
 
 A suggested approach is to augment the method from (Thyri 2019, 2020) to input a transit area instead of a path, where the transit area contains the start and end-position of the transit and is free of any static obstacles. The moving obstacles can then be transformed onto a volumed spanned by the transit area and time. The moving obstacles will become cylinders in this volume. This volume can then be traversed by e.g. constructing a directed visibility graph in 3D and searching it with Dijkstra.
@@ -33,8 +32,6 @@ This will allow for changes in both heading and velocity, and facilitates more C
 
 ## Prerequisites
 This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels such as [TTK4190 Fartøysstyring] is advantageous, but not a requirement.
-
-
 
 ## Proposed tasks for the 5th year project
 * Get familiar with the concepts of the velocity-planner that is described in (Thyri 2019, 2020). 
@@ -52,7 +49,6 @@ This work is a combination of both theory and practice.  The candidate should th
 ## Contact
 Write a short email where you explain your motivation for this work as well as about your background, and send it to [Morten Breivik], [Emil Thyri] and [Bjørn-Olav Holtung Eriksen]. We will then arrange a Skype meeting with you to discuss the task.
 
-
 ## References
 * Thyri, E.H. (2019): “[A Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625711)”, MSc thesis, NTNU. 
 * Thyri, E.H. (2020): “[SA Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries in Confined Waters] in 2020, 21th IFAC World Congress, Berlin Germany, in press.  
@@ -63,4 +59,4 @@ Write a short email where you explain your motivation for this work as well as a
 [Bjørn-Olav Holtung Eriksen]: https://www.ntnu.edu/employees/bjorn-olav.holtung.eriksen
 [telia video]: {{site.url}}/assets/telia_video_snip.png
 [TTK4190 Fartøysstyring]: https://www.ntnu.edu/studies/courses/TTK4190#tab=omEmnet
-[Autoferry project]:https://www.ntnu.edu/autoferry
+[Autoferry project]: https://www.ntnu.edu/autoferry
