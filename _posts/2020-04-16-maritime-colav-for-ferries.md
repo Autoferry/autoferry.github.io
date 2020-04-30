@@ -10,6 +10,7 @@ As part of this, NTNU has developed the ferry prototype “milliAmpere”, which
 
 [![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
 
+In recent years, autonomous technology has entered into the field of maritime passenger transport such as cargo transport, car-ferries and, as of late, urban passenger transport. Autonomous operations in urban environments with high traffic and confined waters puts high demands on the trajectory planning and collision avoidance (COLAV) systems compared to open-sea transits with sparse traffic.
 
 In (Thyri 2019, 2020), a COLAV method for passenger ferries operating in urban environments is described. The method in short:
 * The method inputs a predefined path that is collision free with any static obstacles, as well as tracking data on moving obstacles in proximity.
