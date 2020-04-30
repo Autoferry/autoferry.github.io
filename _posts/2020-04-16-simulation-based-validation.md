@@ -6,7 +6,7 @@ category: COLAV
 ## Background
 The concept of small autonomous passenger ferries in urban areas is a more flexible and environmentally-friendly alternative to bridges or manned ferries. NTNU's [Autoferry project] therefore aims to develop groundbreaking new concepts and methods which will enable the development of such ferries for urban water transport.
 
-As part of this, NTNU has developed the ferry prototype “milliAmpere”, which is a 5 meter long prototype for testing technology enabling small passenger ferries for urban environments. The milliAmpere platform runs an on-board computer with Ubuntu and robot operating system (ROS) which makes it simple to interface new algorithms with the existing systems on the ferry for full scale experiments and testing.
+As part of this, NTNU has developed the ferry prototype “milliAmpere”, which is a 5 meter long prototype for testing technology enabling small passenger ferries for urban environments.
 
 [![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
 
