@@ -4,15 +4,21 @@ title: Simulation-based evaluation of collision avoidance methods for autonomous
 category: COLAV
 ---
 ## Background
+The concept of small autonomous passenger ferries in urban areas is a more flexible and environmentally-friendly alternative to bridges or manned ferries. NTNU's [Autoferry project] therefore aims to develop groundbreaking new concepts and methods which will enable the development of such ferries for urban water transport.
+
+As part of this, NTNU has developed the ferry prototype “milliAmpere”, which is a 5 meter long prototype for testing technology enabling small passenger ferries for urban environments. The milliAmpere platform runs an on-board computer with Ubuntu and robot operating system (ROS) which makes it simple to interface new algorithms with the existing systems on the ferry for full scale experiments and testing.
+
+[![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
+
 Mission-planing, collision avoidance, navigation and control systems for autonomous marine vessels are fields that currently receive much attention. This is driven by the growing interest from industry that see the economical potential in replacing existing non-autonomous maritime traffic with more autonomous solutions, in addition to new emerging markets that are enabled by the new technology. For any of this to be a reality, the autonomous systems that are developed need to be tested and evaluated to a degree where they are provably as safe or safer than non-autonomous systems. Since such extensive testing through full scales sea-trials is exhausting and expensive, in addition to that several test-scenarios are impossible to perform without too high risk of damage, a major part of this evaluation and validation needs to be performed through simulations. 
 
 For such simulation based validation to be effective, the simulator needs to provide a representative representation of the real-world environment that the autonomous system is to operate in. For autonomous systems designed to work anywhere, this can be impossible, but for autonomous systems operating in a confined location, this is an achievable task. Examples of this is autonomous passenger- and car-ferries, that operate between two or more fixed locations within a small area. For such operations, it is possible to gather sufficient information about the operational area to recreate a representative model in a simulator, and thereby evaluate and validate an autonomous guidance system for operation in that specific environment. 
 
-|<img src="{{site.url}}/assets/kristiansund_with_example_transits.png" width="310"> |
+|<img src="{{site.url}}/assets/kristiansund_with_example_transits.png" width="610"> |
 |Kristiansund is an interesting use-case since it has the "Sundbåten" connecting the four parts of the city along the transits in green. The city has some big ships like the "Hurtigrute" that travel along the red lines, and a lot of leisure vessels, with blue lines as examples transit lanes.|
 
 ## Problem formulation
-This tasks concerns setting up representative simulation environments for testing autonomous ferry operations, both in urban and rural locations. This includes defining some (3-4) use-cases to consider. Suggestions are
+This task concerns setting up representative simulation environments for testing autonomous ferry operations, both in urban and rural locations. This includes defining some (3-4) use-cases to consider. Suggestions are
 * Kristiansund with the "Sundbåt"
 * Trondheim with the ravnkloa-Brattøra transit,
 * Tønsberg with an urban city ferry and 
@@ -51,12 +57,16 @@ This work is a combination of both theory and practice. The task is open to crea
 * Write masters thesis.
 
 ## Contact
-Write an email where you say something about your motivation for this work and prerequisites.
-Send the email to [Morten Breivik] and [Emil Thyri]. We will get back to you and arrange a skype meeting where we can answer any questions you might have. 
+Write a short email where you explain your motivation for this work as well as about your background, and send it to [Morten Breivik] and [Emil Thyri]. We will then arrange a Skype meeting with you to discuss the task.
+
+
+
+## References
+* Woerner, K. (2016): “[Multi-contact protocol-constrained collision : avoidance for autonomous marine vehicles]”, PhD Thesis, Massachusetts Institute of Technology.
+*Nakamura, S., & Okada, N. (2019, March): “[Development of AUtomatic Collision Avoidance System and  Quantitative  Evaluation  of  the  Maneuvering  Results.]”, in International  Journal  on  Marine Navigation and Safety of Sea Transportation, 13(1), 133-141.
 
 [Morten Breivik]: https://www.ntnu.no/ansatte/morten.breivik
 [Emil Thyri]: https://www.ntnu.no/ansatte/emil.h.thyri
 [TTK4190 Fartøysstyring]: https://www.ntnu.edu/studies/courses/TTK4190#tab=omEmnet
-## References
-* Woerner, K. (2016): “[Multi-contact protocol-constrained collision : avoidance for autonomous marine vehicles]”, PhD Thesis, Massachusetts Institute of Technology.
-*Nakamura, S., & Okada, N. (2019, March): “[Development of AUtomatic Collision Avoidance System and  Quantitative  Evaluation  of  the  Maneuvering  Results.]”, in International  Journal  on  Marine Navigation and Safety of Sea Transportation, 13(1), 133-141.
+[Autoferry project]:https://www.ntnu.edu/autoferry
+[telia video]: {{site.url}}/assets/telia_video_snip.png
