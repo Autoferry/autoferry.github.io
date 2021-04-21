@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simulation-based evaluation of collision avoidance methods for autonomous ferry scenarios.
-category: COLAV
+category: NO
 ---
 ## Background
 The concept of small autonomous passenger ferries in urban areas is a more flexible and environmentally-friendly alternative to bridges or manned ferries. NTNU's [Autoferry project] therefore aims to develop groundbreaking new concepts and methods which will enable the development of such ferries for urban water transport.
