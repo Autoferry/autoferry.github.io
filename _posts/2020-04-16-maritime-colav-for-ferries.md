@@ -4,39 +4,52 @@ title: Trajectory planning and collision avoidance for autonomous passenger ferr
 category: COLAV
 ---
 ## Background
-The concept of small autonomous passenger ferries in urban areas is a more flexible and environmentally-friendly alternative to bridges or manned ferries. NTNU's [Autoferry project] therefore aims to develop groundbreaking new concepts and methods which will enable the development of such ferries for urban water transport.
 
-As part of this, NTNU has developed the ferry prototype “milliAmpere”, which is a 5 meter long prototype for testing technology enabling small passenger ferries for urban environments. The milliAmpere platform runs an on-board computer with Ubuntu and robot operating system (ROS) which makes it simple to interface new algorithms with the existing systems on the ferry for full scale experiments and testing.
+The concept of small autonomous passenger ferries in urban areas is a more flexible and environmentally-friendly alternative to bridges or manned ferries. NTNU's [Autoferry project] therefore aims to develop groundbreaking new concepts and methods which will enable the development of such ferries for urban water transport. As is apparent from the automotive industry, autonomy is maturing, and it is not a question of if, but when, autonomous vessels will emerge on a commercial scale in the maritime industry as well. There are already several initiatives taking lead on pilot projects on this field, such as Kongsberg Maritime with the cargo transport drones for Asko, and Zeabuz, a spinoff from NTNU, aiming at developing core technology and solutions for autonomous urban passenger transport.
+
+For autonomous maritime transport to be a reality, there are two major tasks that need to be solved: Firstly, relevant aspects on the operational environment needs to be sensed and comprehended to form a sufficient situational awareness. Subsequently, mission planning needs to be performed, based on the situational awareness, to produce a feasible plan that completes the objective in a safe and secure manner. For an autonomous maritime vessel, this is done in the form of trajectory planning, on either a local or global scale. 
+
+The main focus of the task we propose here will be on trajectory planning and collision avoidance for marine autonomous vessels. In particular, on vessels maneuvering in urban environments where the traffic is unpredictable, and the available maneuverable space is limited. 
+A lot of work already exists on maritime collision avoidance, but very little is focused on smaller vessels in confined or cluttered space. The work should therefore start by doing a literature search on existing collision avoidance methods and identifying features of the methods that make them more or less suitable for the task, before the work on developing new methods is started.
+
+This projects has a focus on application, where it is of interest that the resulting systems or algorithms are feasible in a real-world application. NTNU currently owns two prototypes on fully electric autonomous passenger ferries, the milliAmpere (video below) and milliAmpere 2. The candidate is therefore encouraged to aim towards full-scale experiments towards the end of the work (Masteroppgave). The milliAmpere platform runs an on-board computer with Ubuntu and robot operating system (ROS) which makes it simple to interface new algorithms with the existing systems such as navigation, target-tracking and dynamic positioning for trajectory tracking. 
 
 [![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
 
-In recent years, autonomous technology has entered into the field of maritime passenger transport such as cargo transport, car-ferries and, as of late, urban passenger transport. Autonomous operations in urban environments with high traffic and confined waters puts high demands on the trajectory planning and collision avoidance (COLAV) systems compared to open-sea transits with sparse traffic.
+Due to the extent of this problem, this task is open for up to two candidates working on separate parts of the problem. Cooperation between the candidates is no a requirement, yet it is encouraged if appropriate. 
+
+## Previous work
+Due to the complexity of the task of safe and collision-free maneuvering in cluttered environments, several methods and algorithms for trajectory-planning and collision avoidance are often combined into a hybrid structure, where each planner handles different aspects of the task. An example of such a structure is shown below. 
+
+|<img src="{{site.url}}/assets/three_layer_structure.png" width="650"> |
+|Three layered colav structure with examples of decision-support systems that can be used in one or more of the planners.|
+
+It is mainly in the High-level colav that we want to put the focus of this task, but the problem formulations is open to input from the candidate, also on work in lower levels of the COLAV system. 
+
+In (Thyri 2019, 2020), a COLAV method for passenger ferries operating in urban environments is described. In short, the method plans a velocity-profile for a predefined path so that the resulting trajectory is collision free regarding dynamic obstacles. The method is simple and intuitive, and is tested through full-scale experiments on simple canal-crossing operations. For more complex operations, this method comes in short, due to its simplicity. Over the previous year, a Master student has worked on extending the principles of the method from using a predefined path, to a predefined area, effectively increasing the number of available manuevers to the trajectory planner.
+A alternative for this project is to build on this work, to make a graph-based global trajectory planner that considers both static and dynamic obstacles. This is a high level colav, where a trajectory is planned from the current position of the vessel to the transit-destination, where considerations on static and dynamic obstacles are included. The co-supervisor Emil Thyri has also done some work in both mid-level and short-term colav, which can be combined to get a more complete system in simulations and experiments. 
+
+
+
+<!-- Some previous work 
 
 In (Thyri 2019, 2020), a COLAV method for passenger ferries operating in urban environments is described. The method in short:
 * The method inputs a predefined path that is collision free with any static obstacles, as well as tracking data on moving obstacles in proximity.
 * A simplified obstacle representation is made for each obstacle. The representation can be made to consider COLREGs, obstacle size and velocity. Se left picture below.. 
 * The obstacle representations are transformed onto the path, based on the assumptions that the obstacles keep constant heading and velocity. This gives a two-dimensional path-time space where the area spanned by the transformed obstacle representation represents that obstacle representations occupation of the path in time,  see middle picture below.
 * A visibility-graph is constructed to connect the start of the path to the end of the path in a way that does not intersect the collision-regions of the transformed obstacle representation, see right picture below. 
-* The graph is traversed with a graph search algorithm to find the minimum cost path, and a velocity-profile can be calculated from that path. 
+* The graph is traversed with a graph search algorithm to find the minimum cost path, and a velocity-profile can be calculated from that path.  -->
 
-|<img src="{{site.url}}/assets/laying_object_representation.png" width="310"> ||<img src="{{site.url}}/assets/path_time_obstacle_representation.png" width="310"> ||<img src="{{site.url}}/assets/vgraph_with_regions_of_collision.png" width="310"> |
-|Simplified obstacle representation.||Transformation of four obstacle representations to path-time space.||Vgraph constructed in path time space. Red polygons indicate regions of collision. Graph is traversed to find a velocity profile.|
-
-This method is simple, intuitive and predictable. It is tested trough simulations and full-scale experiments, and prove to work well in the situations it was designed for, which is confined waters and high traffic environments such as harbor and canal-areas.
-Yet, it comes with some limitations. The method limits the maneuvering options, since the path is predefined and therefore only adapting the velocity is possible. This makes the method perform poorly in open waters, where changes in heading are preferable, since they are more visible.  This restriction also limits the ability to consider the International Regulations for Preventing Collisions at Sea (COLREGs), which are the "traffic rules" on water.
-
-## Problem formulation
-This task concerns developing a COLAV system that is based on or inspired by the concepts of the mentioned method, with the intention of improving on some of the limitations of the method. The author of (Thyri 2019, 2020) will be co-supervisor.
-
-A suggested approach is to augment the method from (Thyri 2019, 2020) to input a transit area instead of a path, where the transit area contains the start and end-position of the transit and is free of any static obstacles. The moving obstacles can then be transformed onto a volumed spanned by the transit area and time. The moving obstacles will become cylinders in this volume. This volume can then be traversed by e.g. constructing a directed visibility graph in 3D and searching it with Dijkstra.
-This will allow for changes in both heading and velocity, and facilitates more COLREGs compliant maneuvering, in addition to increased safety and passenger comfort. 
+<!-- ## Problem formulation
+This task concerns developing a COLAV system for an autonomous surface vessels operating in confined space with high and irregular traffic. 
+Problems and challenges that are unique with the specific operational environment, compared to open-sea operations, needs to be identified, and holes in the ex -->
 
 ## Prerequisites
 This work is a combination of both theory and practice.  The candidate should therefore favour both theoretical and experimental work. Subjects within guidance and control of marine vessels such as [TTK4190 Fartøysstyring] is advantageous, but not a requirement.
 
 ## Proposed tasks for the 5th year project
-* Get familiar with the concepts of the velocity-planner that is described in (Thyri 2019, 2020). 
-* Formulate an approach to expanding the path-time method to an area-time method. This will be done with support from the supervisors.
+* Identify problems and challenges that are unique with the specific operational environment, compared to open-sea operations. 
+* Do a literature search on existing methods for maritime collision avoidance, and identify which techniques are suitable for the specific task.
 * Implement the method. Start of with the simplest implementation and build from there. 
 * Evaluate and show proof of concept of the method through simulations.
 * Write report.
@@ -48,7 +61,7 @@ This work is a combination of both theory and practice.  The candidate should th
 * Write report.
 
 ## Contact
-Write a short email where you explain your motivation for this work as well as about your background, and send it to [Morten Breivik], [Emil Thyri] and [Bjørn-Olav Holtung Eriksen]. We will then arrange a Skype meeting with you to discuss the task.
+Write a short email where you explain your motivation for this work as well as about your background, and send it to [Morten Breivik] and  [Emil Thyri]. We will then arrange a Skype meeting with you to discuss the task.
 
 ## References
 * Thyri, E.H. (2019): “[A Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625711)”, MSc thesis, NTNU. 
