@@ -7,6 +7,8 @@ category: COLAV
 
 The concept of small autonomous passenger ferries in urban areas is a more flexible and environmentally-friendly alternative to bridges or manned ferries. NTNU's [Autoferry project] therefore aims to develop groundbreaking new concepts and methods which will enable the development of such ferries for urban water transport. As is apparent from the automotive industry, autonomy is maturing, and it is not a question of if, but when, autonomous vessels will emerge on a commercial scale in the maritime industry as well. There are already several initiatives taking lead on pilot projects on this field, such as Kongsberg Maritime with the cargo transport drones for Asko, and Zeabuz, a spinoff from NTNU, aiming at developing core technology and solutions for autonomous urban passenger transport.
 
+[![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
+
 For autonomous maritime transport to be a reality, there are two major tasks that need to be solved: Firstly, relevant aspects on the operational environment needs to be sensed and comprehended to form a sufficient situational awareness. Subsequently, mission planning needs to be performed, based on the situational awareness, to produce a feasible plan that completes the objective in a safe and secure manner. For an autonomous maritime vessel, this is done in the form of trajectory planning, on either a local or global scale. 
 
 The main focus of the task we propose here will be on trajectory planning and collision avoidance for marine autonomous vessels. In particular, on vessels maneuvering in urban environments where the traffic is unpredictable, and the available maneuverable space is limited. 
@@ -14,7 +16,6 @@ A lot of work already exists on maritime collision avoidance, but very little is
 
 This projects has a focus on application, where it is of interest that the resulting systems or algorithms are feasible in a real-world application. NTNU currently owns two prototypes on fully electric autonomous passenger ferries, the milliAmpere (video below) and milliAmpere 2. The candidate is therefore encouraged to aim towards full-scale experiments towards the end of the work (Masteroppgave). The milliAmpere platform runs an on-board computer with Ubuntu and robot operating system (ROS) which makes it simple to interface new algorithms with the existing systems such as navigation, target-tracking and dynamic positioning for trajectory tracking. 
 
-[![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
 
 Due to the complexity of the task of safe and collision-free maneuvering in cluttered environments, several methods and algorithms for trajectory-planning and collision avoidance are often combined into a hybrid structure, where each planner handles different aspects of the task. An example of such a structure is shown below. 
 
