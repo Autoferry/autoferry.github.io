@@ -8,7 +8,7 @@ category: COLAV
 The concept of small autonomous passenger ferries in urban areas is a more flexible and environmentally-friendly alternative to bridges or manned ferries. NTNU's [Autoferry project] therefore aims to develop groundbreaking new concepts and methods which will enable the development of such ferries for urban water transport. As is apparent from the automotive industry, autonomy is maturing, and it is not a question of if, but when, autonomous vessels will emerge on a commercial scale in the maritime industry as well. There are already several initiatives taking lead on pilot projects on this field, such as Kongsberg Maritime with the cargo transport drones for Asko, and Zeabuz, a spinoff from NTNU, aiming at developing core technology and solutions for autonomous urban passenger transport.
 
 [![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
-|*Video about the Autoferry Project*|
+*Video about the Autoferry Project*
 
 <!-- For autonomous maritime transport to be a reality, there are two major tasks that need to be solved: Firstly, relevant aspects on the operational environment needs to be sensed and comprehended to form a sufficient situational awareness. Subsequently, mission planning needs to be performed, based on the situational awareness, to produce a feasible plan that completes the objective in a safe and secure manner. For an autonomous maritime vessel, this is done in the form of trajectory planning, on either a local or global scale.  -->
 
