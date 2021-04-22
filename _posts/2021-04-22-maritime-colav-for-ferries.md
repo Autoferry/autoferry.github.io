@@ -17,7 +17,7 @@ A lot of work already exists on maritime collision avoidance, but very little is
 <!-- The work should therefore start by doing a literature search on existing collision avoidance methods and identifying features of the methods that make them more or less suitable for the task, before the work on developing new methods is started. -->
 
 |<img src="{{site.url}}/assets/milliAmpere_2_on_water_during_initial_tests.png" width="650"> |
-|*milliAmpere 2 during initial sea-trials.*|
+|*milliAmpere 2 during initial sea-trials in April 2021.*|
 
 This project has a focus on applied solutions, where it is of interest that the resulting systems or algorithms are feasible in a real-world application. NTNU currently owns two prototypes on fully electric autonomous passenger ferries, the milliAmpere (video on top) and milliAmpere 2 (picture above). The candidate is therefore encouraged to aim towards performing full-scale experiments towards the end of the work (Masteroppgave). The milliAmpere platform runs an on-board computer with Ubuntu and robot operating system (ROS) which makes it simple to interface new algorithms with the existing systems such as navigation, target-tracking and dynamic positioning for trajectory tracking. 
 
@@ -69,7 +69,7 @@ Write a short email where you explain your motivation for this task as well as a
 
 ## References
 * Thyri, E.H. (2019): “[A Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625711)”, MSc thesis, NTNU. 
-* Thyri, E.H. (2020): “[A Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries in Confined Waters](https://www.sciencedirect.com/science/article/pii/S240589632031884X)", in 2020, 21th IFAC World Congress, Berlin Germany.  
+* Thyri, E.H. (2020): “[A Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries in Confined Waters](https://www.sciencedirect.com/science/article/pii/S240589632031884X)”, in 2020, 21th IFAC World Congress, Berlin Germany.  
 
 
 [Morten Breivik]: https://www.ntnu.no/ansatte/morten.breivik
