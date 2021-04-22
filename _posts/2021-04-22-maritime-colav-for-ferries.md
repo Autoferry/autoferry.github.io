@@ -60,12 +60,12 @@ This work is a combination of both theory and practice.  The candidate should th
 
 ## Proposed tasks for the Masters thesis (spring 2022)
 * Continue unfinished project work.
-* Improve method by introducing passenger comfort and COLREGs considerations.
-* Make preparations for and conduct full-scale experiments in Trondheim harbor.
+* Improve method by introducing considerations on passenger comfort and the Convention on the International Regulations for Preventing Collisions at Sea (COLREGs).
+* Make preparations for and conduct full-scale experiments with milliAmpere and/or milliAmpere 2 in Trondheim harbor.
 * Write report.
 
 ## Contact
-Write a short email where you explain your motivation for this work as well as about your background, and send it to [Morten Breivik] and  [Emil Thyri]. We will then arrange a Teams meeting with you to discuss the task.
+Write a short email where you explain your motivation for this task as well as about your background, and send it to [Morten Breivik] and  [Emil Thyri]. We will then arrange a Teams meeting with you to discuss the task.
 
 ## References
 * Thyri, E.H. (2019): “[A Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625711)”, MSc thesis, NTNU. 
