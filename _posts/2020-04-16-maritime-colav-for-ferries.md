@@ -16,9 +16,6 @@ This projects has a focus on application, where it is of interest that the resul
 
 [![telia video]](https://www.youtube.com/watch?time_continue=1&v=FuWedx0oLX4&feature=emb_logo)
 
-Due to the extent of this problem, this task is open for up to two candidates working on separate parts of the problem. Cooperation between the candidates is no a requirement, yet it is encouraged if appropriate. 
-
-## Previous work
 Due to the complexity of the task of safe and collision-free maneuvering in cluttered environments, several methods and algorithms for trajectory-planning and collision avoidance are often combined into a hybrid structure, where each planner handles different aspects of the task. An example of such a structure is shown below. 
 
 |<img src="{{site.url}}/assets/three_layer_structure.png" width="650"> |
@@ -26,9 +23,11 @@ Due to the complexity of the task of safe and collision-free maneuvering in clut
 
 It is mainly in the High-level colav that we want to put the focus of this task, but the problem formulations is open to input from the candidate, also on work in lower levels of the COLAV system. 
 
+Due to the extent of this problem, this task is open for up to two candidates working on separate parts of the problem. Cooperation between the candidates is no a requirement, yet it is encouraged if appropriate. 
+
+## Previous work
 In (Thyri 2019, 2020), a COLAV method for passenger ferries operating in urban environments is described. In short, the method plans a velocity-profile for a predefined path so that the resulting trajectory is collision free regarding dynamic obstacles. The method is simple and intuitive, and is tested through full-scale experiments on simple canal-crossing operations. For more complex operations, this method comes in short, due to its simplicity. Over the previous year, a Master student has worked on extending the principles of the method from using a predefined path, to a predefined area, effectively increasing the number of available manuevers to the trajectory planner.
 A alternative for this project is to build on this work, to make a graph-based global trajectory planner that considers both static and dynamic obstacles. This is a high level colav, where a trajectory is planned from the current position of the vessel to the transit-destination, where considerations on static and dynamic obstacles are included. The co-supervisor Emil Thyri has also done some work in both mid-level and short-term colav, which can be combined to get a more complete system in simulations and experiments. 
-
 
 
 <!-- Some previous work 
