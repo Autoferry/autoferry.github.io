@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multivariate modeling and adaptive control of autonomous ferries
-category: COLAV
+category: NO
 ---
 
 ## Background

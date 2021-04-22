@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Autonomous supervisory control of ferry crossing
-category: COLAV
+category: NO
 ---
 
 ## Background
