@@ -50,7 +50,7 @@ The project work aims to be extended into a master thesis for the spring of 2021
 
 ## Contact
 Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and 
-[Øystein Kaarstad Helgesen](https://www.ntnu.no/ansatte/oystein.k.helgesen)
+[Øystein K. Helgesen](https://www.ntnu.no/ansatte/oystein.k.helgesen)
 
 ## Prerequisites
 
