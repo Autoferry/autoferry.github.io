@@ -37,7 +37,7 @@ A starting point for the 5th year project is the miniSAM implementation of Helge
 2. Make yourself familiar g2o, GTSAM and possibly other available factor graph libraries. Summarize main similarities and differences. 
 3. Formulate bearing-only tracking as a nonlinear smoothing and optimization problem, using the Bayes tree framework. Investigate to which extent this formulation should be related to the matrix algebra of the ISAM2 SLAM method. 
 4. Implement a solution to the nonlinear smoothing and optimization problem formulated in Task 3.
-5. Compare with benchmarking methods such as range-parameterized EKF and particle filter.
+5. Compare with benchmarking methods such as range-parameterized EKF and particle filter, using both simulated data and real data recorded from the cameras onboard milliAmpere.
 6. Write report.
 
 ## Proposed Tasks for the master thesis
@@ -45,7 +45,8 @@ A starting point for the 5th year project is the miniSAM implementation of Helge
 The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the findings in the 5th year project.  
 
 * The solution sketched above solves a filtering and smoothing problem, but does not handle misdetections and false alarms. For this, the bearing-only solution must be expanded to a track method that also includes data association. 
-* 
+* One possible weakness with popular factor graph libraries could be their optimization methods. These are typically some variation of Gauss-Newton or Levenberg-Marquardt, which does not take the full Hessian into account. For a highly non-linear problem such as bearing-only tracking,  improvements may perhaps be achieved by implementing a more direct Newton-based optimization method. 
+* Bearing-only tracking will inevitably suffer from lack of observability in many real-life scenarios. This can be addressed by integrating bearing-only tracking in a larger multi-sensor tracking system which also involves active sensors such as radar and lidar. It can also be addressed by investigating bearing-only tracking as a limit case of passive tracking with georeferencing. In both cases, a challenge arises because the methods hitherto used for multi-sensor tracking and georeferencing in the milliAmpere ecosystem are purely filter-based. 
 
 ## Contact
 Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), 
