@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bearings-only smoothing by means of factor graphs
+title: Bearing-only smoothing by means of factor graphs
 category: SF
 ---
 ## Background
