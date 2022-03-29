@@ -49,9 +49,8 @@ The project work aims to be extended into a master thesis for the spring of 2021
 * Bearing-only tracking will inevitably suffer from lack of observability in many real-life scenarios. This can be addressed by integrating bearing-only tracking in a larger multi-sensor tracking system which also involves active sensors such as radar and lidar. It can also be addressed by investigating bearing-only tracking as a limit case of passive tracking with georeferencing. In both cases, a challenge arises because the methods hitherto used for multi-sensor tracking and georeferencing in the milliAmpere ecosystem are purely filter-based. 
 
 ## Contact
-Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), 
-[Lars-Christian Tokle](https://www.ntnu.edu/employees/lars-christian.n.tokle) and
-[Martin Vonheim Larsen (FFI)](https://www.mn.uio.no/its/english/people/aca/martinvl/) 
+Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and 
+[Øystein Kaarstad Helgesen](https://www.ntnu.no/ansatte/oystein.k.helgesen)
 
 ## Prerequisites
 
@@ -61,7 +60,8 @@ Useful courses include [TTK4250 Sensor fusion], TTK21 VSLAM, TTK25 Computer Visi
 ## References
 
 * Brekke, E. (2020): “[Probabilistic graphical models](http://folk.ntnu.no/edmundfo/msc2020-2021/tk8102lecture06.pdf)”, Lecture notes in TK8102, NTNU. 
-* Helgesen, Ø. K. and Brekke, E. (2022): “[Bearings-only tracking using factor graphs](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2575375/18666_FULLTEXT.pdf?sequence=1)”, Submitted to Fusion 2022. 
+* Helgesen, Ø. K. and Brekke, E. (2022): “[Bearings-only tracking using factor graphs](https://folk.ntnu.no/edmundfo/fusion2022preprints/HelgesenBrekkeBearingFactor.pdf)”, Submitted to Fusion 2022. 
+* Helgesen, Ø. K., Brekke, E., Stahl, A. and Engelhardtsen, Ø. (2020): “[Low Altitude Georeferencing for Imaging Sensors in Maritime Tracking](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2758973)”, Proceedings of IFAC World Congress. 
 * Kummerle et al. (2011): “[g2o: A General Framework for Graph Optimization](https://www.cct.lsu.edu/~kzhang/papers/g2o.pdf)”, Proceedings of ICRA 2011, Shanghai, China.
 * Dellaert, F. (2012): “[Factor Graphs and GTSAM: A Hands-on Introduction](https://borg.cc.gatech.edu/sites/edu.borg/files/downloads/gtsam.pdf)”, Technical report, The Borg Lab, GeorgiaTech.
 * Horridge, P. and Maskell, S. (2006): “[Real-Time Tracking Of Hundreds Of Targets With Efficient Exact JPDAF Implementation](https://ieeexplore.ieee.org/document/4085847)”, Proceedings of FUSION, Florence, Italy
@@ -71,3 +71,4 @@ Useful courses include [TTK4250 Sensor fusion], TTK21 VSLAM, TTK25 Computer Visi
 |<span style="color:#959595">Link to promo video of 5G technology for milliAmpere from Telia. </span> |
 
 [TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
+[Helgesen et al. 2020]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2758973
