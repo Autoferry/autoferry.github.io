@@ -13,7 +13,7 @@ Bearing-only tracking is particularly challenging because it is a nonlinear prob
 The movement of the target can only be estimated if the ownship makes stronger manoeuvers. 
 
 |<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
-| <span style="color:#959595">Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem.</span> | 
+| <span style="color:#959595">Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem. From [Helgesen et al. 2020].</span> | 
 
 As an alternative to filter-based solutions, we have recently experimented with a factor-graph solution to bearing-only tracking. In this work, the lightweight factor graph library miniSAM was used. The results outperformed traditional methods with regards to position accuracy, but were less impressive with regards to other performance measures. 
 
@@ -46,7 +46,7 @@ The project work aims to be extended into a master thesis for the spring of 2021
 
 * The solution sketched above solves a filtering and smoothing problem, but does not handle misdetections and false alarms. For this, the bearing-only solution must be expanded to a track method that also includes data association. 
 * One possible weakness with popular factor graph libraries could be their optimization methods. These are typically some variation of Gauss-Newton or Levenberg-Marquardt, which does not take the full Hessian into account. For a highly non-linear problem such as bearing-only tracking,  improvements may perhaps be achieved by implementing a more direct Newton-based optimization method. 
-* Bearing-only tracking will inevitably suffer from lack of observability in many real-life scenarios. This can be addressed by integrating bearing-only tracking in a larger multi-sensor tracking system which also involves active sensors such as radar and lidar. It can also be addressed by investigating bearing-only tracking as a limit case of passive tracking with georeferencing. In both cases, a challenge arises because the methods hitherto used for multi-sensor tracking and georeferencing in the milliAmpere ecosystem are purely filter-based. 
+* Bearing-only tracking will inevitably suffer from lack of observability in many real-life scenarios. This can be addressed by integrating bearing-only tracking in a larger multi-sensor tracking system which also involves active sensors such as radar and lidar. It can also be addressed by investigating bearing-only tracking as a limit case of passive tracking with georeferencing ([Helgesen et al. 2020]). In both cases, a challenge arises because the methods hitherto used for multi-sensor tracking and georeferencing in the milliAmpere ecosystem are purely filter-based. 
 
 ## Contact
 Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and 
