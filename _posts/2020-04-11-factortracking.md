@@ -54,8 +54,7 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
 
 ## Prerequisites
 
-Useful courses include [TTK4250 Sensor fusion], TTK21 VSLAM, TTK25 Computer Vision for Control  and TTK4255 Robotic Vision. The candidate should have taken some of these already, and take some of the remaining courses in parallell with the specialization project. 
-
+The candidate should have take at least one of the two courses  [TTK4250 Sensor fusion] and [TTK4255 Robotic Vision] before this project. Additional courses in estimation or SLAM will be useful. 
 
 ## References
 
@@ -72,3 +71,4 @@ Useful courses include [TTK4250 Sensor fusion], TTK21 VSLAM, TTK25 Computer Visi
 [TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
 [Helgesen et al. 2020]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2758973
 [Helgesen and Brekke 2022]: https://folk.ntnu.no/edmundfo/fusion2022preprints/HelgesenBrekkeBearingFactor.pdf
+[TTK4255 Robotic Vision]: https://www.ntnu.edu/studies/courses/TTK4255#tab=omEmnet
