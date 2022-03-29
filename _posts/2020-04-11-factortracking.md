@@ -42,15 +42,10 @@ A starting point for the 5th year project is the miniSAM implementation of Helge
 
 ## Proposed Tasks for the master thesis
 
-The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the interest of the student. 
+The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the findings in the 5th year project.  
 
-* Can factor graph libraries and graphical models in general be used to solve data association in multi-scan tracking problems? 
-* Can tools for automatic differentiation (e.g. CASADI) be used to generate and evaluate association hypotheses in multi-target tracking?
-* It has been claimed that the exact EHM technique (Horridge and Maskell 2006) for marginal association probabilities is an improved version of the junction tree method, which is the general brute force technique for exact inference in graphical models. Investigate this claim. 
-* Implementation on real data. 
-* Combining factor graph solutions to both smoothing and data association. 
-* Combining factor graph solutions to tracking and SLAM.
-* Multi-hypothesis data association in SLAM.
+* The solution sketched above solves a filtering and smoothing problem, but does not handle misdetections and false alarms. For this, the bearing-only solution must be expanded to a track method that also includes data association. 
+* 
 
 ## Contact
 Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), 
