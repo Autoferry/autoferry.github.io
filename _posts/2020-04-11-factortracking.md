@@ -13,6 +13,15 @@ First, the measurement model is fundamentally nonlinear, as one only has bearing
 Second, the problem has limited observability. It is only possible to estimate the motion of the target if the ownship, on which the sensor is mounted, if the ownship out-manoeuvers the target (or if one can obtained information about the target's acceleration by other means, but that is typically not the case.)
 
 
+All the well-known solutions to bearing-only tracking are based on filtering. Three strategies have been pursued:
+
+1. Use an extended Kalman filter (EKF) but in a transformed coordinate system. This is intended to move the nonlinearities from the measurement model to the process model.
+2. Use a bank of parallell EKFs, where each EKF corresponds to an approximate range. The idea is that the EKF that happens to have the most correct range will do better than the other EKFs.
+3. Use a particle filter. The idea is that a particle filter with sufficiently many particles can approximate the non-Gaussian posterior distribution directly. 
+
+Unfortunately, none of these approaches are foolproof, and filter divergence happens frequently. 
+Recently, we have instead experimented with casting the bearing-only problem as a nonlinear optimization problem, using the factor graph library MiniSAM. This gave better estimation accuracy than the traditional approaches, but is not yet entirely satisfactory due to poor filter consistency and somewhat disappointing velocity estimates. 
+
 
 
 |<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
