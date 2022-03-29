@@ -31,7 +31,7 @@ The primary objective of this project is develop a method for bearing-only track
 
 ## Proposed Tasks for the 5th year project
 
-A starting point for the 5th year project is the miniSAM implementation of Helgesen and Brekke (2022). An important goal will be to either find a way of extracting and utilising the covariances in this framework, or to replace it with a framework (e.g. full GTSAM) which enables analysis and utilisation of the covariances. 
+A starting point for the 5th year project is the miniSAM implementation of bearing-only smoothing reported in ([Helgesen and Brekke 2022]). An important goal will be to either find a way of extracting and utilising the covariances in this framework, or to replace it with a framework (e.g. full GTSAM) which enables analysis and utilisation of the covariances. 
 
 1. Make yourself familiar with basic theory for probabilistic graphical models.  
 2. Make yourself familiar g2o, GTSAM and possibly other available factor graph libraries. Summarize main similarities and differences. 
@@ -71,3 +71,4 @@ Useful courses include [TTK4250 Sensor fusion], TTK21 VSLAM, TTK25 Computer Visi
 
 [TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
 [Helgesen et al. 2020]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2758973
+[Helgesen and Brekke 2022]: https://folk.ntnu.no/edmundfo/fusion2022preprints/HelgesenBrekkeBearingFactor.pdf
