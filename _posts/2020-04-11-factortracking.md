@@ -66,7 +66,7 @@ The candidate should have take at least one of the two courses  [TTK4250 Sensor 
 
 
 |[<img src="https://img.youtube.com/vi/Ry3-yxVaDuE/0.jpg" width="450">](https://www.youtube.com/watch?v=Ry3-yxVaDuE) |
-|<span style="color:#959595">Link to promo video of 5G technology for milliAmpere from Telia. </span> |
+|<span style="color:#959595">Link to video of milliAmpere autonomy demonstration. </span> |
 
 [TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
 [Helgesen et al. 2020]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2758973
