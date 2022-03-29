@@ -37,7 +37,8 @@ A starting point for the 5th year project is the miniSAM implementation of Helge
 2. Make yourself familiar g2o, GTSAM and possibly other available factor graph libraries. Summarize main similarities and differences. 
 3. Formulate bearing-only tracking as a nonlinear smoothing and optimization problem, using the Bayes tree framework. Investigate to which extent this formulation should be related to the matrix algebra of the ISAM2 SLAM method. 
 4. Implement a solution to the nonlinear smoothing and optimization problem formulated in Task 3.
-5. Write report.
+5. Compare with benchmarking methods such as range-parameterized EKF and particle filter.
+6. Write report.
 
 ## Proposed Tasks for the master thesis
 
