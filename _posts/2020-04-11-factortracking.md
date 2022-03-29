@@ -45,7 +45,7 @@ A starting point for the 5th year project is the miniSAM implementation of Helge
 The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the findings in the 5th year project.  
 
 * The solution sketched above solves a filtering and smoothing problem, but does not handle misdetections and false alarms. For this, the bearing-only solution must be expanded to a track method that also includes data association. 
-* One possible weakness with popular factor graph libraries could be their optimization methods. These are typically some variation of Gauss-Newton or Levenberg-Marquardt, which does not take the full Hessian into account. For a highly non-linear problem such as bearing-only tracking,  improvements may perhaps be achieved by implementing a more direct Newton-based optimization method. 
+* We don't know for sure whether the in-built optimization methods in factor graph libraries are sufficient for a highly non-linear problem such as bearing-only tracking. These are typically variations of Gauss-Newton or Levenberg-Marquardt, which do not take the full Hessian into account. 
 * Bearing-only tracking will inevitably suffer from lack of observability in many real-life scenarios. This can be addressed by integrating bearing-only tracking in a larger multi-sensor tracking system which also involves active sensors such as radar and lidar. It can also be addressed by investigating bearing-only tracking as a limit case of passive tracking with georeferencing ([Helgesen et al. 2020]). In both cases, a challenge arises because the methods hitherto used for multi-sensor tracking and georeferencing in the milliAmpere ecosystem are purely filter-based. 
 
 ## Contact
