@@ -18,7 +18,7 @@ The movement of the target can only be estimated if the ownship makes stronger m
 As an alternative to filter-based solutions, we have recently experimented with a factor-graph solution to bearing-only tracking. In this work, the lightweight factor graph library miniSAM was used. The results outperformed traditional methods with regards to position accuracy, but were less impressive with regards to other performance measures. 
 
 |<img src="{{site.url}}/assets/bofig2.png" width="690"> | 
-| <span style="color:#959595">Figure: Estimation of the posterior density for bearing-only tracking using a particle filter. While the posterior is clearly non-Gaussian, it is nevertheless unimodal, and most likely it can be approximated fairly well by a Gaussian close to its peak. </span> | 
+| <span style="color:#959595">Figure: Estimation of the posterior density for bearing-only tracking using a particle filter. While the posterior is clearly non-Gaussian, it is nevertheless unimodal, and this makes it reasonable to hope that optimization-based solutions can be successful. </span> | 
 
 
 
