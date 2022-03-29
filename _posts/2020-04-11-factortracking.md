@@ -58,7 +58,6 @@ The candidate should have take at least one of the two courses  [TTK4250 Sensor 
 
 ## References
 
-* Brekke, E. (2020): “[Probabilistic graphical models](http://folk.ntnu.no/edmundfo/msc2020-2021/tk8102lecture06.pdf)”, Lecture notes in TK8102, NTNU. 
 * Helgesen, Ø. K. and Brekke, E. (2022): “[Bearings-only tracking using factor graphs](https://folk.ntnu.no/edmundfo/fusion2022preprints/HelgesenBrekkeBearingFactor.pdf)”, Submitted to Fusion 2022. 
 * Helgesen, Ø. K., Brekke, E., Stahl, A. and Engelhardtsen, Ø. (2020): “[Low Altitude Georeferencing for Imaging Sensors in Maritime Tracking](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2758973)”, Proceedings of IFAC World Congress. 
 * Kummerle et al. (2011): “[g2o: A General Framework for Graph Optimization](https://www.cct.lsu.edu/~kzhang/papers/g2o.pdf)”, Proceedings of ICRA 2011, Shanghai, China.
