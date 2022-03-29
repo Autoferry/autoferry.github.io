@@ -1,14 +1,19 @@
 ---
 layout: post
-title: Factor graphs in target tracking
+title: Bearings-only smoothing by means of factor graphs
 category: SF
 ---
 ## Background
-During the last decade, so-called pose graph optimization has become the undisputed gold standard in simultaneous localization and mapping (SLAM). The key idea is that all measurements can be modeled as probabilistic constraints on the trajectory of the vehicle. The entire trajectory can then be estimated by optimization over the joint collection of constraints. Thus, modern SLAM methods can be said to do smoothing rather than filtering, which was the dominating approach in the early days of SLAM. 
+During the last decade, factor graph optimization has become the undisputed gold standard in simultaneous localization and mapping (SLAM). The key idea is that all measurements can be modeled as probabilistic constraints on the trajectory of the vehicle. The entire trajectory can then be estimated by optimization over the joint collection of constraints. Thus, modern SLAM methods can be said to do smoothing rather than filtering, which was the dominating approach in the early days of SLAM. 
 
-The key construction underlying this is the concept of a factor graph, or more generally probabilistic graphical models. 
-Popular SLAM methods such as ISAM2 and ORB-SLAM make use of advanced factor graph libraries such as GTSAM and g2o, which can enable the user to work efficiently with graph-based representations of knowledge. 
-While these libraries have had their breakthrough as frameworks for SLAM, their potential applications may also include a wealth of other sensor fusion problems such as target tracking. Below, we sketch two reasons why factor graphs can be of interest in target tracking. 
+Another problem in sensor fusion, which has challenged researchers for more than 40 years, is bearing-only tracking. 
+During the cold war, there was a strong focus on tracking of submarines using passive acoustic measurements. 
+In more recent years, the increased focus on camera-based tracking for mobile robotics is also leading to a need for reliable solutions to bearing-only tracking. There are two fundamental challenges in bearing-only tracking. 
+First, the measurement model is fundamentally nonlinear, as one only has bearing measurements and no range measurements. The absence of range information means that the measurements cannot simply be transformed into Cartesian coordinates. 
+Second, the problem has limited observability. It is only possible to estimate the motion of the target if the ownship, on which the sensor is mounted, if the ownship out-manoeuvers the target (or if one can obtained information about the target's acceleration by other means, but that is typically not the case.)
+
+
+
 
 |<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
 | <span style="color:#959595">Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem.</span> | 
