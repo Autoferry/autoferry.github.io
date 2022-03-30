@@ -8,8 +8,8 @@ Simulations play an important role in the development of autonomous vehicle tech
 
 In (Vasstein et al. 2022) we have proposed that such an assessment can be based on the following principle: The simulation is considered indistinguishable from the real world if the situational awareness that the agent obtains from the real world data is the same as the situational awareness that the agent obtains from the simulated replica of the same scenario. 
 
+To make this abstract criterion concrete, we looked at the output of a multi-target tracking method used to track other boats in the vicinity of the autonomous ferry milliAmpere. The output of the method used, the joint integrated probabilistic data assocation (JIPDA), consists of state estimates, covariances and existence probabilities, which together constitute a multi-Bernoulli multi-target distribution. Various metrics can be calculated to quantify how much two distributions differ, similarly to how one can calculate the distance between two points in Cartesian space using the standard Euclidean metric. In this work, we used the Hellinger distance, which gives zero if the distributions are identical, and one if they have no similarity at all. 
 
-Bla bla
 
 |<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
 | <span style="color:#959595">Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem. From [Helgesen et al. 2020].</span> | 
@@ -24,6 +24,9 @@ Bla bla
 
 
 ## Scope
+
+
+
 The primary objective of this project is develop a method for bearing-only tracking through smoothing and nonlinear optimization, and analyze its performance on real and simulated data of relevance to the use case of an autonomous pedestrian ferry. 
 
 
