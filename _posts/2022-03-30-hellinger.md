@@ -38,15 +38,15 @@ Tasks such as the following are proposed for the 5th year project. The candidate
 2. Implement the Hellinger metric and some other multi-Bernoulli distance measures on two purely simulated data sets and assess whether the distance measures are meaningful. Other distance measures can be the Kullback-Leibler divergence and various measures in the so-called class of Csiszar information functionals.
 3. Propose guidelines for threshold values: When is the distributional metric low enough to consider the output of the two trackers similar?
 4. Propose tuning strategies using a distributional metric. How can, e.g., the Hellinger metric, be used to decide reasonable values of clutter rates, detection probabilities and covariances in a multi-target tracking system?
-5. The current evaluation of multi-Bernoulli Hellinger metric makes use of importance sampling. For tracking output with more than a handful of tracks more efficient evaluation techniques are needed. One possibility can be to make use of assignment techniques such as Murty's method. 
+5. To evaluate the multi-Bernoulli Hellinger metric we make use of importance sampling. For tracking output with more than a handful of tracks more efficient evaluation techniques are needed. One possibility can be to make use of assignment techniques such as Murty's method. 
 6. Write report.
 
 ## Proposed Tasks for the master thesis
 
 The project work aims to be extended into a master thesis for the spring of 2021. In addition to the tasks already mentioned, the following tasks can be suitable topics for a master thesis.
 
-* To label or not to label? In multi-Bernoulli random finite sets, target identities are discarded. This means that the multi-Bernoulli Hellinger metric will be insensitive to events where track swaps occur. An alternative is to develop distributional metrics for so-called labeled random finite sets. 
-* Bla bla
+* To label or not to label? In multi-Bernoulli random finite sets, target identities are discarded. This means that the multi-Bernoulli Hellinger metric will be insensitive to events where track swaps occur. An alternative is to develop distributional metrics for so-called labeled random finite sets. The concept of labeled random finite sets is a highly debated topic in the sensor fusion community, and the findings of this project may have important implications for this debate. 
+* Develop techniques for evaluating the Hellinger metric for other multi-target distributions than the multi-Bernoulli, such as the Poisson multi-target distribution and multi-Bernoulli mixtures.
 
 ## Contact
 Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and 
@@ -54,7 +54,7 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
 
 ## Prerequisites
 
-The candidate should have taken the course  [TTK4250 Sensor fusion] or similar before beginning this 5th year project. Background in detection theory, from e.g. [TTT4275 Estimation, Detection and Classification] will also be very useful. 
+The candidate should have taken the course  [TTK4250 Sensor fusion] or similar before beginning this 5th year project. Background in detection theory, from e.g. [TTT4275 Estimation, Detection and Classification] will also be useful. 
 
 ## References
 
