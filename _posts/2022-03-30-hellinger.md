@@ -28,22 +28,24 @@ Bla bla
 ## Scope
 
 The goal of the 5th year project is two-fold. First, we would like to get a firmer understanding of how the multi-target Hellinger metric behaves for typical tracking output such as multi-Bernoulli multi-target densities. Second, it is also of interest to compare it with other possible similarity measures.
+The plan is to work with data recorded from milliAmpere together with simulated data from the Autoferry Gemini. It may also be desirable to record additional data in the beginning of the semester, and it may be useful to work with simpler simulations in e.g. pure Matlab or Python. 
 
 ## Proposed Tasks for the 5th year project
 
+Tasks such as the following are proposed for the 5th year project. The candidate is only expected to address a subset of these in the specialization project. 
+
 1. Make yourself familiar with basic theory for random finite sets and metrics for multi-target densities.  
-2. Bla bla 
-3. bla vbla
-4. Bla bla
-5. Bla bla
+2. Implement the Hellinger metric and some other multi-Bernoulli distance measures on two purely simulated data sets and assess whether the distance measures are meaningful. Other distance measures can be the Kullback-Leibler divergence and various measures in the so-called class of Csiszar information functionals.
+3. Propose guidelines for threshold values: When is the distributional metric low enough to consider the output of the two trackers similar?
+4. Propose tuning strategies using a distributional metric. How can, e.g., the Hellinger metric, be used to decide reasonable values of clutter rates, detection probabilities and covariances in a multi-target tracking system?
+5. The current evaluation of multi-Bernoulli Hellinger metric makes use of importance sampling. For tracking output with more than a handful of tracks more efficient evaluation techniques are needed. One possibility can be to make use of assignment techniques such as Murty's method. 
 6. Write report.
 
 ## Proposed Tasks for the master thesis
 
-The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the findings in the 5th year project.  
+The project work aims to be extended into a master thesis for the spring of 2021. In addition to the tasks already mentioned, the following tasks can be suitable topics for a master thesis.
 
-* Bla bla
-* Bla bla
+* To label or not to label? In multi-Bernoulli random finite sets, target identities are discarded. This means that the multi-Bernoulli Hellinger metric will be insensitive to events where track swaps occur. An alternative is to develop distributional metrics for so-called labeled random finite sets. 
 * Bla bla
 
 ## Contact
@@ -52,7 +54,8 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
 
 ## Prerequisites
 
-The candidate should either have taken the course  [TTK4250 Sensor fusion] or take it in parallell with the 5th year project. 
+The candidate should have taken the course  [TTK4250 Sensor fusion] or similar before beginning this 5th year project. Background in detection theory, from e.g. [TTT4275 Estimation, Detection and Classification] will also be very useful. 
+
 ## References
 
 * Vasstein, K., Helgesen, Ø. K. and Brekke, E. (2022): “[Hellinger metrics for validating high fidelity simulators through target tracking](https://folk.ntnu.no/edmundfo/fusion2022preprints/VassteinHellinger.pdf)”, Submitted to Fusion 2022. 
@@ -64,3 +67,5 @@ The candidate should either have taken the course  [TTK4250 Sensor fusion] or ta
 
 [TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
 [(Vasstein et al. 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/VassteinHellinger.pdf
+[Autoferry Gemini]: https://iopscience.iop.org/article/10.1088/1757-899X/929/1/012032
+[TTT4275 Estimation, Detection and Classification]: https://www.ntnu.edu/studies/courses/TTT4275#tab=omEmnet
