@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fidelity measures for digital twin simulation - The multi-target Hellinger distance and beyond
+title: Measures of fidelity for digital twin simulation - multi-target distribution metrics
 category: SF
 ---
 ## Background
