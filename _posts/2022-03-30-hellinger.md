@@ -10,6 +10,8 @@ In (Vasstein et al. 2022) we have proposed that such an assessment can be based 
 
 To make this abstract criterion concrete, we looked at the output of a multi-target tracking method used to track other boats in the vicinity of the autonomous ferry milliAmpere. The output of the method used, the joint integrated probabilistic data assocation (JIPDA), consists of state estimates, covariances and existence probabilities, which together constitute a multi-Bernoulli multi-target distribution. Various metrics can be calculated to quantify how much two distributions differ, similarly to how one can calculate the distance between two points in Cartesian space using the standard Euclidean metric. In this work, we used the Hellinger distance, which gives zero if the distributions are identical, and one if they have no similarity at all. 
 
+The results so far indicate that a low value of the Hellinger metric can be taken as proof that the situational awareness in the real world and the simulation are identical. However, it is also a somewhat unforgiving measure: False alarms, biases and the variable quality of velocity estimates can all lead to high Hellinger values. 
+
 
 |<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
 | <span style="color:#959595">Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem. From [Helgesen et al. 2020].</span> | 
@@ -25,21 +27,15 @@ Bla bla
 
 ## Scope
 
-
-
-The primary objective of this project is develop a method for bearing-only tracking through smoothing and nonlinear optimization, and analyze its performance on real and simulated data of relevance to the use case of an autonomous pedestrian ferry. 
-
-
+The goal of the 5th year project is two-fold. First, we would like to get a firmer understanding of how the multi-target Hellinger metric behaves for typical tracking output such as multi-Bernoulli multi-target densities. Second, it is also of interest to compare it with other possible similarity measures.
 
 ## Proposed Tasks for the 5th year project
 
-Bla bla
-
-1. Make yourself familiar with basic theory for probabilistic graphical models.  
-2. Make yourself familiar g2o, GTSAM and possibly other available factor graph libraries. Summarize main similarities and differences. 
-3. Formulate bearing-only tracking as a nonlinear smoothing and optimization problem, using the Bayes tree framework. Investigate to which extent this formulation should be related to the matrix algebra of the ISAM2 SLAM method. 
-4. Implement a solution to the nonlinear smoothing and optimization problem formulated in Task 3.
-5. Compare with benchmarking methods such as range-parameterized EKF and particle filter, using both simulated data and real data recorded from the cameras onboard milliAmpere.
+1. Make yourself familiar with basic theory for random finite sets and metrics for multi-target densities.  
+2. Bla bla 
+3. bla vbla
+4. Bla bla
+5. Bla bla
 6. Write report.
 
 ## Proposed Tasks for the master thesis
