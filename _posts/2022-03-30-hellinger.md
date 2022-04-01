@@ -6,7 +6,7 @@ category: SF
 ## Background
 Simulations play an important role in the development of autonomous vehicle technology. Simulations are needed to carry out the thousands and millions of tests required before a system can be certified as safe. Furthermore, simulations can be used to train artificial intelligence methods such as convolutional neural networks. For both these tasks, the question arises: How can we assess that the simulation is sufficiently realistic and accurate?
 
-In (Vasstein et al. 2022) we have proposed that such an assessment can be based on the following principle: The simulation is considered indistinguishable from the real world if the situational awareness that the agent obtains from the real world data is the same as the situational awareness that the agent obtains from the simulated replica of the same scenario. 
+In [(Vasstein 2021)] we have proposed that such an assessment can be based on the following principle: The simulation is considered indistinguishable from the real world if the situational awareness that the agent obtains from the real world data is the same as the situational awareness that the agent obtains from the simulated replica of the same scenario. 
 
 To make this abstract criterion concrete, we looked at the output of a multi-target tracking method used to track other boats in the vicinity of the autonomous ferry milliAmpere. The output of the method used, the joint integrated probabilistic data assocation (JIPDA), consists of state estimates, covariances and existence probabilities, which together constitute a multi-Bernoulli multi-target distribution. Various metrics can be calculated to quantify how much two distributions differ, similarly to how one can calculate the distance between two points in Cartesian space using the standard Euclidean metric. In this work, we used the Hellinger distance, which gives zero if the distributions are identical, and one if they have no similarity at all. 
 
@@ -58,7 +58,7 @@ The candidate should have taken the course  [TTK4250 Sensor fusion] or similar b
 
 ## References
 
-* Vasstein, K., Helgesen, Ø. K. and Brekke, E. (2022): “[Hellinger metrics for validating high fidelity simulators through target tracking](https://folk.ntnu.no/edmundfo/fusion2022preprints/VassteinHellinger.pdf)”, Submitted to Fusion 2022. 
+* Vasstein, K., Helgesen, Ø. K. and Brekke, E. (2022): “Hellinger metrics for validating high fidelity simulators through target tracking”, Submitted to Fusion 2022. Available on request. 
 * Vasstein, K., Brekke, E., Mester, R. and Eide, E. (2020): “[Autoferry Gemini: a real-time simulation platform for electromagnetic radiation sensors on autonomous ships](https://iopscience.iop.org/article/10.1088/1757-899X/929/1/012032)”, Proceedings of ICMASS. 
 
 
@@ -66,6 +66,6 @@ The candidate should have taken the course  [TTK4250 Sensor fusion] or similar b
 |<span style="color:#959595">Link to video of milliAmpere autonomy demonstration. </span> |
 
 [TTK4250 Sensor fusion]: http://folk.ntnu.no/edmundfo/msc2019-2020/sf13chapters.pdf
-[(Vasstein et al. 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/VassteinHellinger.pdf
+[(Vasstein 2021)]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2781031
 [Autoferry Gemini]: https://iopscience.iop.org/article/10.1088/1757-899X/929/1/012032
 [TTT4275 Estimation, Detection and Classification]: https://www.ntnu.edu/studies/courses/TTT4275#tab=omEmnet
