@@ -12,8 +12,7 @@ Clearly, this is in principle suboptimal. By processing several images simultane
 One underlying principle that can be used to track a moving object without single-shot detections is that of track-before-detect: We integrate the data along potential trajectories in time and space, and identify those trajectories that actually appear to have been followed by moving objects. 
 This principle is directly implemented in the Hough transform.
 
-This raises the question of whether there exist other fundamental principles that can be used to develop multi-scan detection techniques.  
-Furthermore, nature of multi-scan detection techniques will depend on the type of sensors. 
+This raises the question of whether there exist other fundamental principles that can be used to develop multi-scan detection techniques. Furthermore, nature of multi-scan detection techniques will depend on the type of sensors. 
 Video streams from optical cameras are rich on information which no doubt can support multi-scan detection, but it is hard to pin down the exact principles one should use, as deep learning no doubt will play a fundamental role. 
 Video streams from infrared data will often have a lower signal-to-noise ratio, and richness of information is largely replaced by the monotonous gradient between and hot and cold. Tracking with infrared cameras has been an important motivation for multi-scan detection methods.
 In typical lidar data there is no intensity values to integrate along the potential paths. One can, however, count the number of hits along different paths. 
