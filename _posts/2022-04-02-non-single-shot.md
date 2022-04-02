@@ -9,6 +9,17 @@ An automated situational awareness systems for autonomous vehicles must detect a
 The majority of tracking methods, whether optical or radar-based, are based on the philosophy of tracking-by-detection, where the tracking method is fed detections from a stream of images or sensor scans. Typically, these detections of a single-shot nature: Every image in the stream is processed independently of the other images. 
 
 Clearly, this is in principle suboptimal. By processing several images simultaneously, one may have sufficient information available to discover moving objects that would be impossible to detect with any reasonable confidence from a single image. 
+One underlying principle that can be used to track a moving object without single-shot detections is that of track-before-detect: We integrate the data along potential trajectories in time and space, and identify those trajectories that actually appear to have been followed by moving objects. 
+This principle is directly implemented in the Hough transform.
+
+This raises the question of whether there exist other fundamental principles that can be used to develop multi-scan detection techniques.  
+Furthermore, nature of multi-scan detection techniques will depend on the type of sensors. 
+Video streams from optical cameras are rich on information which no doubt can support multi-scan detection, but it is hard to pin down the exact principles one should use, as deep learning no doubt will play a fundamental role. 
+Video streams from infrared data will often have a lower signal-to-noise ratio, and richness of information is largely replaced by the monotonous gradient between and hot and cold. Traditionally, tracking with infrared cameras has been an important motivation for multi-scan detection methods.
+
+
+
+
 
 
 
