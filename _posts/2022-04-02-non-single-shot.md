@@ -15,26 +15,26 @@ Clearly, this is in principle suboptimal. By processing several images simultane
 
 ## Scope
 
-The goal of this project is to develop a system that enables the operator of milliAmpere 2 to obtain 360 degree vision around milliAmpere 2, to improve the operator's situational awareness during remote control. 
+Nla bla
 
 ## Proposed Tasks for the 5th year project
 
-In the 5th year project the goal is to develop a system for image stitching, fusion and transformation that can be used to achieve the 360 degree vision. 
+In the 5th year project the goal is to 
 
-1. Calibrate cameras.
-2. Chose and implement a solution for synchronsiation. Should all cameras be triggered simultaneously, or do you want to fuse images slightly apart in time?
-3. Record test data.
-4. Derive correct transformations to obtain a bird eye view.
-5. Implement a method for fusing the images. 
-6. Assess the suitability of the implementation for remote control. 
+1. Bla
+2. Bla 
+3. Bla 
+4. Bla 
+5. Bla 
+6. Bla
 
 ## Proposed Tasks for the master thesis
 
-Several variations of the subsequent master thesis are possible. All of these are focused on making the image stitching system into a more elaborate system for situational awareness. Possible tasks may include some of the following:
+Several variations of the subsequent master thesis are possible. 
 
-* Make a real-time fused video stream onboard milliAmpere 2.
-* Make a complete system for transferring the fused video stream to the shore control centre at Nyhavna. 
-* Integrate sensor fusion and automated situational awareness from the autonomy system into the fused video stream. 
+* Bla 
+* Bla 
+* Bla 
 
 
 ## Contact
