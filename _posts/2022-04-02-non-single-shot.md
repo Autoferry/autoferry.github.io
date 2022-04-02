@@ -1,0 +1,58 @@
+---
+layout: post
+title: Integrated detection and tracking
+category: SF
+---
+## Background
+
+An automated situational awareness systems for autonomous vehicles must detect and track near by moving objects to avoid collisions. 
+The majority of tracking methods, whether optical or radar-based, are based on the philosophy of tracking-by-detection, where the tracking method is fed detections from a stream of images or sensor scans. Typically, these detections of a single-shot nature: Every image in the stream is processed independently of the other images. 
+
+Clearly, this is in principle suboptimal. By processing several images simultaneously, one may have sufficient information available to discover moving objects that would be impossible to detect with any reasonable confidence from a single image. 
+
+
+
+
+## Scope
+
+The goal of this project is to develop a system that enables the operator of milliAmpere 2 to obtain 360 degree vision around milliAmpere 2, to improve the operator's situational awareness during remote control. 
+
+## Proposed Tasks for the 5th year project
+
+In the 5th year project the goal is to develop a system for image stitching, fusion and transformation that can be used to achieve the 360 degree vision. 
+
+1. Calibrate cameras.
+2. Chose and implement a solution for synchronsiation. Should all cameras be triggered simultaneously, or do you want to fuse images slightly apart in time?
+3. Record test data.
+4. Derive correct transformations to obtain a bird eye view.
+5. Implement a method for fusing the images. 
+6. Assess the suitability of the implementation for remote control. 
+
+## Proposed Tasks for the master thesis
+
+Several variations of the subsequent master thesis are possible. All of these are focused on making the image stitching system into a more elaborate system for situational awareness. Possible tasks may include some of the following:
+
+* Make a real-time fused video stream onboard milliAmpere 2.
+* Make a complete system for transferring the fused video stream to the shore control centre at Nyhavna. 
+* Integrate sensor fusion and automated situational awareness from the autonomy system into the fused video stream. 
+
+
+## Contact
+Supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).
+## Prerequisites
+
+The candidate should have taken the course [TTK4255 Robotic Vision] or similar before beginning this 5th year project. 
+
+## References
+
+* Brekke, E. et al. (2022): [“milliAmpere: An Autonomous Ferry Prototype”](https://folk.ntnu.no/edmundfo/papers/icmass-milliampere-2022.pdf), To appear in Proc. ICMASS. 
+
+
+
+|[<img src="https://img.youtube.com/vi/Ry3-yxVaDuE/0.jpg" width="450">](https://www.youtube.com/watch?v=Ry3-yxVaDuE) |
+|<span style="color:#959595">Link to video of milliAmpere autonomy demonstration. </span> |
+
+[TTK4255 Robotic Vision]: https://www.ntnu.edu/studies/courses/TTK4255#tab=omEmnet
+[(Vasstein 2021)]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2781031
+[Autoferry Gemini]: https://iopscience.iop.org/article/10.1088/1757-899X/929/1/012032
+[TTT4275 Estimation, Detection and Classification]: https://www.ntnu.edu/studies/courses/TTT4275#tab=omEmnet
