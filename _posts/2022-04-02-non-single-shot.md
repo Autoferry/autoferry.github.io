@@ -13,7 +13,7 @@ One underlying principle that can be used to track a moving object without singl
 This principle is directly implemented in the Hough transform.
 
 |<img src="{{site.url}}/assets/hough-transform.png" width="700"> | 
-| Example of Hough transform. |
+| Example of Hough transform on simulated data. On the left (x=time, y=position) a target is moving upwards from lower left corner. On the right this corresponds to a unique maximum in the space of initial position and path angle. |
 
 This raises the question of whether there exist other fundamental principles that can be used to develop multi-scan detection techniques. Furthermore, nature of multi-scan detection techniques will depend on the type of sensors. 
 Video streams from optical cameras are rich on information which no doubt can support multi-scan detection, but it is hard to pin down the exact principles one should use, as deep learning no doubt will play a fundamental role. 
