@@ -16,21 +16,18 @@ This raises the question of whether there exist other fundamental principles tha
 Video streams from optical cameras are rich on information which no doubt can support multi-scan detection, but it is hard to pin down the exact principles one should use, as deep learning no doubt will play a fundamental role. 
 Video streams from infrared data will often have a lower signal-to-noise ratio, and richness of information is largely replaced by the monotonous gradient between and hot and cold. Tracking with infrared cameras has been an important motivation for multi-scan detection methods.
 In typical lidar data there is no intensity values to integrate along the potential paths. One can, however, count the number of hits along different paths. 
-
-
-
-
-
+In radar data, raw signal analysis can sometimes be used for this kind of analysis, both often the only data made available to the user is thresholded data. 
 
 
 
 ## Scope
 
-Nla bla
+The goal of the 5th year project is to make a survey over techniques that exist for multi-scan detection. 
+The goal of the master thesis is to implement and analyse one such technique of relevance to the sensors onboard milliAmpere 1 and 2. 
 
 ## Proposed Tasks for the 5th year project
 
-In the 5th year project the goal is to 
+The 5th year project involves the following tasks
 
 1. Bla
 2. Bla 
