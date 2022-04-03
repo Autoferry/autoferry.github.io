@@ -48,6 +48,10 @@ The project work aims to be extended into a master thesis for the spring of 2021
 * We don't know for sure whether the in-built optimization methods in factor graph libraries are sufficient for a highly non-linear problem such as bearing-only tracking. These are typically variations of Gauss-Newton or Levenberg-Marquardt, which do not take the full Hessian into account. 
 * Bearing-only tracking will inevitably suffer from lack of observability in many real-life scenarios. This can be addressed by integrating bearing-only tracking in a larger multi-sensor tracking system which also involves active sensors such as radar and lidar. It can also be addressed by investigating bearing-only tracking as a limit case of passive tracking with georeferencing ([Helgesen et al. 2020]). In both cases, a challenge arises because the methods hitherto used for multi-sensor tracking and georeferencing in the milliAmpere ecosystem are purely filter-based. 
 
+## Autoferry
+
+The candidate will be associated with the [AUTOFERRY] project, which is about the concept of small autonomous passenger ferries in urban areas as a more flexible and environmentally-friendly alternative to bridges or manned ferries. In 2017, the autonomous ferry prototype milliAmpere was launched. In 2021 it was accompanied by the larger and more advanced autonomous ferry milliAmpere 2.
+
 ## Contact
 Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and 
 [Øystein K. Helgesen](https://www.ntnu.no/ansatte/oystein.k.helgesen)
