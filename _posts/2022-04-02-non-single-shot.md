@@ -41,20 +41,22 @@ The 5th year project should aim to answer the following research questions, as s
 In the master thesis the goal is to implement a multiscan detection method on data from milliAmpere 1 or milliAmpere 2.
 
 * Choose one of the approaches from the 5th year project and justify the choice.
-* Bla 
-* Bla 
+* Implement the approach.  
+* Evaluate performance using several measures. Precision-recall or receiver-operating-characteristic should be among these. 
 
 
 ## Contact
 Supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).
 ## Prerequisites
 
-The candidate should have taken the course [TTK4255 Robotic Vision] or similar before beginning this 5th year project. 
+The candidate will benefit from having taken the courses [TTK4255 Robotic Vision] and [TTK4250 Sensor Fusion]. Both [TTT4275 Estimation, Detection and Classification] and [TDT4265 - Computer Vision and Deep Learning] will also be very useful. 
+
 
 ## References
 
 * Brekke, E. et al. (2022): [“milliAmpere: An Autonomous Ferry Prototype”](https://folk.ntnu.no/edmundfo/papers/icmass-milliampere-2022.pdf), To appear in Proc. ICMASS. 
 
+* Carlson, B. D. et al. (1994): [“milliAmpere: An Autonomous Ferry Prototype”]((https://ieeexplore.ieee.org/document/250410), IEEE Transactions on Aerospace and Electronic Systems, vol 30 no 1.
 
 
 |[<img src="https://img.youtube.com/vi/Ry3-yxVaDuE/0.jpg" width="450">](https://www.youtube.com/watch?v=Ry3-yxVaDuE) |
@@ -64,3 +66,5 @@ The candidate should have taken the course [TTK4255 Robotic Vision] or similar b
 [(Vasstein 2021)]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2781031
 [Autoferry Gemini]: https://iopscience.iop.org/article/10.1088/1757-899X/929/1/012032
 [TTT4275 Estimation, Detection and Classification]: https://www.ntnu.edu/studies/courses/TTT4275#tab=omEmnet
+[TTK4250 Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
+[TDT4265 - Computer Vision and Deep Learning]: https://www.ntnu.no/studier/emner/TDT4265#tab=omEmnet
