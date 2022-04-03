@@ -5,10 +5,10 @@ category: SF
 ---
 ## Background
 
-An automated situational awareness systems for autonomous vehicles must detect and track near by moving objects to avoid collisions. 
+An automated situational awareness systems for autonomous vehicles must detect and track nearby moving objects to avoid collisions. 
 The majority of tracking methods, whether optical or radar-based, are based on the philosophy of tracking-by-detection, where the tracking method is fed detections from a stream of images or sensor scans. Typically, these detections of a single-shot nature: Every image in the stream is processed independently of the other images. 
 
-Clearly, this is in principle suboptimal. By processing several images simultaneously, one may have sufficient information available to discover moving objects that would be impossible to detect with any reasonable confidence from a single image. 
+Clearly, this is in principle suboptimal. By processing several images simultaneously, one may have sufficient information available to discover moving objects that would be impossible to detect from a single images. 
 One underlying principle that can be used to track a moving object without single-shot detections is that of track-before-detect: We integrate the data along potential trajectories in time and space, and identify those trajectories that actually appear to have been followed by moving objects. 
 This principle is directly implemented in the Hough transform.
 
