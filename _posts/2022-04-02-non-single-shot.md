@@ -59,7 +59,7 @@ The candidate will benefit from having taken the courses [TTK4255 Robotic Vision
 
 * Brekke, E. et al. (2022): [“milliAmpere: An Autonomous Ferry Prototype”](https://folk.ntnu.no/edmundfo/papers/icmass-milliampere-2022.pdf), To appear in Proc. ICMASS. 
 
-* Carlson, B. D. et al. (1994): [“milliAmpere: An Autonomous Ferry Prototype”]((https://ieeexplore.ieee.org/document/250410), IEEE Transactions on Aerospace and Electronic Systems, vol 30 no 1.
+* Carlson, B. D. et al. (1994): [“milliAmpere: An Autonomous Ferry Prototype”](https://ieeexplore.ieee.org/document/250410), IEEE Transactions on Aerospace and Electronic Systems, vol 30 no 1.
 
 
 |[<img src="https://img.youtube.com/vi/Ry3-yxVaDuE/0.jpg" width="450">](https://www.youtube.com/watch?v=Ry3-yxVaDuE) |
