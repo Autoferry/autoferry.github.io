@@ -40,7 +40,7 @@ The 5th year project should aim to answer the following research questions, as s
 
 In the master thesis the goal is to implement a multiscan detection method on data from milliAmpere 1 or milliAmpere 2.
 
-* Bla 
+* Choose one of the approaches from the 5th year project and justify the choice.
 * Bla 
 * Bla 
 
