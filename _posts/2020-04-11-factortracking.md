@@ -15,7 +15,7 @@ The movement of the target can only be estimated if the ownship makes stronger m
 |<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
 | <span style="color:#959595">Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem. From [Helgesen et al. 2020].</span> | 
 
-As an alternative to filter-based solutions, we have recently experimented with a factor-graph solution to bearing-only tracking. In this work, the lightweight factor graph library miniSAM was used. The results outperformed traditional methods with regards to position accuracy, but were less impressive with regards to other performance measures. 
+As an alternative to filter-based solutions, we have recently experimented with a factor-graph solution to bearing-only tracking. In this work [(Helgesen and Brekke 2022)], the lightweight factor graph library miniSAM was used. The results outperformed traditional methods with regards to position accuracy, but were less impressive with regards to other performance measures. 
 
 |<img src="{{site.url}}/assets/bofig2.png" width="690"> | 
 | <span style="color:#959595">Figure: Estimation of the posterior density for bearing-only tracking using a particle filter. While the posterior is clearly non-Gaussian, it is nevertheless unimodal, and this makes it reasonable to hope that optimization-based solutions can be successful. </span> | 
@@ -75,3 +75,4 @@ The candidate should have take at least one of the two courses  [TTK4250 Sensor 
 [Helgesen et al. 2020]: https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2758973
 [Helgesen and Brekke 2022]: https://folk.ntnu.no/edmundfo/fusion2022preprints/HelgesenBrekkeBearingFactor.pdf
 [TTK4255 Robotic Vision]: https://www.ntnu.edu/studies/courses/TTK4255#tab=omEmnet
+[(Helgesen and Brekke 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/HelgesenBrekkeBearingFactor.pdf
