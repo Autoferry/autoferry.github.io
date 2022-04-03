@@ -27,18 +27,18 @@ The goal of the master thesis is to implement and analyse one such technique of 
 
 ## Proposed Tasks for the 5th year project
 
-The 5th year project involves the following tasks
+The 5th year project should aim to answer the following research questions, as systematically as possible:
 
-1. Bla
-2. Bla 
-3. Bla 
-4. Bla 
-5. Bla 
-6. Bla
+1. Are there examples of multiscan detection methods developed for optical, infrared, lidar and radar data? Are the methods tested on simulations or on real data? What kind of domains are the data from?
+2. What are the core principles underlying the methods? Are they model-based on data-driven through machine learning? 
+3. Can anything be said about performance gains over single-shot detection methods?
+4. Can anything be said about computational complexity?
+5. Are there any weaknesses in robustness or reliability?
+
 
 ## Proposed Tasks for the master thesis
 
-Several variations of the subsequent master thesis are possible. 
+In the master thesis the goal is to implement a multiscan detection method on data from milliAmpere 1 or milliAmpere 2.
 
 * Bla 
 * Bla 
