@@ -48,6 +48,12 @@ In the master thesis the goal is to implement a multiscan detection method on da
 * Evaluate performance using several measures. Precision-recall or receiver-operating-characteristic should be among these. 
 
 
+## Autoferry
+
+The candidate will be associated with the [AUTOFERRY] project, which is about the concept of small autonomous passenger ferries in urban areas as a more flexible and environmentally-friendly alternative to bridges or manned ferries. 
+The candidate will also collaborate with researchers in [SFI AUTOSHIP], which is an 8-years research-based innovation centre that will contribute to Norwegian players taking a leading role in the development of autonomous ships for safe and sustainable operations.
+
+
 ## Contact
 Supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo).
 ## Prerequisites
@@ -71,3 +77,5 @@ The candidate will benefit from having taken the courses [TTK4255 Robotic Vision
 [TTT4275 Estimation, Detection and Classification]: https://www.ntnu.edu/studies/courses/TTT4275#tab=omEmnet
 [TTK4250 Sensor Fusion]: https://www.ntnu.no/studier/emner/TTK4250#tab=omEmnet
 [TDT4265 - Computer Vision and Deep Learning]: https://www.ntnu.no/studier/emner/TDT4265#tab=omEmnet
+[AUTOFERRY]: https://www.ntnu.edu/autoferry
+[SFI AUTOSHIP]: https://www.ntnu.edu/sfi-autoship
