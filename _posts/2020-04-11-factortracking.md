@@ -76,3 +76,4 @@ The candidate should have take at least one of the two courses  [TTK4250 Sensor 
 [Helgesen and Brekke 2022]: https://folk.ntnu.no/edmundfo/fusion2022preprints/HelgesenBrekkeBearingFactor.pdf
 [TTK4255 Robotic Vision]: https://www.ntnu.edu/studies/courses/TTK4255#tab=omEmnet
 [(Helgesen and Brekke 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/HelgesenBrekkeBearingFactor.pdf
+[AUTOFERRY]: https://www.ntnu.edu/autoferry
