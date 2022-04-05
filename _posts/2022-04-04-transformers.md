@@ -30,11 +30,8 @@ A starting point for the 5th year project is the comparisons between the MultiTa
 
 ## Proposed Tasks for the master thesis
 
-The project work aims to be extended into a master thesis for the spring of 2021. In the master thesis the goal is to look at one of the non-standard tracking problems, such as extended object tracking. Since this largely is a proof-of-concept project, it may be most interesting to tailor the work for lidar or radar, so that large amounts of training data easily can be simulated. Tasks:
+The project work aims to be extended into a master thesis for the spring of 2021. In the master thesis the goal is to look at one of the non-standard tracking problems, such as extended object tracking. Since this largely is a proof-of-concept project, it may be most interesting to tailor the work for lidar or radar, so that large amounts of training data easily can be simulated. The tasks in the master thesis follow the same overall flow as in the 5th year project.
 
-* yyy
-* yyy
-* yyy
 
 ## Autoferry
 
