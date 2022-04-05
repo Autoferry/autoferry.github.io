@@ -14,14 +14,6 @@ The architecture used for deep learning as a solution for data association is th
 The most interesting potential for transformers in multi-target tracking is not necessarily as a solution to the standard model of multi-target tracking. Several non-standard tracking problems, such as extended object tracking, are more complex, so that exact solutions are entirely out of the question.  For the autonomous ferries milliAmpere 1 and 2, extended object tracking is potentially a key enabler, as these ferries often will have navigate very close to other vessels of various sizes.
 
 
-|<img src="{{site.url}}/assets/irtracking.png" width="690"> | 
-| <span style="color:#959595">Figure: Tracking using a single infrared camera mounted at elevation. If the elevation is decreased, it becomes more difficult to estimate the distances of the targets, and the problem turns into the infamous bearing-only problem. From [Helgesen et al. 2020].</span> | 
-
-|<img src="{{site.url}}/assets/bofig2.png" width="690"> | 
-| <span style="color:#959595">Figure: Estimation of the posterior density for bearing-only tracking using a particle filter. While the posterior is clearly non-Gaussian, it is nevertheless unimodal, and this makes it reasonable to hope that optimization-based solutions can be successful. </span> | 
-
-
-
 ## Scope
 The objective of this project is to investigate the potential of deep learning for multi-target tracking using lidar or radar.
 
@@ -31,20 +23,20 @@ The objective of this project is to investigate the potential of deep learning f
 A starting point for the 5th year project is the comparisons between the MultiTarget Tracking Transformer (MT3) and the Poisson Multi-Bernoulli Mixture Filter reported in Pinto 2021 and Pinto 2022. The goal is to 
 
 
-1. Make yourself familiar with basic theory for probabilistic graphical models.  
-2. Make yourself familiar g2o, GTSAM and possibly other available factor graph libraries. Summarize main similarities and differences. 
-3. Formulate bearing-only tracking as a nonlinear smoothing and optimization problem, using the Bayes tree framework. Investigate to which extent this formulation should be related to the matrix algebra of the ISAM2 SLAM method. 
-4. Implement a solution to the nonlinear smoothing and optimization problem formulated in Task 3.
-5. Compare with benchmarking methods such as range-parameterized EKF and particle filter, using both simulated data and real data recorded from the cameras onboard milliAmpere.
-6. Write report.
+1. aaa
+2. aaa
+3. aaaa
+4. aaa
+5. aaa
+6. www
 
 ## Proposed Tasks for the master thesis
 
 The project work aims to be extended into a master thesis for the spring of 2021. Several directions are possible depending on the findings in the 5th year project.  
 
-* The solution sketched above solves a filtering and smoothing problem, but does not handle misdetections and false alarms. For this, the bearing-only solution must be expanded to a track method that also includes data association. 
-* We don't know for sure whether the in-built optimization methods in factor graph libraries are sufficient for a highly non-linear problem such as bearing-only tracking. These are typically variations of Gauss-Newton or Levenberg-Marquardt, which do not take the full Hessian into account. 
-* Bearing-only tracking will inevitably suffer from lack of observability in many real-life scenarios. This can be addressed by integrating bearing-only tracking in a larger multi-sensor tracking system which also involves active sensors such as radar and lidar. It can also be addressed by investigating bearing-only tracking as a limit case of passive tracking with georeferencing ([Helgesen et al. 2020]). In both cases, a challenge arises because the methods hitherto used for multi-sensor tracking and georeferencing in the milliAmpere ecosystem are purely filter-based. 
+* yyy
+* yyy
+* yyy
 
 ## Autoferry
 
@@ -56,7 +48,7 @@ Supervisors [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo) and
 
 ## Prerequisites
 
-The candidate should have take at least one of the two courses  [TTK4250 Sensor fusion] and [TTK4255 Robotic Vision] before this project. Additional courses in estimation or SLAM will be useful. 
+No particular courses are needed, but [TTK4250 Sensor fusion] and [TDT4265 - Computer Vision and Deep Learning] will together give an ideal background for this project.
 
 ## References
 
@@ -75,3 +67,4 @@ The candidate should have take at least one of the two courses  [TTK4250 Sensor 
 [TTK4255 Robotic Vision]: https://www.ntnu.edu/studies/courses/TTK4255#tab=omEmnet
 [(Helgesen and Brekke 2022)]: https://folk.ntnu.no/edmundfo/fusion2022preprints/HelgesenBrekkeBearingFactor.pdf
 [AUTOFERRY]: https://www.ntnu.edu/autoferry
+[TDT4265 - Computer Vision and Deep Learning]: https://www.ntnu.no/studier/emner/TDT4265#tab=omEmnet
