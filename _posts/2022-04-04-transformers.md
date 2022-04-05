@@ -20,15 +20,13 @@ The objective of this project is to investigate the potential of deep learning f
 
 ## Proposed Tasks for the 5th year project
 
-A starting point for the 5th year project is the comparisons between the MultiTarget Tracking Transformer (MT3) and the Poisson Multi-Bernoulli Mixture Filter reported in Pinto 2021 and Pinto 2022. The goal is to 
+A starting point for the 5th year project is the comparisons between the MultiTarget Tracking Transformer (MT3) and the Poisson Multi-Bernoulli Mixture Filter reported in Pinto 2021 and Pinto 2022. The goal is to assess whether MT3 is a viable alternative to model-based methods for tracking problems in maritime situational awareness. 
 
-
-1. aaa
-2. aaa
-3. aaaa
-4. aaa
-5. aaa
-6. www
+1. Summarize basic theory of multi-target tracking and transformer networks in the report. 
+2. Design suitable test scenarios.
+3. Open source implementations of both PMBM and MT3 exist. Use these on the simulated scenarios. Perform additional training of the transformer network by means of simulated data if necessary.
+4. Evaluate performance, by measures such as the GOSPA metrics, run-time and statistical consistency.  
+5. Write report.
 
 ## Proposed Tasks for the master thesis
 
