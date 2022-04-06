@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Optical flow for tracking maritime objects
-category: Camera Object Tracking
+category: SF
 ---
 ## Background
 
