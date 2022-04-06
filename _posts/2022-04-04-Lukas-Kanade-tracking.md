@@ -5,16 +5,16 @@ category: SF
 ---
 ## Background
 
-When tracking multiple objects using some sensor one often uses a object detector on each sensor frame to detect point measurements or bounding boxes before feeding this to for instance a joint integrated probabilistic data association (JIPDA) (Musicki & Evans, 2004) tracker or multiple hypothesis tracker (MHT) (Reid, 1979). For a camera, however, this disregards much of the available information of the object present in the image patch inside the bounding box. This is true both for data association and and localization. Bounding boxes typically vary by some pixels in size and location relative to the given object over time.
+When tracking multiple objects using some sensor one often uses a object detector on each sensor frame to detect point measurements or bounding boxes before feeding this to for instance a joint integrated probabilistic data association (JIPDA) (Musicki & Evans, 2004) tracker or multiple hypothesis tracker (MHT) (Reid, 1979). For a camera, however, this disregards much of the available information of the object present in the image patch inside the bounding box. This is true both for data association and localization. Bounding boxes typically vary by some pixels in size and location relative to the given object over time.
 
-Computer vision has another widely used technique known as optical flow. Optical flow can, according to Wikipedia, be defined as the distribution of apparent velocities of movement of brightness pattern in an image. One popular algorithm for this is the Lucas-Kanade algorithm that track parameterized image patches and can estimate the relative 3D pose (up to scale) (Baker & Matthews, 2004), although dense optical flow can also be performed, e.g. per pixel. However, first detecting objects using optical flow can fail if the camera is moving to much or the object to detect is to detect os more or less at standstill with respect to the background. It also does not give information on the type of object detected.
+Computer vision has another widely used technique for tracking in images known as optical flow. According to Wikipedia, optical flow can be defined as the distribution of apparent velocities of movement of brightness pattern in an image. One popular algorithm for this is the Lucas-Kanade algorithm that track parameterized image patches and can estimate the relative 3D pose (up to scale) (Baker & Matthews, 2004), although dense optical flow can also be performed, e.g. per pixel. However, first detecting objects using optical flow can fail if the camera is moving to much or the object to detect is more or less at standstill with respect to the background. It also does not give information on the type of object detected.
 
 ## Scope
 
 The goal of this project is first too look at the relative performance of single frame detectors used in a tracker compared to an optical flow tracker. 
 Secondly it is then to see wheter one can combine them to ideally get the best of both worlds and with this improve tracking performance.
 
-The project will mainly use real data recorded in the canal or on the Trondheims fjord from the milliAmpere1&2 platforms (See below for a video of milliAmpere1) or our simulator ([Autoferry Gemini]), but can also preferably test the implementation on standard benhmark data such as [The Multiple Object Tracking Benchmark](https://motchallenge.net).
+The project will mainly use real data recorded in the canal or on the Trondheims fjord from the milliAmpere1&2 platforms (See below for a video of milliAmpere1) or our simulator ([Autoferry Gemini]), but can also preferably test the implementation on standard benchmark data such as [The Multiple Object Tracking Benchmark](https://motchallenge.net).
 
 |<img src="{{site.url}}/assets/ma2.jpg" width="650" > | 
 | <span style="color:#959595">milliAmpere 2 pictured 15th of June 2021. </span> | 
@@ -49,7 +49,7 @@ The candidate will be associated with the [AUTOFERRY] project, which is about th
 The candidate will also collaborate with researchers in [SFI AUTOSHIP], which is an 8-years research-based innovation centre that will contribute to Norwegian players taking a leading role in the development of autonomous ships for safe and sustainable operations.
 
 ## Contact
-Supervisor: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), [Lars-Christian N. Tokle](https://www.ntnu.no/ansatte/lars-christian.n.tokle).
+Supervisors: [Edmund F. Brekke](http://www.ntnu.no/ansatte/edmundfo), and [Lars-Christian N. Tokle](https://www.ntnu.no/ansatte/lars-christian.n.tokle).
 ## Prerequisites
 
 The candidate should have taken at least one of the courses [TTK4250 Sensor Fusion] or [TTK4255 Robotic Vision], or equivalent, before beginning this 5th year project. 
