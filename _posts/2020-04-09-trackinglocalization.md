@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Joint tracking and localization
-category: SF
+category: nonsense
 ---
 ## Background
 The autonomous ferry prototype milliAmpere is equipped with GNSS localization and several exteroceptive sensors (radar, lidar, optical cameras and infrared cameras). In addition, there are plans to furnish its environment with additional shore-based sensors to enable monitoring from other angles. In fact, a surveillance station consisting of a radar and an optical camera has already been installed at Brattøra. Data from this station have been analyzed in a couple of previous MSc projects. 
