@@ -27,21 +27,8 @@ This task is comprehensive, and requires a motivated candidate with a ambitions 
 ## Prerequisites
 The task is focused on a practical problem, while solving it requires a good theoretical understanding of the underlying aspects. The candidate should favour such a combination.  Subjects within guidance and control of marine vessels, and optimization, e.g. [TTK4190 Fartøysstyring] and [TTK4135 - Optimalisering og regulering] is advantageous. The candidate should have good programming skills in Python (alternatively C++). 
 
-<!-- ## Proposed tasks for the 5th year project (autumn 2021)
-* Identify problems and challenges that are unique with the specific operational environment, compared to open-sea operations. 
-* Do a literature search on existing methods for maritime collision avoidance, and identify which techniques are suitable for the specific task.
-* Implement the method. Start of with the simplest implementation and build from there. 
-* Evaluate and show proof of concept of the method through simulations.
-* Write report. -->
-
-<!-- ## Proposed tasks for the Masters thesis (spring 2022)
-* Continue unfinished project work.
-* Improve method by introducing considerations on passenger comfort and the Convention on the International Regulations for Preventing Collisions at Sea (COLREGs).
-* Make preparations for and conduct full-scale experiments with milliAmpere and/or milliAmpere 2 in Trondheim harbor.
-* Write report. -->
-
 ## Contact
-Write a short email where you explain your motivation for this task as well as about your background, and send it to [Morten Breivik] and  [Emil Thyri]. We will then arrange a Teams meeting with you to discuss the task.
+Write a short email where you explain your motivation for this task as well as about your background, and send it to [Morten Breivik] and  [Emil Thyri]. We will then arrange a meeting with you to discuss the task.
 
 <!-- ## References
 * Thyri, E.H. (2019): “[A Path-Velocity Decomposition Approach to Collision Avoidance for Autonomous Passenger Ferries](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2625711)”, MSc thesis, NTNU. 
