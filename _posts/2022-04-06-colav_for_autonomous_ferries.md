@@ -21,7 +21,7 @@ The thesis proposal is given by NTNU in collaboration with Zeabuz. It will be su
 This task is comprehensive, and requires a candidate that is ambitious and motivated to work in the field of maritime autonomy.
 
 |<img src="{{site.url}}/assets/milliAmpere_2_during_sea_trials.png" width="650"> |
-|*milliAmpere2 during initial sea-trials in April 2021.*|
+|*milliAmpere2 during initial sea-trials.*|
 
 
 ## Prerequisites
