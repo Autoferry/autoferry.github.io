@@ -4,24 +4,24 @@ title: Trajectory planning and collision avoidance for the worlds first autonomo
 category: COLAV
 ---
 ## Background
-Over the past decade, NTNU has developed concepts and technology related to autonomy for maritime surface vessels. One outcome of this research is milliAmpere and milliAmpere II. The milliAmpere (video below) is a prototype for an autonomous passenger ferry, and is under continuous development. It has the capacity to perform fully autonomous transit operations, which is demonstrated through a 3 hour continuous autonomous operation in a canal in Trondheim (video below). The milliAmpere II (picture below), is a full-scale autonomous passenger ferry, and is set to demonstrate an autonomous passenger ferry service concept in Trondheim in 2022. 
-Furthermore, in 2020 the sum of the research on maritime autonomy at NTNU culminated in NTNU establishing[ Zeabuz], a company aiming at make maritime autonomy accessible to mobility changemakers globally, enabling potentially radically new transport systems.
+Over the past decade, NTNU has developed concepts and technology related to autonomy for maritime surface vessels. One outcome of this research is milliAmpere1 and milliAmpere2. The milliAmpere1 is a half-scale prototype for an autonomous passenger ferry, and is under continuous development. It has the capacity to perform fully autonomous transit operations, which is demonstrated through a 3 hour continuous autonomous operation in a canal in Trondheim (video below). The milliAmpere2 is a full-scale autonomous passenger ferry (bottom picture), and is set to demonstrate an autonomous passenger ferry service concept in Trondheim in 2022. 
+In 2019, the sum of the research on maritime autonomy at NTNU culminated in NTNU establishing[ Zeabuz], a company aiming to make maritime autonomy accessible to mobility changemakers globally, enabling radically new transportation systems along urban waterways.
 
 
 
 |[![three hour test video]](https://www.youtube.com/watch?v=Ry3-yxVaDuE&list=PLc2vvxBHfBcoHvfcIRsFROmJzXhbJCvb5&index=1&ab_channel=NTNUCybernetics)|
-|*Video about the Autoferry Project*|
+|*Video with milliAmpere1 operating in canal in Trondheim*|
 
-The focus of this project will be on trajectory planning and collision avoidance for autonomous surface vessels operating in confined environments like urban areas, canals and ports, where both static and dynamic obstacles must be considered simultaneously. Furthermore, considerations should be made to a subset of the rules in the COLREGs, the "rules of the road" on water, which apply to all vessels.
+The focus of this project will be on trajectory planning and collision avoidance for autonomous passenger ferries operating in confined environments like urban areas, canals and ports, where both static and dynamic obstacles must be considered simultaneously. Furthermore, considerations should be made to a subset of the rules in the COLREGs, the "rules of the road" on water, which apply to all vessels.
 
-The ambition for the combined work of the project work and Master's thesis should be to develop an algorithm for long-term (5-10 min) trajectory planning where the algorithm produces COLREGs-compliant, dynamically feasible trajectories. Furthermore, the trajectory should show a good tradeoff between safety and efficiency. The candidate is encouraged to solve the problem by the use of optimization tools like CasADi, which has a good API for Matlab and Python.
+The ambition for the combined work of the project thesis and subsequent Master's thesis should be to develop an algorithm for long-term (5-10 min) trajectory planning where the algorithm produces COLREGs-compliant, dynamically feasible trajectories. Furthermore, the trajectory should show a good tradeoff between safety and efficiency. The candidate is encouraged to solve the problem by the use of optimization tools like CasADi, which has a good API for Matlab and Python.
 
-The thesis proposal is given by NTNU in collaboration with Zeabuz. It will be supervised by [Morten Breivik] from NTNU, and [Emil Thyri] from Zeabuz. This enables the candidate to utilize existing resources from both Zeabuz and NTNU when needed. Furthermore, the experimental platforms of NTNU facilitates full-scale experiments towards the end of the Master's thesis work, to test and demonstrate the the capacity of the developed algorithms.  
+The thesis proposal is given by NTNU in collaboration with Zeabuz. It will be supervised by [Morten Breivik] from NTNU, and [Emil Thyri] from Zeabuz. This enables the candidate to utilize existing resources from both Zeabuz and NTNU when needed. Furthermore, the experimental platforms of NTNU makes it possible to participate in full-scale experiments to test and demonstrate the capacity of the developed algorithms.  
 
 This task is comprehensive, and requires a candidate that is ambitious and motivated to work in the field of maritime autonomy.
 
-|<img src="{{site.url}}/assets/milliAmpere_2_on_water_during_initial_tests.png" width="650"> |
-|*milliAmpere 2 during initial sea-trials in April 2021.*|
+|<img src="{{site.url}}/assets/milliAmpere_2_during_sea_trials.png" width="650"> |
+|*milliAmpere2 during initial sea-trials in April 2021.*|
 
 
 ## Prerequisites
