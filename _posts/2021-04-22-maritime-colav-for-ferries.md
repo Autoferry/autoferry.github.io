@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trajectory planning and collision avoidance for autonomous passenger ferries
-category: COLAV
+category: INACTIVE
 ---
 ## Background
 
