@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Multisensor SLAM for autonomous ferry
-category: nonsense
+category: SF
 ---
 ## Background
 The navigation of the autonomous ferry milliAmpere is currently based on GNSS. For improved robustness, especially in docking scenarios,
